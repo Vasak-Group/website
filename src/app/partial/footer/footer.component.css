@@ -6,7 +6,7 @@ footer{
 
 .footer-end{
   background: var(--site-color);
-  color: var(--site-background);
+  color: var(--site-background) !important;
   padding: 5px;
 }
 
@@ -17,4 +17,16 @@ footer{
 
 .m-t-15{
   margin-top: 15px;
+}
+
+.contact-text{
+  font-size: 20px;
+}
+
+.fa{
+  color: var(--site-color)
+}
+
+.footer-end .fa{
+  color: var(--site-background) !important;
 }
