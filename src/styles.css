@@ -7,3 +7,10 @@
 	--site-color: #F6BB31;
 	--site-text-color: #FFFFFF;
 }
+
+#particles-js{
+  position: absolute;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+}
