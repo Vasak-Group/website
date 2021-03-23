@@ -2,10 +2,9 @@
 :root{
 	--site-blur: blur(6px);
 	--site-radius: 4px;
-  --site-background-1: #3A3732;
-  --site-background-2: #F6BB31;
+  --site-background: #FFFFFF;
 	--site-color: #F6BB31;
-	--site-text-color: #FFFFFF;
+	--site-text-color: #3A3732;
 }
 
 #particles-js{
