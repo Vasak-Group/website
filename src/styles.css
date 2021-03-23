@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+	--site-blur: blur(6px);
+	--site-radius: 4px;
+  --site-background-1: #3A3732;
+  --site-background-2: #F6BB31;
+	--site-color: #F6BB31;
+	--site-text-color: #FFFFFF;
+}
