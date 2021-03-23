@@ -8,6 +8,7 @@ import { HomeComponent } from './sections/home/home.component';
 import { HeadComponent } from './component/head/head.component';
 import { FooterComponent } from './partial/footer/footer.component';
 import { ServicesComponent } from './component/services/services.component';
+import { TecnologysComponent } from './component/tecnologys/tecnologys.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServicesComponent } from './component/services/services.component';
     HomeComponent,
     HeadComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    TecnologysComponent
   ],
   imports: [
     BrowserModule,
