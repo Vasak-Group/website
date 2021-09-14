@@ -9,6 +9,7 @@ import { HeadComponent } from './component/head/head.component';
 import { FooterComponent } from './partial/footer/footer.component';
 import { ServicesComponent } from './component/services/services.component';
 import { TecnologysComponent } from './component/tecnologys/tecnologys.component';
+import { PrivacidadComponent } from './sections/privacidad/privacidad.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TecnologysComponent } from './component/tecnologys/tecnologys.component
     HeadComponent,
     FooterComponent,
     ServicesComponent,
-    TecnologysComponent
+    TecnologysComponent,
+    PrivacidadComponent
   ],
   imports: [
     BrowserModule,
