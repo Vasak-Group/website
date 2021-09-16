@@ -24,6 +24,9 @@
     },{
       "name":"Bootstrap",
       "img":"/assets/img/tecnologys/html.svg"
+    },{
+      "name":"NeutralinoJS",
+      "img":"/assets/img/tecnologys/neutralinojs.png"
     }
   ]
 }
