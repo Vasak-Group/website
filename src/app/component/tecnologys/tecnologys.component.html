@@ -7,37 +7,9 @@
 
     <div class="col-12 text-center m-t-15"></div>
 
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/sql.png" alt="SQL" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/html.svg" alt="HTML" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/node.svg" alt="Node" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/python.svg" alt="Python" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/react.svg" alt="React" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/vue.png" alt="VUE" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/angular.svg" alt="Angular" />
-    </div>
-
-    <div class="col-md-3 text-center m-t-15">
-      <img class="img-fluid tech" src="/assets/img/tecnologys/bootstrap.svg" alt="Bootstrap" />
-    </div>
+      <div class="col-md-3 text-center m-t-15" *ngFor="let tech of techlist" >
+        <img class="img-fluid tech" src="{{tech.img}}" alt="{{tech.name}}" />
+      </div>
 
     <div class="col-12 text-center m-t-15"></div>
     <div class="col-12 text-center m-t-15"></div>

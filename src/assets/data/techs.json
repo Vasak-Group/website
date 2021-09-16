@@ -1,0 +1,29 @@
+{
+  "list":[
+    {
+      "name":"SQL",
+      "img":"/assets/img/tecnologys/sql.png"
+    },{
+      "name":"HTML",
+      "img":"/assets/img/tecnologys/html.svg"
+    },{
+      "name":"Node",
+      "img":"/assets/img/tecnologys/node.svg"
+    },{
+      "name":"Python",
+      "img":"/assets/img/tecnologys/python.svg"
+    },{
+      "name":"React",
+      "img":"/assets/img/tecnologys/react.svg"
+    },{
+      "name":"VUE",
+      "img":"/assets/img/tecnologys/vue.png"
+    },{
+      "name":"Angular",
+      "img":"/assets/img/tecnologys/angular.svg"
+    },{
+      "name":"Bootstrap",
+      "img":"/assets/img/tecnologys/html.svg"
+    }
+  ]
+}
