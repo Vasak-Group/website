@@ -11,6 +11,7 @@ import { FooterComponent } from './partial/footer/footer.component';
 import { ServicesComponent } from './component/services/services.component';
 import { TecnologysComponent } from './component/tecnologys/tecnologys.component';
 import { PrivacidadComponent } from './sections/privacidad/privacidad.component';
+import { ClientsComponent } from './component/clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PrivacidadComponent } from './sections/privacidad/privacidad.component'
     FooterComponent,
     ServicesComponent,
     TecnologysComponent,
-    PrivacidadComponent
+    PrivacidadComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
