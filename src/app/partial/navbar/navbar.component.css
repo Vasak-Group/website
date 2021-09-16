@@ -10,3 +10,7 @@
 .nav-icon{
   color: var(--site-color);
 }
+
+.nav-link{
+  color: var(--site-color);
+}
