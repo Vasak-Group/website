@@ -18,3 +18,7 @@
 .tech-section{
   background: var(--site-background);
 }
+
+.div-bot{
+  height: 80px;
+}
