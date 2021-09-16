@@ -30,6 +30,12 @@
     },{
       "name":"NWJS",
       "img":"/assets/img/tecnologys/nwjs.png"
+    },{
+      "name":"Metro CSS",
+      "img":"/assets/img/tecnologys/metrocss.png"
+    },{
+      "name":"Wordpress",
+      "img":"/assets/img/tecnologys/wordpress.png"
     }
   ]
 }
