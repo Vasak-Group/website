@@ -1,1 +1,18 @@
-<p>clients works!</p>
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center top">
+      <h1>Algunos de nuestros clientes más importantes</h1>
+    </div>
+
+    <div class="col-12 text-center m-t-15"></div>
+
+    <div class="col-md-3 text-center m-t-15" *ngFor="let client of clientsList" >
+      <a href="{{client.web}}" target="_blank">
+        <img class="img-fluid client" src="{{client.logo}}" alt="{{client.name}}" />
+      </a>
+    </div>
+
+    <div class="col-12 text-center m-t-15"></div>
+
+  </div>
+</section>

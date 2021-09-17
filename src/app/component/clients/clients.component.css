@@ -1,0 +1,21 @@
+.top{
+  margin-top: 80px;
+  margin-bottom: 60px
+}
+
+.client{
+  max-height: 65px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.client:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.m-t-15{
+  margin-top: 25px;
+}
