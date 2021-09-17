@@ -12,6 +12,7 @@ import { ServicesComponent } from './component/services/services.component';
 import { TecnologysComponent } from './component/tecnologys/tecnologys.component';
 import { PrivacidadComponent } from './sections/privacidad/privacidad.component';
 import { ClientsComponent } from './component/clients/clients.component';
+import { ProductsComponent } from './sections/products/products.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ClientsComponent } from './component/clients/clients.component';
     ServicesComponent,
     TecnologysComponent,
     PrivacidadComponent,
-    ClientsComponent
+    ClientsComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
