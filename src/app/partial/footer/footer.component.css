@@ -34,3 +34,8 @@ footer{
 .footer-end .fa{
   color: var(--site-background) !important;
 }
+
+.list-foot{
+  list-style: none;
+  padding: 0px;
+}
