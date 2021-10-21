@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as techs from '../../../assets/data/techs.json';
+import techs from '../../../assets/data/techs.json';
 
 @Component({
   selector: 'app-tecnologys',

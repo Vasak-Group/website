@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as clients from "../../../assets/data/clients.json"
+import clients from "../../../assets/data/clients.json"
 
 @Component({
   selector: 'app-clients',
