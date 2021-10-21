@@ -7,8 +7,12 @@
     <div class="col-12 text-center m-t-15"></div>
 
     <div class="col-md-3 text-center m-t-15" *ngFor="let client of clientsList" >
-      <a href="{{client.web}}" target="_blank">
-        <img class="img-fluid client" src="{{client.logo}}" alt="{{client.name}}" />
+      <a href="{{client.web}}" title="{{client.name}}" target="_blank">
+        <img
+          class="img-fluid client"
+          src="{{client.logo}}"
+          title="{{client.name}}"
+          alt="{{client.name}}" />
       </a>
     </div>
 
