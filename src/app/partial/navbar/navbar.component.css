@@ -4,7 +4,7 @@
 
 .navbar{
   background: var(--site-background);
-  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--site-shadow);
   border-radius: 0 0 var(--site-radius) var(--site-radius);
 }
 
