@@ -8,6 +8,7 @@ import * as pricesData from '../../../assets/data/prices.json';
 })
 export class PricesComponent implements OnInit {
   planesList = pricesData.planes;
+  marketingList = pricesData.marketing;
 
   constructor() { }
 

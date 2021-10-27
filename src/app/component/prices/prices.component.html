@@ -21,15 +21,60 @@
                     </ul>
                 </div>
                 <div class="pricingTable-signup">
-                    <a href="{{plan.url}}" target="_blank">Más sobre este Plan</a>
+                    <a href="{{plan.url}}" target="_blank">Consultanos</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12" style="margin: 20px;"></div>
+        <div class="col-12 text-center" style="padding: 50px;">
+            <h1>Community Manager</h1>
+            <p style="font-size: 20px;">
+                Mejora tu pocicionamiento en las redes sociales, genera un vinculo con tu cliente y dale vida a tu empresa para seguis atrayendo clientes.
+            </p>
+        </div>
 
-        <div class="col-md-12">
-            
+        <div *ngFor="let plan of marketingList" class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <div class="price-value"> {{plan.nombre}} </div>
+                </div>
+                <div class="pricing-content">
+                    <ul>
+                        <li *ngFor="let caracteristica of plan.caracteristicas">&nbsp;{{caracteristica}}&nbsp;</li>
+                    </ul>
+                </div>
+                <div class="pricingTable-signup">
+                    <a href="{{plan.url}}" target="_blank">Consultanos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12" style="padding: 30px;"></div>
+
+        <div class="col-md-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <i class="fa fa-facebook-square"></i>
+                    <div class="price-value"> Facebook Ads </div>
+                </div>
+                <p></p>
+                <div class="pricingTable-signup">
+                    <a href="https://wa.me/541123882753?text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20Facebook%20Ads%20de%20marketing%20digital%20en%20https://lynx.net.ar" target="_blank">Consultanos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <i class="fa fa-instagram"></i>
+                    <div class="price-value"> Instagram Ads </div>
+                </div>
+                <p></p>
+                <div class="pricingTable-signup">
+                    <a href="https://wa.me/541123882753?text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20Instagram%20Ads%20de%20marketing%20digital%20en%20https://lynx.net.ar" target="_blank">Consultanos</a>
+                </div>
+            </div>
         </div>
 
     </div>
