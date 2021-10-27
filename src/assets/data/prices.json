@@ -1,0 +1,71 @@
+{
+    "planes":[
+        {
+            "id": 1,
+            "nombre": "Web Basica",
+            "icon": "fa-globe",
+            "regularidad": "Pago Unico",
+            "url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Web%20Básica%20que%20vi%20en%20https://lynx.net.ar",
+            "caracteristicas":[
+                "Dominio .com.ar",
+                "Single Page",
+                "Web Hosting Privado",
+                "Diseño Responsive",
+                "Optimizado para Buscadores",
+                "Integracion con Redes Sociales",
+                "Certificado SSL",
+                "Indexacion en Google",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },{
+            "id": 2,
+            "nombre": "Profesional",
+            "icon": "fa-object-group",
+            "regularidad": "Pago Unico",
+            "url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Profesional%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
+            "caracteristicas":[
+                "Dominio .com.ar",
+                "5 Secciones",
+                "Cuenta de Correo Corporativo",
+                "Diseño Responsive",
+                "Optimizado para Buscadores",
+                "Formulario de Contacto",
+                "Mapa de Ubicacion",
+                "Integracion con Redes Sociales",
+                "Certificado SSL",
+                "Indexacion en Google",
+                "",
+                "",
+                ""
+            ]
+        },{
+            "id": 3,
+            "nombre": "Tu Tienda en Linea",
+            "icon": "fa-shopping-cart",
+            "regularidad": "Pago Unico",
+            "url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Tu%20tienda%20en%20Linea%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
+            "caracteristicas":[
+                "Dominio .com.ar",
+                "Web Hosting Premium",
+                "Pagina Autoadministrable",
+                "Cuenta de Correo Corporativo",
+                "Diseño Responsive",
+                "Metodos de Pagos para la tienda",
+                "Optimizado para Buscadores",
+                "Formulario de Contacto",
+                "Mapa de Ubicacion",
+                "Integracion con Redes Sociales",
+                "Certificado SSL",
+                "Indexacion en Google",
+                "Plan Inicial Marketing Gratis por 1 Mes"
+            ]
+        }
+    ],
+    "marketing":[
+
+    ]
+}
