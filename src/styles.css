@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
 	--site-blur: blur(6px);
-	--site-radius: 4px;
+	--site-radius: 10px;
   --site-background: #FFFFFF;
 	--site-color: #F6BB31;
 	--site-text-color: #3A3732;
