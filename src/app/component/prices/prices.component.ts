@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as pricesData from '../../../assets/data/prices.json';
 
 @Component({
   selector: 'app-prices',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prices.component.css']
 })
 export class PricesComponent implements OnInit {
+  planesList = pricesData.planes;
 
   constructor() { }
 
