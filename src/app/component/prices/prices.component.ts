@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as pricesData from '../../../assets/data/prices.json';
+import pricesData from '../../../assets/data/prices.json';
 
 @Component({
   selector: 'app-prices',

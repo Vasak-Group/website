@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as socials from '../../../assets/data/social.json';
+import socials from '../../../assets/data/social.json';
 
 @Component({
   selector: 'app-footer',
