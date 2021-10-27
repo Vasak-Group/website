@@ -5,7 +5,7 @@
   --site-background: #FFFFFF;
 	--site-color: #F6BB31;
 	--site-text-color: #3A3732;
-  --site-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  --site-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
 }
 
 #particles-js{
