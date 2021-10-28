@@ -25,6 +25,16 @@
             "name": "telefono",
             "url": "tel:+5491123882753",
             "icon": "fa-phone"
+        },{
+            "id": 6,
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/company/lynx-software-design/",
+            "icon": "fa-linkedin"
+        },{
+            "id": 7,
+            "name": "instagram",
+            "url": "https://www.instagram.com/lynx.software.design/",
+            "icon": "fa-instagram"
         }
     ]
 }
