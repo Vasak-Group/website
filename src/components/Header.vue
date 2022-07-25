@@ -2,20 +2,31 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
-            <h1 class="logo"><a href="/">BizLand<span>.</span></a></h1>
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+            <a href="/" class="logo">
+                <img src="/img/logo.svg" alt="Lynx Software Design" title="Lynx Software Design">
+            </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <RouterLink to="/#hero">Home</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#hero">Home</RouterLink>
                     </li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    
+                    <li>
+                        <RouterLink class="nav-link scrollto" to="/#about">About</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="nav-link scrollto" to="/#services">Services</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="nav-link scrollto" to="/#portfolio">Portfolio</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="nav-link scrollto" to="/#team">Team</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="nav-link scrollto" to="/#contact">Contact</RouterLink>
+                    </li>
+
                     <li>
                         <RouterLink to="/about">About2</RouterLink>
                     </li>
