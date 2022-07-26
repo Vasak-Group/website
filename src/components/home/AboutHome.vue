@@ -11,39 +11,37 @@
 
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                    <img src="/img/services/consultas.svg" class="img-fluid" alt="Sobre Nosotros"
+                        title="Sobre nosotros" />
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
                     data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <h3>“Cada empresa y cada individuo tiene distintas necesidades”</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
+                        En <b>Lynx</b> entendemos a la perfección esta premisa. Por eso brindamos soluciones a medida,
+                        desarrollando software particular para cada necesidad.
                     </p>
                     <ul>
                         <li>
-                            <i class="fa fa-store-alt"></i>
+                            <i class="fa fa-comments-o"></i>
                             <div>
-                                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                                <h5>Nos adaptamos</h5>
+                                <p>A diferencia de otras empresas nuestro Software se adapta a tus necesidades.</p>
                             </div>
                         </li>
                         <li>
-                            <i class="fa fa-images"></i>
+                            <i class="fa fa-bar-chart"></i>
                             <div>
-                                <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                                <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata
-                                    redi</p>
+                                <h5>Flujos de trabajo</h5>
+                                <p>Definimos los mejores flujos de trabajo para optimizar tu dia a dia.</p>
                             </div>
                         </li>
                     </ul>
                     <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
+                        Preguntas como: “Podemos hacer que el sistema se conecte automáticamente con nuestro sistema y
+                        nos avise cuando...” o “Podemos agregar la posibilidad de que el usuario genere descuentos y se
+                        calcule en forma automática…” son respuestas que siempre nos gusta responder. “Si, se puede. El
+                        limite es la imaginación”.
                     </p>
                 </div>
             </div>
