@@ -7,7 +7,9 @@
                     <div class="col-lg-6">
                         <h4>Contacta con nosotros</h4>
                         <p>Contactanos para poder resolver todas tus dudas y comenzar hoy con tu proyecto</p>
-                        <a class="btn"><i class="fa fa-whatsapp"></i></a>
+                        <a class="btn btn-contact" href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -17,7 +19,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
+                    <div class="col-lg-4 col-md-6 footer-contact">
                         <h3><span>Lynx</span> Software Design</h3>
                         <p>
                             GBA Sur (Quilmes - Berazategui) <br>
@@ -28,37 +30,26 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Links utiles</h4>
+                    <div class="col-lg-4 col-md-6 footer-links text-center">
+                        <h4>Nuestros Servicios Gratuitos</h4>
                         <ul>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
+                                    href="https://qrgenerator.lynx.net.ar/">QR Generator</a></li>
+                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
+                                    href="https://play.google.com/store/apps/details?id=com.lynxqrcam">Lynx QRCam</a>
+                            </li>
+                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
+                                    href="https://wppgenerator.lynx.net.ar/">WhatsApp Generator</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Nuestros Servicios</h4>
-                        <ul>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-4 col-md-12 footer-links text-center">
                         <h4>Nuestras Redes</h4>
                         <p>No te pierdas todas nuestras novedades</p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a v-for="red in social" target="_black" :title="red.name" :key="red.id" :href="red.url">
+                                <i :class="red.icon"></i>
+                            </a>
                         </div>
                     </div>
 
@@ -78,10 +69,23 @@
 </template>
 
 <script>
+import social from '../data/social.json';
 export default {
-
+    data() {
+        return {
+            social: social
+        }
+    }
 }
 </script>
 
-<style>
+<style scoped>
+.btn-contact{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color-dark);
+    border-radius: var(--border-radius);
+    color: #FFF;
+    font-size: 30px;
+    padding: 5px 70px;
+}
 </style>

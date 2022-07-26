@@ -1,40 +1,44 @@
-{
-    "list":[
-        {
-            "id": 1,
-            "name": "facebook",
-            "url": "https://web.facebook.com/lynxsoftwaredesign",
-            "icon": "fa-facebook-square"
-        },{
-            "id": 2,
-            "name": "mail",
-            "url": "mailto:lynx.software.design@gmail.com",
-            "icon": "fa-envelope"
-        },{
-            "id": 3,
-            "name": "whatsapp",
-            "url": "https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx",
-            "icon": "fa-whatsapp"
-        },{
-            "id": 4,
-            "name": "telegram",
-            "url": "https://t.me/lynxsoftwaredesign",
-            "icon": "fa-paper-plane"
-        },{
-            "id": 5,
-            "name": "telefono",
-            "url": "tel:+5491123882753",
-            "icon": "fa-phone"
-        },{
-            "id": 6,
-            "name": "linkedin",
-            "url": "https://www.linkedin.com/company/lynx-software-design/",
-            "icon": "fa-linkedin"
-        },{
-            "id": 7,
-            "name": "instagram",
-            "url": "https://www.instagram.com/lynx.software.design/",
-            "icon": "fa-instagram"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "facebook",
+        "url": "https://web.facebook.com/lynxsoftwaredesign",
+        "icon": "fa fa-facebook-square"
+    },
+    {
+        "id": 2,
+        "name": "mail",
+        "url": "mailto:lynx.software.design@gmail.com",
+        "icon": "fa fa-envelope"
+    },
+    {
+        "id": 3,
+        "name": "whatsapp",
+        "url": "https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx",
+        "icon": "fa fa-whatsapp"
+    },
+    {
+        "id": 4,
+        "name": "telegram",
+        "url": "https://t.me/lynxsoftwaredesign",
+        "icon": "fa fa-paper-plane"
+    },
+    {
+        "id": 5,
+        "name": "telefono",
+        "url": "tel:+5491123882753",
+        "icon": "fa fa-phone"
+    },
+    {
+        "id": 6,
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/lynx-software-design/",
+        "icon": "fa fa-linkedin"
+    },
+    {
+        "id": 7,
+        "name": "instagram",
+        "url": "https://www.instagram.com/lynx.software.design/",
+        "icon": "fa fa-instagram"
+    }
+]
