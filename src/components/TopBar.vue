@@ -3,7 +3,7 @@
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
                 <i class="fa fa-envelope d-flex align-items-center"><a
-                        href="mailto:contact@example.com">contact@example.com</a></i>
+                        href="mailto:info@lynx.net.ar">info@lynx.net.ar</a></i>
                 <i class="fa fa-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
