@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Profesionales dispuestos",
+        "description": "Sea un nuevo producto, o modernizar uno existente, tenemos la capacidad y experiencia para trabajar en conjunto en la búsqueda de la mejor solución.",
+        "icon": "fa fa-users",
+        "delay": "100"
+    },
+    {
+        "id": 2,
+        "title": "Valor agregado",
+        "description": "Entender y compartir la visión global de su producto, nos permite brindar nuestro expertise para maximizar el tiempo y resultado deseado.",
+        "icon": "fa fa-star",
+        "delay": "250"
+    },
+    {
+        "id": 3,
+        "title": "Vinculo a largo plazo",
+        "description": "Una vez finalizado el producto, si lo requiere, puede seguir contando con nuestro apoyo en la búsqueda de la superación y excelencia.",
+        "icon": "fa fa-handshake-o",
+        "delay": "400"
+    }
+]
