@@ -1,5 +1,12 @@
 [
   {
+    "id": 0,
+    "name": "Lynx",
+    "web": "https://lynx.net.ar/",
+    "show": false,
+    "logo": "/img/logo.svg"
+  },
+  {
     "id": 1,
     "name": "PatoJADCommunity",
     "web": "https://patojad.com.ar/",
@@ -26,5 +33,19 @@
     "web": "https://legionlinuxgamers.ga/",
     "show": true,
     "logo": "https://legionlinuxgamers.ga/img/logo.svg"
+  },
+  {
+    "id": 5,
+    "name": "LynxOS",
+    "web": "https://os.lynx.net.ar/",
+    "show": true,
+    "logo": "https://os.lynx.net.ar/img/logo.svg"
+  },
+  {
+    "id": 5,
+    "name": "Grupo Scout Indio Kilmes",
+    "web": "https://www.google.com/maps/place/Grupo+Scout+Indios+Kilmes/@-34.7670573,-58.2681642,17z/data=!3m1!4b1!4m5!3m4!1s0x95a32fc7b1a7df97:0x32a52f70c43c2ee9!8m2!3d-34.7670573!4d-58.2659755",
+    "show": true,
+    "logo": "https://lh4.googleusercontent.com/-5K74rOUIceg/AAAAAAAAAAI/AAAAAAAAAAA/WwBGY5ZP9wU/photo.jpg"
   }
 ]

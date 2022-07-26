@@ -5,7 +5,7 @@
             <div class="row" id="clients-slider">
 
                 <div class="align-items-center justify-content-center" v-for="client in clients" :key="client.id">
-                    <ClientComponent v-bind="client" />
+                    <ClientComponent v-bind="client"  />
                 </div>
 
             </div>
@@ -21,7 +21,7 @@ import ClientComponent from './components/ClientComponent.vue';
 export default {
     data() {
         return {
-            clients: clients
+            clients: clients.filter(client => client.show)
         };
     },
     components: { ClientComponent }
