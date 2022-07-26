@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" v-for="featured in featureds"
                     :key="featured.id">
-                    <FeaturedComponent v-bind="featured"></FeaturedComponent>
+                    <FeaturedComponent v-bind="featured" />
                 </div>
             </div>
 
