@@ -1,29 +1,30 @@
-{
-  "list":[
-    {
-      "id": 1,
-      "name": "PatoJADCommunity",
-      "web": "https://patojad.com.ar/",
-      "show": true,
-      "logo": "https://i.postimg.cc/43txJ4hQ/image.png"
-    },{
-      "id": 2,
-      "name": "ResiLab",
-      "web": "https://resilab.com.ar/",
-      "show": true,
-      "logo": "https://resilab.com.ar/assets/img/vector/IC.svg"
-    },{
-      "id": 3,
-      "name": "Ser Scout",
-      "web": "https://serscout.com.ar/",
-      "show": true,
-      "logo": "https://i.postimg.cc/zvhL6wF8/image.png"
-    },{
-      "id": 4,
-      "name": "Legion Linux Gamers",
-      "web": "https://legionlinuxgamers.ga/",
-      "show": true,
-      "logo": "https://legionlinuxgamers.ga/assets/img/logo.svg"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "PatoJADCommunity",
+    "web": "https://patojad.com.ar/",
+    "show": true,
+    "logo": "https://i.postimg.cc/43txJ4hQ/image.png"
+  },
+  {
+    "id": 2,
+    "name": "ResiLab",
+    "web": "https://resilab.com.ar/",
+    "show": true,
+    "logo": "https://resilab.com.ar/assets/img/vector/IC.svg"
+  },
+  {
+    "id": 3,
+    "name": "Ser Scout",
+    "web": "https://serscout.com.ar/",
+    "show": true,
+    "logo": "https://i.postimg.cc/zvhL6wF8/image.png"
+  },
+  {
+    "id": 4,
+    "name": "Legion Linux Gamers",
+    "web": "https://legionlinuxgamers.ga/",
+    "show": true,
+    "logo": "https://legionlinuxgamers.ga/img/logo.svg"
+  }
+]

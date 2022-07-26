@@ -875,7 +875,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #062b5b;
+  color: var(--accent-color-dark);
 }
 
 .counts .count-box p {
@@ -894,10 +894,11 @@ section {
 }
 
 .clients img {
-  max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
+  margin: 15px 0;
+  height: 150px;
+  border-radius: var(--border-radius);
 }
 
 .clients img:hover {

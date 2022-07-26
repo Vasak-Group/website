@@ -265,6 +265,29 @@
   });
 
   /**
+   * Clients Slider 
+   */
+
+  tns({
+    container: '#clients-slider',
+    items: 4,
+    autoplay: true,
+    mode: 'carousel',
+    controls: false,
+    nav: false,
+    navContainer: false,
+    animateIn: 'fade-up-left',
+    animateOut: 'fade-up-right',
+    animateNormal: 'fade-down',
+    animateDelay: 200,
+    loop: true,
+    autoplayButton: false,
+    autoplayButtonOutput: false,
+    mouseDrag: true,
+    useLocalStorage: true,
+  })
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
