@@ -23,7 +23,7 @@
                             GBA Sur (Quilmes - Berazategui) <br>
                             Buenos Aires<br>
                             Argentina <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Telefono:</strong> +54 9 11 2388-2753<br>
                             <strong>Email:</strong> info@lynx.net.ar<br>
                         </p>
                     </div>

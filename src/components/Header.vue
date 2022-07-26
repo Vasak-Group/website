@@ -9,22 +9,22 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <RouterLink class="nav-link scrollto" to="/#hero">Home</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#hero">Inicio</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="nav-link scrollto" to="/#about">About</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#about">Sobre Nosotros</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="nav-link scrollto" to="/#services">Services</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#services">Servicios</RouterLink>
                     </li>
                     <li>
                         <RouterLink class="nav-link scrollto" to="/#portfolio">Portfolio</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="nav-link scrollto" to="/#team">Team</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#team">Equipo</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="nav-link scrollto" to="/#contact">Contact</RouterLink>
+                        <RouterLink class="nav-link scrollto" to="/#contact">Contacto</RouterLink>
                     </li>
 
                     <li>
