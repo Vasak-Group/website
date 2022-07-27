@@ -851,6 +851,7 @@ section {
   position: relative;
   text-align: center;
   background: #f1f6fe;
+  border-radius: var(--border-radius);
 }
 
 .counts .count-box i {

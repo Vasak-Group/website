@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "Joaquin Decima",
+        "image": "https://i.postimg.cc/rsTGmCNg/photo-2022-06-01-14-41-37.jpg",
+        "position": "CEO",
+        "delay": 100,
+        "social": [
+            {
+                "id": 1,
+                "icon": "fa fa-linkedin",
+                "url": "https://www.linkedin.com/in/joaquindecima/"
+            },
+            {
+                "id": 2,
+                "icon": "fa fa-twitter",
+                "url": "https://twitter.com/PatoJADOficial"
+            },
+            {
+                "id": 3,
+                "icon": "fa fa-envelope",
+                "url": "mailto:jdecima@lynx.net.ar"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Axel Lopez Garabal",
+        "image": "https://i.postimg.cc/sXq808yx/telegram-peer-photo-size-1-950629554738800570-1-0-0.jpg",
+        "position": "CTO",
+        "delay": 200,
+        "social": [
+            {
+                "id": 1,
+                "icon": "fa fa-linkedin",
+                "url": "https://www.linkedin.com/in/axel-mart%C3%ADn-lopez-garabal-54332b16b/"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Lucas Perez Amador",
+        "image": "https://i.postimg.cc/qq6whMPM/image.png",
+        "position": "Desarrollador",
+        "delay": 300,
+        "social": [
+            {
+                "id": 1,
+                "icon": "fa fa-linkedin",
+                "url": "https://www.linkedin.com/in/lucas-perez-amador-706814b8/"
+            }
+        ]
+    }
+]
