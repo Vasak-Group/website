@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Sistemas Web",
+        "icon": "fa fa-window-maximize",
+        "delay": 100,
+        "description": "Especialistas en programación de plataformas y aplicaciones web autoadministrables, estables y escalables"
+    },
+    {
+        "id": 2,
+        "title": "Apps Mobile",
+        "icon": "fa fa-mobile",
+        "delay": 200,
+        "description": "Diseño, Programación y Publicación de aplicaciones móviles para Android"
+    },
+    {
+        "id": 3,
+        "title": "Diseño Web",
+        "icon": "fa fa-desktop",
+        "delay": 300,
+        "description": "Realizamos diseño web para que tu página se muestre perfecta en todas las resoluciones y dispositivos."
+    },
+    {
+        "id": 4,
+        "title": "SEO",
+        "icon": "fa fa-search-plus",
+        "delay": 400,
+        "description": "Realizamos labores de posicionamiento web SEO en distintos buscadores, para que quien busque tus servicios te encuentre."
+    },
+    {
+        "id": 5,
+        "title": "Maps SEO",
+        "icon": "fa fa-map-marker",
+        "delay": 500,
+        "description": "Realizamos labores de posicionamiento SEO para que figures en las busquedas de Google Maps mejorando la llegada de clientes."
+    },
+    {
+        "id": 6,
+        "title": "Consultoria",
+        "icon": "fa fa-comments-o",
+        "delay": 600,
+        "description": "Te ayudamos a tomar las mejores decisiones sobre el software que vas a utilizar, teniendo en cuenta tus flujos de trabajo."
+    }
+]
