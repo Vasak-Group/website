@@ -26,10 +26,6 @@
                     <li>
                         <RouterLink class="nav-link scrollto" to="/#contact">Contacto</RouterLink>
                     </li>
-
-                    <li>
-                        <RouterLink to="/about">About2</RouterLink>
-                    </li>
                 </ul>
                 <i class="fa fa-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
