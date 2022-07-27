@@ -21,11 +21,11 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
     <CountsHome />
     <ClientsHome />
     <ServicesHome />
-    <TestimonialsHome />
+    <!--<TestimonialsHome />-->
     <PortfolioHome />
     <TeamHome />
     <PricingHome />
-    <FAQHome />
+    <!--<FAQHome />-->
     <ContactHome />
   </main>
 </template>
