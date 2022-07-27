@@ -6,37 +6,37 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
-                        <i class="fa fa-emoji-smile"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                        <i class="fa fa-users"></i>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantClients" data-purecounter-duration="1"
                             class="purecounter">0</span>
-                        <p>Happy Clients</p>
+                        <p>Clientes Felices</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
-                        <i class="fa fa-journal-richtext"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                        <i class="fa fa-folder-open"></i>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantProjects" data-purecounter-duration="1"
                             class="purecounter">0</span>
-                        <p>Projects</p>
+                        <p>Proyectos</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
-                        <i class="fa fa-headset"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                        <i class="fa fa-calendar"></i>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantYears" data-purecounter-duration="1"
                             class="purecounter">0</span>
-                        <p>Hours Of Support</p>
+                        <p>Años de Experiencia</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
-                        <i class="fa fa-people"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                        <i class="fa fa-user"></i>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantTeam" data-purecounter-duration="1"
                             class="purecounter">0</span>
-                        <p>Hard Workers</p>
+                        <p>Miembros del Equipo</p>
                     </div>
                 </div>
 
@@ -47,8 +47,19 @@
 </template>
 
 <script>
-export default {
+import clients from '../../data/clients.json';
+import projects from '../../data/projects.json';
+import team from '../../data/team.json'
 
+export default {
+    data(){
+        return{
+            cantClients: clients.length,
+            cantProjects: projects.length,
+            cantYears: (new Date()).getFullYear() - 2019,
+            cantTeam: team.length
+        }
+    }
 }
 </script>
 
