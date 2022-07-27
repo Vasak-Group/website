@@ -3,10 +3,9 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Pricing</h2>
-                <h3>Check our <span>Pricing</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
+                <h2>Planes</h2>
+                <h3>Compare nuestros <span>Planes</span></h3>
+                <p>Cada uno de nuestros planes se puede modificar todo lo necesario para sastifacer sus necesidades </p>
             </div>
 
             <div class="row">
