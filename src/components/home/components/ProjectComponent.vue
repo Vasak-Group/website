@@ -5,11 +5,13 @@
         <p>{{ type }}</p>
         <a :href="image" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
             :title="name"><i class="fa fa-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="fa fa-link"></i></a>
+        <RouterLink :to="'/project/' + id" class="details-link" title="More Details"><i class="fa fa-link"></i></RouterLink>
     </div>
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 export default {
     props: {
         image: {

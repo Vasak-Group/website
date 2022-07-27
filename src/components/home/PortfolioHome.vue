@@ -21,7 +21,8 @@
 
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div v-for="project in projects" :key="project.id" :class="'col-lg-4 col-md-6 portfolio-item ' + project.type">
+                <div v-for="project in projects" :key="project.id"
+                    :class="'col-lg-4 col-md-6 portfolio-item ' + project.type">
                     <ProjectComponent v-bind="project" />
                 </div>
 
