@@ -1344,6 +1344,8 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: var(--border-radius);
 }
 
 .pricing .box h3 {
