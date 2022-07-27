@@ -5,8 +5,9 @@ pages:
   - npm i -g vue@latest
   - npm i
   - npm run build
+  - mv dist/* public
   artifacts:
     paths:
-    - dist
+    - public
   only:
   - master
