@@ -7,7 +7,8 @@
                     <div class="col-lg-6">
                         <h4>Contacta con nosotros</h4>
                         <p>Contactanos para poder resolver todas tus dudas y comenzar hoy con tu proyecto</p>
-                        <a class="btn btn-contact" href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
+                        <a class="btn btn-contact"
+                            href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
                             <i class="fa fa-whatsapp"></i>
                         </a>
                     </div>
@@ -20,7 +21,7 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 footer-contact">
-                        <h3><span>Lynx</span> Software Design</h3>
+                        <h3><span>Vasak</span> Group</h3>
                         <p>
                             GBA Sur (Quilmes - Berazategui) <br>
                             Buenos Aires<br>
@@ -59,10 +60,10 @@
 
         <div class="container py-4">
             <div class="copyright">
-                &copy; <strong><span>Lynx Software Design</span></strong>. Todos los dertechos reservados.
+                &copy; <strong><span>Vasak Group</span></strong>. Todos los dertechos reservados.
             </div>
             <div class="credits">
-                Grupo <strong><span>Lynx</span></strong>
+                <strong><span>Vasak</span></strong>
             </div>
         </div>
     </footer>
@@ -80,7 +81,7 @@ export default {
 </script>
 
 <style scoped>
-.btn-contact{
+.btn-contact {
     background-color: var(--accent-color);
     border-color: var(--accent-color-dark);
     border-radius: var(--border-radius);

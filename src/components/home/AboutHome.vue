@@ -4,7 +4,7 @@
 
             <div class="section-title">
                 <h2>Sobre Nosotros</h2>
-                <h3>Mas información sobre <span>Lynx</span></h3>
+                <h3>Mas información sobre <span>Vasak</span></h3>
                 <p>El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros. Somos una
                     empresa que nace con el fin de brindar al cliente las soluciones adecuadas a sus inconvenientes.</p>
             </div>
@@ -18,7 +18,7 @@
                     data-aos-delay="100">
                     <h3>“Cada empresa y cada individuo tiene distintas necesidades”</h3>
                     <p class="fst-italic">
-                        En <b>Lynx</b> entendemos a la perfección esta premisa. Por eso brindamos soluciones a medida,
+                        En <b>Vasak</b> entendemos a la perfección esta premisa. Por eso brindamos soluciones a medida,
                         desarrollando software particular para cada necesidad.
                     </p>
                     <ul>

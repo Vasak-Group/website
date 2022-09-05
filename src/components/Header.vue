@@ -3,7 +3,7 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <a href="/" class="logo">
-                <img src="/img/logo.svg" alt="Lynx Software Design" title="Lynx Software Design">
+                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" />
             </a>
 
             <nav id="navbar" class="navbar">
