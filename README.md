@@ -1,6 +1,6 @@
-# lynx-web
+# Vasak Group Web
 
-This template should help get you started developing with Vue 3 in Vite.
+Sitio web de Vasak Group, creado en VueJS 3 con Bootstrap 5.
 
 ## Recommended IDE Setup
 
