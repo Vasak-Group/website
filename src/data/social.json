@@ -24,12 +24,6 @@
         "icon": "fa fa-paper-plane"
     },
     {
-        "id": 5,
-        "name": "telefono",
-        "url": "tel:+5491123882753",
-        "icon": "fa fa-phone"
-    },
-    {
         "id": 6,
         "name": "linkedin",
         "url": "https://www.linkedin.com/company/lynx-software-design/",
