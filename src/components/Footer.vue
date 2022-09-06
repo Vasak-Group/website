@@ -21,7 +21,7 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 footer-contact">
-                        <h3><span>Vasak</span> Group</h3>
+                        <h3 class="v-font"><span>Vasak</span> group</h3>
                         <p>
                             GBA Sur (Quilmes - Berazategui) <br>
                             Buenos Aires<br>
@@ -60,10 +60,10 @@
 
         <div class="container py-4">
             <div class="copyright">
-                &copy; <strong><span>Vasak Group</span></strong>. Todos los dertechos reservados.
+                &copy; <span class="v-font">Vasak group</span>. Todos los dertechos reservados.
             </div>
             <div class="credits">
-                <strong><span>Vasak</span></strong>
+                <span class="v-font">Vasak</span>
             </div>
         </div>
     </footer>

@@ -4,7 +4,7 @@
 
             <div class="section-title">
                 <h2>Sobre Nosotros</h2>
-                <h3>Mas información sobre <span>Vasak</span></h3>
+                <h3>Mas información sobre <span class="v-font">Vasak</span></h3>
                 <p>El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros. Somos una
                     empresa que nace con el fin de brindar al cliente las soluciones adecuadas a sus inconvenientes.</p>
             </div>

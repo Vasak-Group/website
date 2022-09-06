@@ -1,9 +1,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: ChailceNoggin;
+  src: url(/fonts/ChailceNogginRegular.ttf);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+}
+
+.v-font {
+  font-family: "ChailceNoggin", sans-serif;
 }
 
 a {
