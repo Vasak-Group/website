@@ -14,7 +14,8 @@
         </div>
 
         <div class="col-lg-4">
-          <InfoProject :name="project.name" :description="project.description" :type="project.type" :client="project.client" :url="project.url" />
+          <InfoProject :name="project.name" :description="project.description" :type="project.type"
+            :client="project.client" :url="project.url" />
         </div>
 
       </div>
@@ -25,7 +26,6 @@
 
 <script>
 import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
-
 import projects from '../data/projects.json';
 import InfoProject from '../components/project/InfoProject.vue';
 
@@ -38,7 +38,7 @@ export default {
   components: {
     BreadcrumbsProjects,
     InfoProject
-}
+  }
 }
 </script>
 

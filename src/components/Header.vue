@@ -38,7 +38,9 @@
 import { RouterLink } from 'vue-router';
 
 export default {
-
+    components: {
+        RouterLink
+    }
 }
 </script>
 
