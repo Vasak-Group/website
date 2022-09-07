@@ -1,7 +1,9 @@
 <template>
     <div class="box featured">
         <h3>{{ nombre }}</h3>
-        <h4><i :class="icon"></i></h4>
+        <h4>
+            <em :class="icon"></em>
+        </h4>
         <ul>
             <li v-for="caracteristica in caracteristicas" :key="caracteristica.id" :class="caracteristica.class">
                 {{ caracteristica.desc }}

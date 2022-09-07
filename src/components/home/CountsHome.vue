@@ -6,25 +6,25 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
-                        <i class="fa fa-users"></i>
-                        <span data-purecounter-start="0" :data-purecounter-end="cantClients" data-purecounter-duration="1"
-                            class="purecounter">0</span>
+                        <em class="fa fa-users"></em>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantClients"
+                            data-purecounter-duration="1" class="purecounter">0</span>
                         <p>Clientes Felices</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
-                        <i class="fa fa-folder-open"></i>
-                        <span data-purecounter-start="0" :data-purecounter-end="cantProjects" data-purecounter-duration="1"
-                            class="purecounter">0</span>
+                        <em class="fa fa-folder-open"></em>
+                        <span data-purecounter-start="0" :data-purecounter-end="cantProjects"
+                            data-purecounter-duration="1" class="purecounter">0</span>
                         <p>Proyectos</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
-                        <i class="fa fa-calendar"></i>
+                        <em class="fa fa-calendar"></em>
                         <span data-purecounter-start="0" :data-purecounter-end="cantYears" data-purecounter-duration="1"
                             class="purecounter">0</span>
                         <p>Años de Experiencia</p>
@@ -33,7 +33,7 @@
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
-                        <i class="fa fa-user"></i>
+                        <em class="fa fa-user"></em>
                         <span data-purecounter-start="0" :data-purecounter-end="cantTeam" data-purecounter-duration="1"
                             class="purecounter">0</span>
                         <p>Miembros del Equipo</p>
@@ -52,8 +52,8 @@ import projects from '../../data/projects.json';
 import team from '../../data/team.json'
 
 export default {
-    data(){
-        return{
+    data() {
+        return {
             cantClients: clients.length,
             cantProjects: projects.length,
             cantYears: (new Date()).getFullYear() - 2019,

@@ -23,14 +23,14 @@
                     </p>
                     <ul>
                         <li>
-                            <i class="fa fa-comments-o"></i>
+                            <em class="fa fa-comments-o"></em>
                             <div>
                                 <h5>Nos adaptamos</h5>
                                 <p>A diferencia de otras empresas nuestro Software se adapta a tus necesidades.</p>
                             </div>
                         </li>
                         <li>
-                            <i class="fa fa-bar-chart"></i>
+                            <em class="fa fa-bar-chart"></em>
                             <div>
                                 <h5>Flujos de trabajo</h5>
                                 <p>Definimos los mejores flujos de trabajo para optimizar tu dia a dia.</p>

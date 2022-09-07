@@ -9,7 +9,7 @@
                         <p>Contactanos para poder resolver todas tus dudas y comenzar hoy con tu proyecto</p>
                         <a class="btn btn-contact"
                             href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
-                            <i class="fa fa-whatsapp"></i>
+                            <em class="fa fa-whatsapp"></em>
                         </a>
                     </div>
                 </div>
@@ -34,13 +34,19 @@
                     <div class="col-lg-4 col-md-6 footer-links text-center">
                         <h4>Nuestros Servicios Gratuitos</h4>
                         <ul>
-                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
-                                    href="https://qrgenerator.lynx.net.ar/">QR Generator</a></li>
-                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
-                                    href="https://play.google.com/store/apps/details?id=com.lynxqrcam">Lynx QRCam</a>
+                            <li>
+                                <em class="fa fa-chevron-right"></em> <a target="_black"
+                                    href="https://qrgenerator.lynx.net.ar/">QR Generator</a>
                             </li>
-                            <li><i class="fa fa-chevron-right"></i> <a target="_black"
-                                    href="https://wppgenerator.lynx.net.ar/">WhatsApp Generator</a></li>
+                            <li>
+                                <em class="fa fa-chevron-right"></em> <a target="_black"
+                                    href="https://play.google.com/store/apps/details?id=com.lynxqrcam">Lynx
+                                    QRCam</a>
+                            </li>
+                            <li>
+                                <em class="fa fa-chevron-right"></em> <a target="_black"
+                                    href="https://wppgenerator.lynx.net.ar/">WhatsApp Generator</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -49,7 +55,7 @@
                         <p>No te pierdas todas nuestras novedades</p>
                         <div class="social-links mt-3">
                             <a v-for="red in social" target="_black" :title="red.name" :key="red.id" :href="red.url">
-                                <i :class="red.icon"></i>
+                                <em :class="red.icon"></em>
                             </a>
                         </div>
                     </div>

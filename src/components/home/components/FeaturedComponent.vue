@@ -1,6 +1,8 @@
 <template>
     <div class="icon-box text-center" data-aos="fade-up" :data-aos-delay="delay">
-        <div class="icon"><i :class="icon"></i></div>
+        <div class="icon">
+            <em :class="icon"></em>
+        </div>
         <h4 class="title"><a href="">{{ title }}</a></h4>
         <p class="description">{{ description }}</p>
     </div>

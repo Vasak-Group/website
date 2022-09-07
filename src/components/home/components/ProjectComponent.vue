@@ -3,9 +3,12 @@
     <div class="portfolio-info">
         <h4>{{ name }}</h4>
         <p>{{ type }}</p>
-        <a :href="image" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
-            :title="name"><i class="fa fa-plus"></i></a>
-        <RouterLink :to="'/project/' + id" class="details-link" title="More Details"><i class="fa fa-link"></i></RouterLink>
+        <a :href="image" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" :title="name">
+            <em class="fa fa-plus"></em>
+        </a>
+        <RouterLink :to="'/project/' + id" class="details-link" title="More Details">
+            <em class="fa fa-link"></em>
+        </RouterLink>
     </div>
 </template>
 
@@ -26,7 +29,7 @@ export default {
             type: String,
             required: true
         },
-        id : {
+        id: {
             type: Number,
             required: true
         }
@@ -35,7 +38,7 @@ export default {
 </script>
 
 <style scoped>
-img{
+img {
     border-radius: var(--border-radius);
 }
 </style>

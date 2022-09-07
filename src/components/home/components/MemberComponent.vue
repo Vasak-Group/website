@@ -3,7 +3,9 @@
         <div class="member-img">
             <img :src="image" class="img-fluid" :alt="name" :title="name" />
             <div class="social">
-                <a v-for="red in social" :key="red.id" :href="red.url"><i :class="red.icon"></i></a>
+                <a v-for="red in social" :key="red.id" :href="red.url">
+                    <em :class="red.icon"></em>
+                </a>
             </div>
         </div>
         <div class="member-info">

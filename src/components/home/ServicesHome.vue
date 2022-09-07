@@ -14,7 +14,9 @@
                 <div v-for="service in services" :key="service.id" class="col-lg-4 col-md-6 d-flex align-items-stretch"
                     data-aos="zoom-in" :data-aos-delay="service.delay">
                     <div class="icon-box">
-                        <div class="icon"><i :class="service.icon"></i></div>
+                        <div class="icon">
+                            <em :class="service.icon"></em>
+                        </div>
                         <h4><a href="">{{ service.title }}</a></h4>
                         <p>{{ service.description }}</p>
                     </div>

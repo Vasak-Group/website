@@ -11,7 +11,7 @@
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6">
                     <div class="info-box mb-4">
-                        <i class="fa fa-map"></i>
+                        <em class="fa fa-map"></em>
                         <h3>Encuentranos</h3>
                         <p>Argentina, Buenos aires, GBA Sur (Quilmes - Berazategui)</p>
                     </div>
@@ -19,7 +19,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="info-box  mb-4">
-                        <i class="fa fa-envelope"></i>
+                        <em class="fa fa-envelope"></em>
                         <h3>Email</h3>
                         <p>indo@lynx.net.ar</p>
                     </div>
@@ -27,7 +27,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="info-box  mb-4">
-                        <i class="fa fa-whatsapp"></i>
+                        <em class="fa fa-whatsapp"></em>
                         <h3>Contactanos</h3>
                         <p>+54 9 11 2388-2753</p>
                     </div>
@@ -56,7 +56,8 @@ export default {
 </script>
 
 <style scoped>
-iframe, .info-box {
+iframe,
+.info-box {
     border-radius: var(--border-radius);
 }
 </style>
