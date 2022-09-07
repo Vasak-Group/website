@@ -21,7 +21,7 @@
                     <div class="info-box  mb-4">
                         <em class="fa fa-envelope"></em>
                         <h3>Email</h3>
-                        <p>indo@lynx.net.ar</p>
+                        <p>info@vasak.net.ar</p>
                     </div>
                 </div>
 

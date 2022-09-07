@@ -27,7 +27,7 @@
                             Buenos Aires<br>
                             Argentina <br><br>
                             <strong>Telefono:</strong> +54 9 11 2388-2753<br>
-                            <strong>Email:</strong> info@lynx.net.ar<br>
+                            <strong>Email:</strong> info@vasak.net.ar<br>
                         </p>
                     </div>
 
@@ -36,7 +36,7 @@
                         <ul>
                             <li>
                                 <em class="fa fa-chevron-right"></em> <a target="_black"
-                                    href="https://qrgenerator.lynx.net.ar/">QR Generator</a>
+                                    href="https://qrgenerator.vasak.net.ar/">QR Generator</a>
                             </li>
                             <li>
                                 <em class="fa fa-chevron-right"></em> <a target="_black"
@@ -45,7 +45,7 @@
                             </li>
                             <li>
                                 <em class="fa fa-chevron-right"></em> <a target="_black"
-                                    href="https://wppgenerator.lynx.net.ar/">WhatsApp Generator</a>
+                                    href="https://wppgenerator.vasak.net.ar/">WhatsApp Generator</a>
                             </li>
                         </ul>
                     </div>

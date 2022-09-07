@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Vasak",
-    "web": "https://lynx.net.ar/",
+    "web": "https://vasak.net.ar/",
     "show": false,
     "logo": "/img/logo.svg"
   },
@@ -36,10 +36,10 @@
   },
   {
     "id": 5,
-    "name": "LynxOS",
-    "web": "https://os.lynx.net.ar/",
+    "name": "vasakOS",
+    "web": "https://os.vasak.net.ar/",
     "show": true,
-    "logo": "https://os.lynx.net.ar/img/logo.svg"
+    "logo": "https://os.vasak.net.ar/img/logo.svg"
   },
   {
     "id": 6,
