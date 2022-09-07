@@ -18,7 +18,8 @@
                     data-aos-delay="100">
                     <h3>“Cada empresa y cada individuo tiene distintas necesidades”</h3>
                     <p class="fst-italic">
-                        En <b>Vasak</b> entendemos a la perfección esta premisa. Por eso brindamos soluciones a medida,
+                        En <strong>Vasak</strong> entendemos a la perfección esta premisa. Por eso brindamos soluciones
+                        a medida,
                         desarrollando software particular para cada necesidad.
                     </p>
                     <ul>

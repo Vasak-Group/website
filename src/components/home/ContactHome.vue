@@ -38,7 +38,7 @@
             <div class="row" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="col-12 ">
-                    <iframe class="mb-4 mb-lg-0"
+                    <iframe title="Google Maps" class="mb-4 mb-lg-0"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13649.517448918608!2d-58.263308295685945!3d-34.76757433099286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1658857845590!5m2!1ses-419!2sar"
                         frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                 </div>
