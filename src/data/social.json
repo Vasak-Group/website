@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "facebook",
-        "url": "https://web.facebook.com/lynxsoftwaredesign",
+        "url": "https://web.facebook.com/vasakgroup",
         "icon": "fa fa-facebook-square"
     },
     {
@@ -18,21 +18,15 @@
         "icon": "fa fa-whatsapp"
     },
     {
-        "id": 4,
-        "name": "telegram",
-        "url": "https://t.me/lynxsoftwaredesign",
-        "icon": "fa fa-paper-plane"
-    },
-    {
         "id": 6,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/company/lynx-software-design/",
+        "url": "https://www.linkedin.com/company/vasakgroup/",
         "icon": "fa fa-linkedin"
     },
     {
         "id": 7,
         "name": "instagram",
-        "url": "https://www.instagram.com/lynx.software.design/",
+        "url": "https://www.instagram.com/vasakgroup/",
         "icon": "fa fa-instagram"
     }
 ]
