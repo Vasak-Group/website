@@ -88,5 +88,15 @@
         "url": "https://legionlinuxgamers.ga/",
         "image": "/img/projects/legionlinuxgamers.png",
         "type": "Web"
+    },
+    {
+        "id": 10,
+        "name": "Servidores Red Linux Click",
+        "client": 7,
+        "show": true,
+        "description": "Puesta en marcha de los servidores de RedLinuxClick. Instalacion de servicios, Segurizacion, Mantenimiento de datos y servicios. Soporte de 2 nivel sobre problematicas en servidor, PHP y Wowonder.",
+        "url": "https://redlinuxclick.com/",
+        "image": "/img/projects/redlinuxclick.png",
+        "type": "Web"
     }
 ]
