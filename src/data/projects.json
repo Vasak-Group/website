@@ -98,5 +98,15 @@
         "url": "https://redlinuxclick.com/",
         "image": "/img/projects/redlinuxclick.png",
         "type": "Web"
+    },
+    {
+        "id": 11,
+        "name": "INTI Games Production Web",
+        "client": 8,
+        "show": false,
+        "description": "Diseño y desarrollo del sitio web de la marca. Solución desarrollada a medida del cliente basado en las necesidades y proyecciones del estudio de videojuegos. Servicio de mantenimiento del sitio.",
+        "url": "https://intigamesproductions.com/",
+        "image": "/img/projects/working.jpg",
+        "type": "Web"
     }
 ]
