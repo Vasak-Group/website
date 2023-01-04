@@ -106,7 +106,7 @@
         "show": true,
         "description": "Diseño y desarrollo del sitio web de la marca. Solución desarrollada a medida del cliente basado en las necesidades y proyecciones del estudio de videojuegos. Servicio de mantenimiento del sitio.",
         "url": "https://intigamesproductions.com/",
-        "image": "/img/projects/inti.jpg",
+        "image": "/img/projects/inti.png",
         "type": "Web"
     },
     {
@@ -116,7 +116,7 @@
         "show": true,
         "description": "Se instala, gestiona y configura Webmail y Mail Server Profesional para INTI Games",
         "url": "https://webmail.intigamesproductions.com/",
-        "image": "/img/projects/inti_webmail.jpg",
+        "image": "/img/projects/inti_webmail.png",
         "type": "Web"
     }
 ]
