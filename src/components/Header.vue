@@ -26,6 +26,9 @@
                     <li>
                         <RouterLink class="nav-link scrollto" to="/#contact">Contacto</RouterLink>
                     </li>
+                    <li>
+                        <a class="nav-link scrollto" target="_blank" href="https://community.vasak.net.ar">Comunidad</a>
+                    </li>
                 </ul>
                 <em class="fa fa-list mobile-nav-toggle"></em>
             </nav><!-- .navbar -->
