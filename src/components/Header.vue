@@ -1,8 +1,8 @@
 <template>
-    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary bg-gradient">
         <div class="container-fluid">
             <a class="navbar-brand logo" href="/">
-                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" style="max-height:70px;" />
+                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" height="70" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
