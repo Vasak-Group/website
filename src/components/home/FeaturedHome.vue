@@ -1,5 +1,5 @@
 <template>
-    <section id="featured-services" class="featured-services">
+    <section id="featured-services" class="featured-services bg-body-tertiary bg-gradient">
         <div class="container" data-aos="fade-up">
 
             <div class="row">
