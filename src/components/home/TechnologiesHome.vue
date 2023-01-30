@@ -12,13 +12,13 @@ export default {
 </script>
 
 <template>
-    <section id="technology" class="team section-bg">
+    <section id="technology" class="team bg-body-tertiary">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Tecnologias</h2>
                 <h3>Conocé a nuestro <span>stack</span> tecnológico</h3>
-                <p>Conocé nuestro amplio stack tecnológico que crece continuamente para brindar un mejor servicio a
+                <p class="text-body">Conocé nuestro amplio stack tecnológico que crece continuamente para brindar un mejor servicio a
                     nuestros clientes.</p>
             </div>
 
