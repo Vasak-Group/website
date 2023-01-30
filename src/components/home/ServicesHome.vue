@@ -5,7 +5,7 @@
             <div class="section-title">
                 <h2>Servicios</h2>
                 <h3>Conocé nuestros <span>Servicios</span></h3>
-                <p>Conocé los servicios que podemos ofrecerte. Todos y cada uno de ellos se adaptan a tus necesidades
+                <p class="text-body">Conocé los servicios que podemos ofrecerte. Todos y cada uno de ellos se adaptan a tus necesidades
                 </p>
             </div>
 
@@ -13,12 +13,12 @@
 
                 <div v-for="service in services" :key="service.id" class="col-lg-4 col-md-6 d-flex align-items-stretch"
                     data-aos="zoom-in" :data-aos-delay="service.delay">
-                    <div class="icon-box">
-                        <div class="icon">
+                    <div class="icon-box bg-body-tertiary">
+                        <div class="icon bg-body">
                             <em :class="service.icon"></em>
                         </div>
-                        <h4><a href="">{{ service.title }}</a></h4>
-                        <p>{{ service.description }}</p>
+                        <h4 class="text-body-emphasis">{{ service.title }}</h4>
+                        <p class="text-body">{{ service.description }}</p>
                     </div>
                 </div>
 

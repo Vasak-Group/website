@@ -668,10 +668,8 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #e2eefd;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
   border-radius: var(--border-radius);
   margin-bottom: 30px;
 }
@@ -680,9 +678,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #f1f6fe;
   border-radius: var(--border-radius);
-  border: 1px solid #deebfd;
   display: flex;
   align-items: center;
   justify-content: center;
