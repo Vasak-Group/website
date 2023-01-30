@@ -1,40 +1,42 @@
 <template>
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-
-            <a href="/" class="logo">
-                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" />
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="/">
+                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" style="max-height:70px;" />
             </a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#hero">Inicio</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#about">Sobre Nosotros</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#services">Servicios</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#portfolio">Portfolio</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#team">Equipo</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#contact">Contacto</RouterLink>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link scrollto" target="_blank" href="https://community.vasak.net.ar">Comunidad</a>
                     </li>
                 </ul>
-                <em class="fa fa-list mobile-nav-toggle"></em>
-            </nav><!-- .navbar -->
-
+            </div>
         </div>
-    </header><!-- End Header -->
+    </nav>
+
 </template>
 
 <script>
@@ -48,4 +50,5 @@ export default {
 </script>
 
 <style>
+
 </style>
