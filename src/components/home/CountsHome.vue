@@ -1,5 +1,5 @@
 <template>
-    <section id="counts" class="counts bg-body bg-gradient">
+    <section id="counts" class="counts bg-body">
         <div class="container" data-aos="fade-up">
 
             <div class="row">

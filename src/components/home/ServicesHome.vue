@@ -1,5 +1,5 @@
 <template>
-    <section id="services" class="services">
+    <section id="services" class="services bg-body">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
