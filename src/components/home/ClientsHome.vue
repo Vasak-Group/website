@@ -1,5 +1,5 @@
 <template>
-    <section id="clients" class="clients section-bg">
+    <section id="clients" class="clients bg-body-tertiary bg-gradient">
         <div class="container" data-aos="zoom-in">
 
             <div class="row" id="clients-slider">
