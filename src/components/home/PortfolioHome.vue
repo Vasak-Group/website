@@ -1,11 +1,11 @@
 <template>
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio bg-body">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Portfolio</h2>
                 <h3>Revisa nuestros <span>Trabajos</span></h3>
-                <p>Revisa algunos de nuestros trabajos realizados para nuestros clientes</p>
+                <p class="text-body">Revisa algunos de nuestros trabajos realizados para nuestros clientes</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
