@@ -1,5 +1,5 @@
 <template>
-    <div class="member">
+    <div class="member bg-body">
         <div class="member-img">
             <img :src="image" class="img-fluid" :alt="name" :title="name" />
             <div class="social">
@@ -9,8 +9,8 @@
             </div>
         </div>
         <div class="member-info">
-            <h4>{{ name }}</h4>
-            <span>{{ position }}</span>
+            <h4 class="text-body-emphasis">{{ name }}</h4>
+            <span class="text-body">{{ position }}</span>
         </div>
     </div>
 </template>
