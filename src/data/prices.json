@@ -8,67 +8,67 @@
             {
                 "id": 1,
                 "desc": "Dominio .com.ar",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 2,
                 "desc": "Diseño Responsive",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 3,
                 "desc": "Single Page",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 4,
                 "desc": "Optimizado para Buscadores",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 5,
                 "desc": "Integracion con Redes Sociales",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 6,
                 "desc": "Certificado SSL",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 7,
                 "desc": "Indexacion en Google",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 8,
                 "desc": "Web Hosting Premium",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 9,
                 "desc": "Pagina Autoadministrable",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 10,
                 "desc": "Cuenta de Correo Corporativo",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 11,
                 "desc": "Metodos de Pagos para la tienda",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 12,
                 "desc": "Formulario de Contacto",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 13,
                 "desc": "Mapa de Ubicacion",
-                "class": "na"
+                "class": "na text-body"
             }
         ]
     },
@@ -81,67 +81,67 @@
             {
                 "id": 1,
                 "desc": "Dominio .com.ar",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 2,
                 "desc": "Diseño Responsive",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 3,
                 "desc": "5 Secciones",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 4,
                 "desc": "Optimizado para Buscadores",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 5,
                 "desc": "Integracion con Redes Sociales",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 6,
                 "desc": "Certificado SSL",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 7,
                 "desc": "Indexacion en Google",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 8,
                 "desc": "Web Hosting Premium",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 9,
                 "desc": "Pagina Autoadministrable",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 10,
                 "desc": "Cuenta de Correo Corporativo",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 11,
                 "desc": "Metodos de Pagos para la tienda",
-                "class": "na"
+                "class": "na text-body"
             },
             {
                 "id": 12,
                 "desc": "Formulario de Contacto",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 13,
                 "desc": "Mapa de Ubicacion",
-                "class": "na"
+                "class": "na text-body"
             }
         ]
     },
@@ -154,67 +154,67 @@
             {
                 "id": 1,
                 "desc": "Dominio .com.ar",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 2,
                 "desc": "Diseño Responsive",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 3,
                 "desc": "5+ Secciones",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 4,
                 "desc": "Optimizado para Buscadores",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 5,
                 "desc": "Integracion con Redes Sociales",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 6,
                 "desc": "Certificado SSL",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 7,
                 "desc": "Indexacion en Google",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 8,
                 "desc": "Web Hosting Premium",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 9,
                 "desc": "Pagina Autoadministrable",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 10,
                 "desc": "Cuenta de Correo Corporativo",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 11,
                 "desc": "Metodos de Pagos para la tienda",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 12,
                 "desc": "Formulario de Contacto",
-                "class": ""
+                "class": "text-body-emphasis"
             },
             {
                 "id": 13,
                 "desc": "Mapa de Ubicacion",
-                "class": ""
+                "class": "text-body-emphasis"
             }
         ]
     }

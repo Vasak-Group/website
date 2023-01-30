@@ -1,5 +1,5 @@
 <template>
-    <div class="box featured">
+    <div class="box featured bg-body-tertiary">
         <h3>{{ nombre }}</h3>
         <h4>
             <em :class="icon"></em>
@@ -9,7 +9,7 @@
                 {{ caracteristica.desc }}
             </li>
         </ul>
-        <div class="btn-wrap">
+        <div class="btn-wrap bg-body-tertiary">
             <a :href="url" class="btn-buy">Consultanos</a>
         </div>
     </div>
