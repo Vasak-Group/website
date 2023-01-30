@@ -1,9 +1,9 @@
 <template>
-    <section class="breadcrumbs">
+    <section class="breadcrumbs bg-body">
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h2>{{ title }}</h2>
+                <h1 class="text-body-emphasis text-center">{{ title }}</h1>
             </div>
 
         </div>
@@ -21,5 +21,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+    padding: 50px 0 50px 0;
+}
 </style>

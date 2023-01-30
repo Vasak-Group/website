@@ -1,15 +1,15 @@
 <template>
     <div class="portfolio-info">
-        <h3>Project information</h3>
-        <ul>
+        <h3 class="text-body-emphasis">Informacion del Proyecto</h3>
+        <ul class="text-body">
             <li><strong>Categoria</strong>: {{ type }}</li>
             <li><strong>Cliente</strong>: {{ clients.find(clientd => clientd.id === client).name }}</li>
             <li><strong>URL</strong>: <a :href="url">{{ url }}</a></li>
         </ul>
     </div>
     <div class="portfolio-description">
-        <h2 class="text-center">{{ name }}</h2>
-        <p>{{ description }}</p>
+        <h2 class="text-center text-body-emphasis">{{ name }}</h2>
+        <p class="text-body">{{ description }}</p>
     </div>
 </template>
 
