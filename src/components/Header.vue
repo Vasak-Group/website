@@ -4,9 +4,8 @@
             <a class="navbar-brand logo" href="/">
                 <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group" height="70" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,7 +33,7 @@
                     </li>
                 </ul>
             </div>
-            <ul class="navbar-nav ms-auto">
+            <!--<ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown">
                     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                         <symbol id="circle-half" viewBox="0 0 16 16">
@@ -104,10 +103,9 @@
                     </ul>
                 </li>
 
-            </ul>
+            </ul>-->
         </div>
     </nav>
-
 </template>
 
 <script>
@@ -121,16 +119,15 @@ export default {
 </script>
 
 <style scoped>
-svg{
+svg {
     height: 20px;
 }
 
-button.dropdown-toggle{
+button.dropdown-toggle {
     width: 50px;
 }
 
 .dropdown-menu {
     width: 100px;
 }
-
 </style>
