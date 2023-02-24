@@ -1,10 +1,10 @@
 <template>
-    <div class="icon-box text-center" data-aos="fade-up" :data-aos-delay="delay">
+    <div class="icon-box text-center bg-body" data-aos="fade-up" :data-aos-delay="delay">
         <div class="icon">
             <em :class="icon"></em>
         </div>
-        <h4 class="title"><a href="">{{ title }}</a></h4>
-        <p class="description">{{ description }}</p>
+        <h4 class="title text-body-emphasis">{{ title }}</h4>
+        <p class="text-body description">{{ description }}</p>
     </div>
 </template>
 

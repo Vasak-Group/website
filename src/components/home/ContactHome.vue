@@ -1,35 +1,35 @@
 <template>
-    <section id="contact" class="contact">
+    <section id="contact" class="contact bg-body-tertiary">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Contacto</h2>
                 <h3><span>Comunicate</span></h3>
-                <p>Comunicate con nosotros. Comenza hoy a potenciar tus ideas.</p>
+                <p class="text-body">Comunicate con nosotros. Comenza hoy a potenciar tus ideas.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6">
-                    <div class="info-box mb-4">
+                    <div class="info-box mb-4 bg-body">
                         <em class="fa fa-map"></em>
-                        <h3>Encuentranos</h3>
-                        <p>Argentina, Buenos aires, GBA Sur (Quilmes - Berazategui)</p>
+                        <h3 class="text-body-emphasis">Encuentranos</h3>
+                        <p class="text-body">Argentina, Buenos aires, GBA Sur (Quilmes - Berazategui)</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="info-box  mb-4">
+                    <div class="info-box mb-4 bg-body">
                         <em class="fa fa-envelope"></em>
-                        <h3>Email</h3>
-                        <p>info@vasak.net.ar</p>
+                        <h3 class="text-body-emphasis">Email</h3>
+                        <p class="text-body">info@vasak.net.ar</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="info-box  mb-4">
+                    <div class="info-box mb-4 bg-body">
                         <em class="fa fa-whatsapp"></em>
-                        <h3>Contactanos</h3>
-                        <p>+54 9 11 2388-2753</p>
+                        <h3 class="text-body-emphasis">Contactanos</h3>
+                        <p class="text-body">+54 9 11 6010-9950</p>
                     </div>
                 </div>
 

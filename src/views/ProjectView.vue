@@ -1,6 +1,6 @@
 <template>
   <BreadcrumbsProjects :title="project.name" />
-  <section id="portfolio-details" class="portfolio-details">
+  <section id="portfolio-details" class="portfolio-details bg-body-tertiary">
     <div class="container">
 
       <div class="row gy-4">
