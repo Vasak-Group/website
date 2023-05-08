@@ -20,10 +20,10 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
     <FeaturedHome />
     <AboutHome />
     <CountsHome />
-    <ClientsHome />
+    <!--<ClientsHome />-->
     <ServicesHome />
     <!--<TestimonialsHome />-->
-    <TechnologiesHome />
+    <!--<TechnologiesHome />-->
     <PortfolioHome />
     <TeamHome />
     <PricingHome />
