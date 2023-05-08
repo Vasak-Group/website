@@ -19,19 +19,19 @@
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#services">Servicios</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#portfolio">Portfolio</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#team">Equipo</RouterLink>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" to="/#contact">Contacto</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link scrollto" target="_blank" rel="noopener"
                             href="https://community.vasak.net.ar">Comunidad</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
             <!--<ul class="navbar-nav ms-auto">
