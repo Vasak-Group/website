@@ -19,7 +19,7 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
   <main id="main">
     <FeatureHome />
     <AboutHome />
-    <CountsHome />
+    <!--<CountsHome />-->
     <!--<ClientsHome />-->
     <ServicesHome />
     <!--<TestimonialsHome />-->
