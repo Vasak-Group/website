@@ -24,7 +24,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div><!--
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-btn-wrapper">
@@ -34,7 +34,7 @@
                         <button class="portfolio-btn" data-filter=".Web">Web Design</button>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div class="row grid" style="position: relative; height: 777.75px;">
 
                 <ProjectComponent v-for="project in projects" :key="project.id" v-bind="project" />
