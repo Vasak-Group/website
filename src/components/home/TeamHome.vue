@@ -27,18 +27,6 @@
             </div>
         </div>
     </section>
-    <section id="team" class="team bg-body-tertiary">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Equipo</h2>
-                <h3>Conocé a nuestro <span>equipo</span></h3>
-                <p class="text-body">Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus
-                    proyectos.</p>
-            </div>
-
-        </div>
-    </section>
 </template>
 
 <script>
