@@ -28,6 +28,6 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
     <TeamHome />
     <PricingHome />
     <!--<FAQHome />-->
-    <ContactHome />
+    <!--<ContactHome />-->
   </main>
 </template>
