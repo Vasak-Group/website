@@ -28,9 +28,6 @@
                         <div class="d-inline-block hero-img-right">
                             <img class="image wow fadeInRight" data-wow-delay=".5s" src="/img/head.svg"
                                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-                            <img src="assets/img/hero/dots.shape.svg" alt="" class="dot-shape"
-                                data-pagespeed-url-hash="4285765656"
-                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                         </div>
                     </div>
                 </div>
