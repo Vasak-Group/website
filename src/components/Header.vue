@@ -23,9 +23,7 @@ export default {
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
+                            <em class="fa fa-bars"></em>
                         </button>
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
