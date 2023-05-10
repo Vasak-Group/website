@@ -1,20 +1,40 @@
 <template>
+    <section id="team" class="team-section img-bg pt-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-7 mx-auto">
+                    <div class="section-title text-center mb-60">
+                        <span class="wow fadeInDown" data-wow-delay=".2s"
+                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                            Equipo
+                        </span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"
+                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            Conocé a nuestro equipo
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus
+                            proyectos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <MemberComponent v-for="member in team" v-bind:key="member.id" v-bind="member" />
+
+            </div>
+        </div>
+    </section>
     <section id="team" class="team bg-body-tertiary">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Equipo</h2>
                 <h3>Conocé a nuestro <span>equipo</span></h3>
-                <p class="text-body">Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus proyectos.</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" v-for="member in team" v-bind:key="member.id"
-                    data-aos="fade-up" :data-aos-delay="member.delay">
-                    <MemberComponent v-bind="member" />
-                </div>
-
+                <p class="text-body">Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus
+                    proyectos.</p>
             </div>
 
         </div>
@@ -34,5 +54,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

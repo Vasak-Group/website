@@ -1,16 +1,21 @@
 <template>
-    <div class="member bg-body">
-        <div class="member-img">
-            <img :src="image" class="img-fluid" :alt="name" :title="name" />
-            <div class="social">
-                <a v-for="red in social" :key="red.id" :href="red.url">
-                    <em :class="red.icon"></em>
-                </a>
+    <div class="col-xl-3 col-lg-3 col-md-6">
+        <div class="single-team text-center mb-40 wow fadeInUp" data-wow-delay=".2s"
+            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="team-img">
+                <img :alt="name" :title="name" :src="image">
+                <div class="team-social">
+                    <ul>
+                        <li v-for="red in social" :key="red.id">
+                            <a :href="red.url"><i :class="red.icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="member-info">
-            <h4 class="text-body-emphasis">{{ name }}</h4>
-            <span class="text-body">{{ position }}</span>
+            <div class="team-info">
+                <h4>{{ name }}</h4>
+                <span>{{ position }}</span>
+            </div>
         </div>
     </div>
 </template>
@@ -38,5 +43,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
