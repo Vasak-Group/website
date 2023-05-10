@@ -1,15 +1,23 @@
 <template>
-    <div class="portfolio-info">
-        <h3 class="text-body-emphasis">Informacion del Proyecto</h3>
-        <ul class="text-body">
-            <li><strong>Categoria</strong>: {{ type }}</li>
-            <li><strong>Cliente</strong>: {{ clients.find(clientd => clientd.id === client).name }}</li>
-            <li><strong>URL</strong>: <a :href="url">{{ url }}</a></li>
-        </ul>
-    </div>
-    <div class="portfolio-description">
-        <h2 class="text-center text-body-emphasis">{{ name }}</h2>
-        <p class="text-body">{{ description }}</p>
+    <div class="sidebar-wrapper">
+        <div class="project-info-box mb-30">
+            <h5 class="mb-20">{{ name }}</h5>
+            <p class="mb-20">{{ description }}</p>
+            <ul>
+                <li>
+                    <span class="destination"><strong>Client:</strong></span>
+                    <span>{{ clients.find(clientd => clientd.id === client).name }}</span>
+                </li>
+                <li>
+                    <span class="destination"><strong>Categoria</strong>:</span>
+                    <span>{{ type }}</span>
+                </li>
+                <li>
+                    <span class="destination"><strong>URL</strong>:</span>
+                    <span><a :href="url">{{ url }}</a></span>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -46,5 +54,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
