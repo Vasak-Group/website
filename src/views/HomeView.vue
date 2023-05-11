@@ -4,7 +4,7 @@ import ClientsHome from '../components/home/ClientsHome.vue';
 import ContactHome from '../components/home/ContactHome.vue';
 import CountsHome from '../components/home/CountsHome.vue';
 import FAQHome from '../components/home/FAQHome.vue';
-import FeaturedHome from '../components/home/FeaturedHome.vue';
+import FeatureHome from '../components/home/FeatureHome.vue';
 import HeroHome from '../components/home/HeroHome.vue';
 import PortfolioHome from '../components/home/PortfolioHome.vue';
 import PricingHome from '../components/home/PricingHome.vue';
@@ -17,9 +17,9 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
 <template>
   <HeroHome />
   <main id="main">
-    <FeaturedHome />
+    <FeatureHome />
     <AboutHome />
-    <CountsHome />
+    <!--<CountsHome />-->
     <!--<ClientsHome />-->
     <ServicesHome />
     <!--<TestimonialsHome />-->
@@ -28,6 +28,6 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
     <TeamHome />
     <PricingHome />
     <!--<FAQHome />-->
-    <ContactHome />
+    <!--<ContactHome />-->
   </main>
 </template>

@@ -3,6 +3,7 @@
 		"id": 1,
 		"nombre": "Web Basica",
 		"icon": "fa fa-globe",
+		"class": "",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Web%20Básica%20que%20vi%20en%20https://lynx.net.ar",
 		"caracteristicas": [
 			{
@@ -71,6 +72,7 @@
 		"id": 2,
 		"nombre": "Profesional",
 		"icon": "fa fa-object-group",
+		"class": "active",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Profesional%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
 		"caracteristicas": [
 			{
@@ -139,6 +141,7 @@
 		"id": 3,
 		"nombre": "Tu Tienda en Linea",
 		"icon": "fa fa-shopping-cart",
+		"class": "",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Tu%20tienda%20en%20Linea%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
 		"caracteristicas": [
 			{

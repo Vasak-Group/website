@@ -1,14 +1,17 @@
 <template>
-    <img :src="image" class="img-fluid" :alt="name" :title="name" />
-    <div class="portfolio-info">
-        <h4>{{ name }}</h4>
-        <p>{{ type }}</p>
-        <a :href="image" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" :title="name">
-            <em class="fa fa-plus"></em>
-        </a>
-        <RouterLink :to="'/project/' + id" class="details-link" title="More Details">
-            <em class="fa fa-link"></em>
-        </RouterLink>
+    <div class="col-lg-4 col-md-6 grid-item branding" :class="type">
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img">
+                <img :src="image" :alt="name" :title="name" />
+            </div>
+            <div class="portfolio-overlay">
+                <div class="overlay-content">
+                    <h4>{{ name }}</h4>
+                    <p>{{ type }}</p>
+                    <a :href="'/project/' + id" class="theme-btn border-btn">Ver</a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

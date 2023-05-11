@@ -1,11 +1,19 @@
 <template>
-    <section class="breadcrumbs bg-body">
+    <section class="page-banner-section pt-75 pb-75 img-bg">
         <div class="container">
-
-            <div class="d-flex justify-content-between align-items-center">
-                <h1 class="text-body-emphasis text-center">{{ title }}</h1>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="banner-content">
+                        <h2 class="text-white">{{ title }}</h2>
+                        <div class="page-breadcrumb">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     </section>
 </template>

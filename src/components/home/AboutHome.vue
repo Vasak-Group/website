@@ -1,61 +1,94 @@
 <template>
-    <section id="about" class="about bg-body bg-gradient">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Sobre Nosotros</h2>
-                <h3>Mas información sobre <span class="v-font">Vasak</span></h3>
-                <p class="text-body">El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros. Somos una
-                    empresa que nace con el fin de brindar al cliente las soluciones adecuadas a sus inconvenientes.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <img src="/img/services/consultas.svg" class="img-fluid" alt="Sobre Nosotros"
-                        title="Sobre nosotros" />
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
-                    data-aos-delay="100">
-                    <h3>“Cada empresa y cada individuo tiene distintas necesidades”</h3>
-                    <p class="fst-italic text-body">
-                        En <strong>Vasak</strong> entendemos a la perfección esta premisa. Por eso brindamos soluciones
-                        a medida,
-                        desarrollando software particular para cada necesidad.
-                    </p>
-                    <ul>
-                        <li>
-                            <em class="fa fa-comments-o"></em>
-                            <div>
-                                <h5 class="text-body-emphasis">Nos adaptamos</h5>
-                                <p class="text-body">A diferencia de otras empresas nuestro Software se adapta a tus necesidades.</p>
+    <section id="about" class="pt-100">
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-img-wrapper">
+                            <div class="about-img position-relative d-inline-block wow fadeInLeft" data-wow-delay=".3s"
+                                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                <img alt="" src="/img/services/consultas.svg" style="max-width: 100%;">
+                                <div class="about-experience">
+                                    <h3>{{ yearsOfExperience() }} Años de Experiencia</h3>
+                                    <p>Ya con {{ yearsOfExperience() }} años trabajando entre juntos para cumplir tus
+                                        sueños.</p>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <em class="fa fa-bar-chart"></em>
-                            <div>
-                                <h5 class="text-body-emphasis">Flujos de trabajo</h5>
-                                <p class="text-body">Definimos los mejores flujos de trabajo para optimizar tu dia a dia.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-content-wrapper">
+                            <div class="section-title">
+                                <span class="wow fadeInUp" data-wow-delay=".2s"
+                                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                    Sobre Nosotros
+                                </span>
+                                <h2 class="mb-40 wow fadeInRight" data-wow-delay=".4s"
+                                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                                    Mas sobre <span class="vsk-font" style="font-size: 35px;">Vasak Group</span>
+                                </h2>
                             </div>
-                        </li>
-                    </ul>
-                    <p class="text-body">
-                        Preguntas como: “Podemos hacer que el sistema se conecte automáticamente con nuestro sistema y
-                        nos avise cuando...” o “Podemos agregar la posibilidad de que el usuario genere descuentos y se
-                        calcule en forma automática…” son respuestas que siempre nos gusta responder. “Si, se puede. El
-                        limite es la imaginación”.
-                    </p>
+                            <div class="about-content">
+                                <p class="mb-45 wow fadeInUp" data-wow-delay=".6s"
+                                    style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                                    El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros.
+                                    Somos una empresa que nace con el fin de brindar al cliente las soluciones adecuadas a
+                                    sus inconvenientes.
+                                </p>
+                                <div class="counter-up wow fadeInUp" data-wow-delay=".5s"
+                                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    <div class="counter">
+                                        <span id="secondo" class="countup count color-1" :cup-end=clients>
+                                            {{ clients }}
+                                        </span>
+                                        <h4>Clientes Felices</h4>
+                                        <p>Que nos siguen eligiendo para<br class="d-none d-md-block d-lg-none d-xl-block">
+                                            trabajar en conjunto</p>
+                                    </div>
+                                    <div class="counter">
+                                        <span id="secondo" class="countup count color-2" :cup-end=projects>
+                                            {{ projects }}
+                                        </span>
+                                        <h4>Proyectos Finalizados</h4>
+                                        <p>
+                                            Que mejoraran la calidad de nuestros
+                                            <br class="d-none d-md-block d-lg-none d-xl-block">
+                                            clientes
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
 </template>
 
 <script>
+import clients from '../../data/clients.json';
+import projects from '../../data/projects.json';
 export default {
-
+    name: "AboutHome",
+    data() {
+        return {
+            clients: clients.length,
+            projects: projects.length
+        };
+    },
+    methods: {
+        yearsOfExperience() {
+            let start = 2019;
+            let end = new Date().getFullYear();
+            let years = end - start;
+            return years;
+        },
+    },
+    mounted() {
+        // console.log("Component mounted!");
+    },
 }
 </script>
 
-<style>
-</style>
+<style></style>

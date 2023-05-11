@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import ContactView from '../views/ContactView.vue';
 import HomeView from '../views/HomeView.vue';
 import ProjectView from '../views/ProjectView.vue';
 
@@ -8,14 +9,19 @@ const router = createRouter({
 		{
 			path: '/',
 			name: 'home',
-			component: HomeView
+			component: HomeView,
 		},
 		{
 			path: '/project/:id',
 			name: 'project',
-			component: ProjectView
-		}
-	]
+			component: ProjectView,
+		},
+		{
+			path: '/contact',
+			name: 'contact',
+			component: ContactView,
+		},
+	],
 });
 
 export default router;

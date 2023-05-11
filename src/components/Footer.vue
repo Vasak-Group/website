@@ -1,78 +1,90 @@
 <template>
-    <footer id="footer" class="bg-body">
-
-        <div class="footer-newsletter bg-body">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h4>Contacta con nosotros</h4>
-                        <p class="text-body">Contactanos para poder resolver todas tus dudas y comenzar hoy con tu proyecto</p>
-                        <a class="btn btn-contact"
-                            href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
-                            <em class="fa fa-whatsapp"></em>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-top bg-body-tertiary">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h3 class="v-font"><span>Vasak</span> group</h3>
-                        <p class="text-body">
-                            GBA Sur (Quilmes - Berazategui) <br>
-                            Buenos Aires<br>
-                            Argentina <br><br>
-                            <strong>Telefono:</strong> +54 9 11 2388-2753<br>
-                            <strong>Email:</strong> info@vasak.net.ar<br>
+    <footer class="footer pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo"></a>
+                        <p class="mb-30 footer-desc">
+                            Vasak Group es una empresa que busca contribuir con el crecimiento tecnologico y economico de
+                            otras empresas PYMES y emprendimientos.
                         </p>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 footer-links text-center">
-                        <h4 class="text-body-emphasis">Nuestros Servicios Gratuitos</h4>
-                        <ul>
-                            <li class="text-body">
-                                <em class="fa fa-chevron-right"></em> <a target="_black"
-                                    href="https://qrgenerator.vasak.net.ar/">QR Generator</a>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s"
+                        style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <h4>Free Service</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="https://qrgenerator.vasak.net.ar/" target="_blank">QR Generator</a>
                             </li>
-                            <li class="text-body">
-                                <em class="fa fa-chevron-right"></em> <a target="_black"
-                                    href="https://play.google.com/store/apps/details?id=com.lynxqrcam">Lynx
-                                    QRCam</a>
-                            </li>
-                            <li class="text-body">
-                                <em class="fa fa-chevron-right"></em> <a target="_black"
-                                    href="https://wppgenerator.vasak.net.ar/">WhatsApp Generator</a>
+                            <li>
+                                <a href="https://wppgenerator.vasak.net.ar/" target="_blank">WhatsApp Link Generator</a>
                             </li>
                         </ul>
                     </div>
-
-                    <div class="col-lg-4 col-md-12 footer-links text-center">
-                        <h4 class="text-body-emphasis">Nuestras Redes</h4>
-                        <p class="text-body">No te pierdas todas nuestras novedades</p>
-                        <div class="social-links mt-3">
-                            <a v-for="red in social" target="_black" :title="red.name" :key="red.id" :href="red.url">
-                                <em :class="red.icon"></em>
-                            </a>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s"
+                        style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">
+                        <h4>Contact</h4>
+                        <ul class="footer-contact">
+                            <li>
+                                <p>info@vasak.net.ar</p>
+                            </li>
+                            <li>
+                                <p>Oporto, Portugal</p>
+                            </li>
+                            <li>
+                                <p>Buenos Aires, Argentina</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="footer-social-links">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="https://web.facebook.com/vasakgroup" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@vasak.net.ar" target="_blank">
+                                        <i class="fa fa-envelope"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/vasakgroup/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/vasakgroup/" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
+                    <div class="col-md-6">
+                        <p class="wow fadeInUp" data-wow-delay=".3s"
+                            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            Todos los dertechos reservados <a href="/" class="vsk-font" rel="nofollow">Vasak group</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="container py-4">
-            <div class="copyright text-body">
-                &copy; <span class="v-font">Vasak group</span>. Todos los dertechos reservados.
-            </div>
-            <div class="credits">
-                <span class="v-font text-body-emphasis">Vasak</span>
-            </div>
-        </div>
     </footer>
+    <a href="#" class="scroll-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
 </template>
 
 <script>
@@ -87,6 +99,10 @@ export default {
 </script>
 
 <style scoped>
+.logo img {
+    height: 110px;
+}
+
 .btn-contact {
     background-color: var(--accent-color);
     border-color: var(--accent-color-dark);

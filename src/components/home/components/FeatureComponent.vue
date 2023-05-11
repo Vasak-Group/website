@@ -1,10 +1,14 @@
 <template>
-    <div class="icon-box text-center bg-body" data-aos="fade-up" :data-aos-delay="delay">
-        <div class="icon">
-            <em :class="icon"></em>
+    <div class="col-lg-4 col-md-6">
+        <div class="feature-box box-style">
+            <div class="feature-icon box-icon-style">
+                <i :class="icon"></i>
+            </div>
+            <div class="box-content-style feature-content">
+                <h4>{{ title }}</h4>
+                <p>{{ description }}</p>
+            </div>
         </div>
-        <h4 class="title text-body-emphasis">{{ title }}</h4>
-        <p class="text-body description">{{ description }}</p>
     </div>
 </template>
 
@@ -31,5 +35,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
