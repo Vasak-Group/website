@@ -41,6 +41,7 @@
 
 <script>
 import services from '../../data/services.json'
+
 export default {
     name: 'ServicesHome',
     data() {

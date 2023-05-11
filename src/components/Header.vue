@@ -3,6 +3,14 @@ import { RouterLink } from 'vue-router';
 import ToggleTheme from './global/ToggleTheme.vue';
 
 export default {
+    name: 'Header',
+    methods: {
+        scrollTo(id) {
+            const element = document.getElementById(id);
+            console.log(element)
+            window.scrollTo(0, element.offsetTop - 100);
+        }
+    },
     components: {
         RouterLink,
         ToggleTheme
@@ -29,16 +37,22 @@ export default {
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto me-auto">
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/#hero">Home</RouterLink>
+                                    <RouterLink class="nav-link scrollto" @click="scrollTo('hero');" to="/#">
+                                        Home
+                                    </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/#about">About</RouterLink>
+                                    <RouterLink class="nav-link scrollto" @click="scrollTo('about');" to="/#">
+                                        About
+                                    </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/#services">Services</RouterLink>
+                                    <RouterLink class="nav-link scrollto" @click="scrollTo('service');" to="/#">
+                                        Services
+                                    </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/#contact">Contact</RouterLink>
+                                    <RouterLink class="nav-link scrollto" to="/contact">Contact</RouterLink>
                                 </li>
                             </ul>
                         </div>
