@@ -38,15 +38,7 @@
                                 <div class="counter-up wow fadeInUp" data-wow-delay=".5s"
                                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                                     <div class="counter">
-                                        <span id="secondo" class="countup count color-1" :cup-end=clients>
-                                            {{ clients }}
-                                        </span>
-                                        <h4>Clientes Felices</h4>
-                                        <p>Que nos siguen eligiendo para<br class="d-none d-md-block d-lg-none d-xl-block">
-                                            trabajar en conjunto</p>
-                                    </div>
-                                    <div class="counter">
-                                        <span id="secondo" class="countup count color-2" :cup-end=projects>
+                                        <span id="secondo" class="countup count color-2" :cup-end=projects cup-append="+">
                                             {{ projects }}
                                         </span>
                                         <h4>Proyectos Finalizados</h4>
@@ -55,6 +47,14 @@
                                             <br class="d-none d-md-block d-lg-none d-xl-block">
                                             clientes
                                         </p>
+                                    </div>
+                                    <div class="counter">
+                                        <span id="secondo" class="countup count color-1" :cup-end=clients cup-append="+">
+                                            {{ clients }}
+                                        </span>
+                                        <h4>Clientes que nos eligen</h4>
+                                        <p>Que nos siguen eligiendo para<br class="d-none d-md-block d-lg-none d-xl-block">
+                                            trabajar en conjunto</p>
                                     </div>
                                 </div>
                             </div>
