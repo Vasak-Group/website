@@ -2,34 +2,34 @@
 
 Sitio web de Vasak Group, creado en VueJS 3 con Bootstrap 5.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
 ## Project Setup
 
 ```sh
-npm install
+yarn install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+yarn run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+yarn run lint
 ```
+
+## Dependecies
+
+-   [VueJS 3](https://v3.vuejs.org/)
+-   [Bootstrap 5](https://getbootstrap.com/)
+-   [Bootstrap Icons](https://icons.getbootstrap.com/)
+-   [Vue Router](https://router.vuejs.org/)
+-   --[Vue Meta](https://vue-meta.nuxtjs.org/)-- (Removed)
