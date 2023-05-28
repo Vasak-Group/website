@@ -53,6 +53,12 @@ export default {
             projects: projects.filter(project => project.show)
         };
     },
+    computed: {
+        projects() {
+            const shuffled = this.projects.sort(function () { return .5 - Math.random() });
+            return shuffled.slice(0, 9);
+        }
+    },
     components: { ProjectComponent }
 }
 </script>
