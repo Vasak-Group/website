@@ -14,5 +14,11 @@ import TopBar from './components/TopBar.vue';
   <Footer />
 </template>
 
-<style scoped>
+<style lang="scss">
+@import "./assets/vsk-template/scss/style.scss";
+
+:root {
+  --site-color: #f6bb31;
+  --site-color-2: #f46619;
+}
 </style>
