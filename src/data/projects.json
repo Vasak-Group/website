@@ -118,5 +118,15 @@
 		"url": "https://webmail.intigamesproductions.com/",
 		"image": "/img/projects/inti_webmail.png",
 		"type": "Web"
+	},
+	{
+		"id": 13,
+		"name": "Waibi Website",
+		"client": 9,
+		"show": true,
+		"description": "Diseño y desarrollo del sitio web de la marca. Solución desarrollada a medida del cliente basado en las necesidades y proyecciones del estudio de ventas de sitios web. Servicio de mantenimiento del sitio.",
+		"url": "https://waibi.es/",
+		"image": "/img/projects/waibi.png",
+		"type": "Web"
 	}
 ]
