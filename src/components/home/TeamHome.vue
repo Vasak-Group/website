@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row teams-slider">
 
                 <MemberComponent v-for="member in team" v-bind:key="member.id" v-bind="member" />
 
@@ -29,17 +29,35 @@
     </section>
 </template>
 
-<script>
+<script setup>
 import team from '../../data/team.json'
 import MemberComponent from './components/MemberComponent.vue'
-export default {
-    data() {
-        return {
-            team
-        };
-    },
-    components: { MemberComponent }
+import { tns } from "tiny-slider/src/tiny-slider"
+import { onMounted } from "vue"
+
+onMounted(() => {
+    tns({
+        container: '.teams-slider',
+        items: 4,
+        speed: 400,
+        mouseDrag: true,
+        controls: false,
+        swipeAngle: false,
+        gutter: 30,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        autoWidth: true,
+    });
+})
+
+function data() {
+    return {
+        team
+    };
 }
+components: { MemberComponent }
+
 </script>
 
 <style></style>
