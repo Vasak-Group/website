@@ -45,6 +45,6 @@ export default {
 
 <style>
 .t-card {
-    max-width: 350px;
+    max-width: 340px;
 }
 </style>
