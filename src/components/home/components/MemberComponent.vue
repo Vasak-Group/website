@@ -1,8 +1,8 @@
 <template>
-    <div class="col-xl-3 col-lg-3 col-md-6">
+    <div class="col-3 t-card">
         <div class="single-team text-center mb-40 wow fadeInUp" data-wow-delay=".2s"
             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-            <div class="team-img">
+            <div class="team-img ratio ratio-1x1">
                 <img :alt="name" :title="name" :src="image">
                 <div class="team-social">
                     <ul>
@@ -39,8 +39,12 @@ export default {
             type: Array,
             required: true
         }
-    }
+    },
 }
 </script>
 
-<style></style>
+<style>
+.t-card {
+    max-width: 340px;
+}
+</style>
