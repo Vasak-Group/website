@@ -68,5 +68,19 @@
 		"web": "https://waibi.es/",
 		"show": false,
 		"logo": "https://i.postimg.cc/k4XW8XbP/image.png"
+	},
+	{
+		"id": 10,
+		"name": "DiverEnglish",
+		"web": "https://diverenglish.com/",
+		"show": false,
+		"logo": "https://i.postimg.cc/k4XW8XbP/image.png"
+	},
+	{
+		"id": 11,
+		"name": "Compañia Madrileña",
+		"web": "https://www.companiamadrilena.com/",
+		"show": false,
+		"logo": "https://i.postimg.cc/k4XW8XbP/image.png"
 	}
 ]

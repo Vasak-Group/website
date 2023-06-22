@@ -128,5 +128,15 @@
 		"url": "https://waibi.es/",
 		"image": "/img/projects/waibi.png",
 		"type": "Web"
+	},
+	{
+		"id": 14,
+		"name": "Segurizacion del sitio",
+		"client": 11,
+		"show": false,
+		"description": "Certificados SSL y verificacion del Formulario.",
+		"url": "https://www.companiamadrilena.com/",
+		"image": "",
+		"type": "Web"
 	}
 ]
