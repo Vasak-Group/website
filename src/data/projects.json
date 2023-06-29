@@ -138,5 +138,15 @@
 		"url": "https://www.companiamadrilena.com/",
 		"image": "",
 		"type": "Web"
+	},
+	{
+		"id": 15,
+		"name": "Rediseño del sitio web",
+		"client": 10,
+		"show": false,
+		"description": "Se realiza un rediseño completo del sitio web. Se actualiza el contenido y se mejora la experiencia de usuario. Se optimiza el posicionamiento SEO. Se realiza la migracion del sitio web a una nueva version de Wordpress.",
+		"url": "https://www.companiamadrilena.com/",
+		"image": "",
+		"type": "Web"
 	}
 ]
