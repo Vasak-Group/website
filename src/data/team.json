@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "Joaquin Decima",
-		"image": "https://joaquindecima.ml/img/profile.jpeg",
+		"image": "https://joaquindecima.gitlab.io/img/profile.jpeg",
 		"position": "Software Architect",
 		"delay": 100,
 		"social": [
@@ -24,7 +24,7 @@
 			{
 				"id": 4,
 				"icon": "fa fa-globe",
-				"url": "https://joaquindecima.ml/"
+				"url": "https://joaquindecima.gitlab.io/"
 			},
 			{
 				"id": 5,
