@@ -22,7 +22,7 @@
             </div>
             <div class="row teams-slider">
 
-                <MemberComponent v-for="member in team" v-bind:key="member.id" v-bind="member" />
+                <MemberComponent v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
 
             </div>
         </div>
@@ -51,11 +51,8 @@ onMounted(() => {
     });
 })
 
-function data() {
-    return {
-        team
-    };
-}
+const vskteam = team.filter(member => member.show);
+
 components: { MemberComponent }
 
 </script>

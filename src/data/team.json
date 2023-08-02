@@ -4,6 +4,7 @@
 		"name": "Joaquin Decima",
 		"image": "https://joaquindecima.gitlab.io/img/profile.jpeg",
 		"position": "Software Architect",
+		"show": true,
 		"delay": 100,
 		"social": [
 			{
@@ -38,6 +39,7 @@
 		"name": "Ezequiel Cardozo",
 		"image": "/img/team/eze.jpeg",
 		"position": "Product Owner - QA Leader",
+		"show": true,
 		"delay": 200,
 		"social": [
 			{
@@ -57,6 +59,7 @@
 		"name": "Lucas Perez Amador",
 		"image": "https://i.postimg.cc/qq6whMPM/image.png",
 		"position": "Product Manager",
+		"show": true,
 		"delay": 300,
 		"social": [
 			{
@@ -71,6 +74,7 @@
 		"name": "Elvio Galeano",
 		"image": "https://avatars.githubusercontent.com/u/108763412?v=4",
 		"position": "Developer",
+		"show": true,
 		"delay": 400,
 		"social": [
 			{
@@ -90,12 +94,33 @@
 		"name": "Axel Lopez Garabal",
 		"image": "https://i.postimg.cc/sXq808yx/telegram-peer-photo-size-1-950629554738800570-1-0-0.jpg",
 		"position": "Developer",
+		"show": false,
 		"delay": 500,
 		"social": [
 			{
 				"id": 1,
 				"icon": "fa fa-linkedin",
 				"url": "https://www.linkedin.com/in/axel-mart%C3%ADn-lopez-garabal-54332b16b/"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Amanda Trujillo",
+		"image": "https://i.postimg.cc/G2ZGt1M4/amanda-trujillo.webp",
+		"position": "Product Owner",
+		"show": true,
+		"delay": 500,
+		"social": [
+			{
+				"id": 1,
+				"icon": "fa fa-linkedin",
+				"url": "https://www.linkedin.com/in/amandatrujill0"
+			},
+			{
+				"id": 2,
+				"icon": "fa fa-envelope",
+				"url": "mailto:atrujillo@vasak.net.ar"
 			}
 		]
 	}

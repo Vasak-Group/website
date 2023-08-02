@@ -141,11 +141,31 @@
 	},
 	{
 		"id": 15,
-		"name": "Rediseño del sitio web",
+		"name": "Rediseño del DiverEnglish",
+		"client": 10,
+		"show": true,
+		"description": "Se realiza un rediseño completo del sitio web. Se actualiza el contenido y se mejora la experiencia de usuario. Se optimiza el posicionamiento SEO. Se realiza la migracion del sitio web a una nueva version de Wordpress.",
+		"url": "https://diverenglish.com/",
+		"image": "https://i.postimg.cc/Cw1xL9G6/diverenglish.webp",
+		"type": "Web"
+	},
+	{
+		"id": 16,
+		"name": "Rediseño del GoFormacion",
+		"client": 10,
+		"show": true,
+		"description": "Se realizan correcciones esteticas del sitio web. Se actualiza el contenido y se mejora la experiencia de usuario. Se optimiza el posicionamiento SEO. Se realiza la migracion del sitio web a una nueva version de Wordpress.",
+		"url": "https://goformacion.es/",
+		"image": "https://i.postimg.cc/m2PJK39V/goformacion.webp",
+		"type": "Web"
+	},
+	{
+		"id": 17,
+		"name": "Bahia Freijoo",
 		"client": 10,
 		"show": false,
 		"description": "Se realiza un rediseño completo del sitio web. Se actualiza el contenido y se mejora la experiencia de usuario. Se optimiza el posicionamiento SEO. Se realiza la migracion del sitio web a una nueva version de Wordpress.",
-		"url": "https://www.companiamadrilena.com/",
+		"url": "http://www.bahiafeijoo.es/",
 		"image": "",
 		"type": "Web"
 	}
