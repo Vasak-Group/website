@@ -1,127 +1,147 @@
 [
-	{
-		"id": 1,
-		"name": "Joaquin Decima",
-		"image": "https://joaquindecima.gitlab.io/img/profile.jpeg",
-		"position": "Software Architect",
-		"show": true,
-		"delay": 100,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/joaquindecima/"
-			},
-			{
-				"id": 2,
-				"icon": "fa fa-twitter",
-				"url": "https://twitter.com/PatoJADOficial"
-			},
-			{
-				"id": 3,
-				"icon": "fa fa-envelope",
-				"url": "mailto:jdecima@vasak.net.ar"
-			},
-			{
-				"id": 4,
-				"icon": "fa fa-globe",
-				"url": "https://joaquindecima.gitlab.io/"
-			},
-			{
-				"id": 5,
-				"icon": "fa fa-github",
-				"url": "https://github.com/JoaquinDecima"
-			}
-		]
-	},
-	{
-		"id": 2,
-		"name": "Ezequiel Cardozo",
-		"image": "/img/team/eze.jpeg",
-		"position": "Product Owner - QA Leader",
-		"show": true,
-		"delay": 200,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/itrecruiter-cezequiel/"
-			},
-			{
-				"id": 2,
-				"icon": "fa fa-instagram",
-				"url": "https://www.instagram.com/nv.eze/"
-			}
-		]
-	},
-	{
-		"id": 3,
-		"name": "Lucas Perez Amador",
-		"image": "https://i.postimg.cc/qq6whMPM/image.png",
-		"position": "Product Manager",
-		"show": true,
-		"delay": 300,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/lucas-perez-amador-706814b8/"
-			}
-		]
-	},
-	{
-		"id": 4,
-		"name": "Elvio Galeano",
-		"image": "https://avatars.githubusercontent.com/u/108763412?v=4",
-		"position": "Developer",
-		"show": true,
-		"delay": 400,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/elviogaleano-fullstack-developer/"
-			},
-			{
-				"id": 2,
-				"icon": "fa fa-github",
-				"url": "https://github.com/elviog1"
-			}
-		]
-	},
-	{
-		"id": 5,
-		"name": "Axel Lopez Garabal",
-		"image": "https://i.postimg.cc/sXq808yx/telegram-peer-photo-size-1-950629554738800570-1-0-0.jpg",
-		"position": "Developer",
-		"show": false,
-		"delay": 500,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/axel-mart%C3%ADn-lopez-garabal-54332b16b/"
-			}
-		]
-	},
-	{
-		"id": 6,
-		"name": "Amanda Trujillo",
-		"image": "https://i.postimg.cc/G2ZGt1M4/amanda-trujillo.webp",
-		"position": "Product Owner",
-		"show": true,
-		"delay": 500,
-		"social": [
-			{
-				"id": 1,
-				"icon": "fa fa-linkedin",
-				"url": "https://www.linkedin.com/in/amandatrujill0"
-			},
-			{
-				"id": 2,
-				"icon": "fa fa-envelope",
-				"url": "mailto:atrujillo@vasak.net.ar"
-			}
-		]
-	}
+  {
+    "id": 1,
+    "name": "Joaquin Decima",
+    "image": "https://joaquindecima.gitlab.io/img/profile.jpeg",
+    "position": "Software Architect",
+    "show": true,
+    "delay": 100,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/joaquindecima/"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-twitter",
+        "url": "https://twitter.com/PatoJADOficial"
+      },
+      {
+        "id": 3,
+        "icon": "fa fa-envelope",
+        "url": "mailto:jdecima@vasak.net.ar"
+      },
+      {
+        "id": 4,
+        "icon": "fa fa-globe",
+        "url": "https://joaquindecima.gitlab.io/"
+      },
+      {
+        "id": 5,
+        "icon": "fa fa-github",
+        "url": "https://github.com/JoaquinDecima"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ezequiel Cardozo",
+    "image": "/img/team/eze.jpeg",
+    "position": "Product Owner - QA Leader",
+    "show": true,
+    "delay": 200,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/itrecruiter-cezequiel/"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-instagram",
+        "url": "https://www.instagram.com/nv.eze/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lucas Perez Amador",
+    "image": "https://i.postimg.cc/qq6whMPM/image.png",
+    "position": "Product Manager",
+    "show": true,
+    "delay": 300,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/lucas-perez-amador-706814b8/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Elvio Galeano",
+    "image": "https://avatars.githubusercontent.com/u/108763412?v=4",
+    "position": "Developer",
+    "show": true,
+    "delay": 400,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/elviogaleano-fullstack-developer/"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-github",
+        "url": "https://github.com/elviog1"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Axel Lopez Garabal",
+    "image": "https://i.postimg.cc/sXq808yx/telegram-peer-photo-size-1-950629554738800570-1-0-0.jpg",
+    "position": "Developer",
+    "show": false,
+    "delay": 500,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/axel-mart%C3%ADn-lopez-garabal-54332b16b/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Amanda Trujillo",
+    "image": "https://i.postimg.cc/G2ZGt1M4/amanda-trujillo.webp",
+    "position": "Product Owner",
+    "show": true,
+    "delay": 500,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/amandatrujill0"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-envelope",
+        "url": "mailto:atrujillo@vasak.net.ar"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nicolas Avila",
+    "image": "https://i.postimg.cc/65VBw8pd/Whats-App-Image-2023-09-05-at-10-43-51.jpg",
+    "position": "Full-Stack Developer",
+    "show": true,
+    "delay": 500,
+    "social": [
+      {
+        "id": 1,
+        "icon": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/daniel-nicolas-avila-248428245"
+      },
+      {
+        "id": 2,
+        "icon": "fa fa-github",
+        "url": "https://github.com/Nicolas-Avila"
+      }
+    ]
+  }
 ]
