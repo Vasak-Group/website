@@ -27,8 +27,13 @@
 import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
 import projects from '../data/projects.json';
 import InfoProject from '../components/project/InfoProject.vue';
+import { onMounted } from 'vue';
 
 export default {
+  name: 'ProjectView',
+  onMounted() {
+    window.scrollTo(0, 0);
+  },
   computed: {
     project() {
       return projects.find(project => project.id === parseInt(this.$route.params.id));

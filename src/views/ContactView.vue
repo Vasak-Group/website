@@ -112,7 +112,13 @@
 
 <script>
 import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
+import { onMounted } from 'vue';
 export default {
+    name: 'ContactView',
+    onMounted() {
+        document.title = 'Contacto | Vasak Group';
+        window.scrollTo(0, 0);
+    },
     components: {
         BreadcrumbsProjects
     }
