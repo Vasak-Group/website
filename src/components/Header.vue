@@ -8,7 +8,7 @@ export default {
         scrollTo(id) {
             const element = document.getElementById(id);
             console.log(element)
-            window.scrollTo(0, element.offsetTop - 100);
+            window.scrollTo(0, element.offsetTop);
         }
     },
     components: {
@@ -25,7 +25,7 @@ export default {
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="/">
-                            <img src="/img/logo.svg" alt="Logo" />
+                            <img src="/img/logo.svg" alt="Logo"  />
                         </a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
