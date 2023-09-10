@@ -1,5 +1,5 @@
 <template>
-  <BreadcrumbsProjects :title="project.name" />
+  <BreadcrumbsProjects :title="project?.name" />
   <section class="portfolio-section pt-130">
     <div class="container">
       <div class="row">
@@ -8,42 +8,44 @@
           <div class="left-side-wrapper">
             <div class="single-portfolio mb-60">
               <div class="single-portfolio-img mb-30">
-                <img :src="project.image" :alt="project.name" :title="project.name">
+                <img :src="project?.image" :alt="project?.name" :title="project?.name">
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-xl-4 col-lg-5">
-          <InfoProject :name="project.name" :description="project.description" :type="project.type"
-            :client="project.client" :url="project.url" />
+          <InfoProject :name="project?.name" :description="project?.description" :type="project?.type"
+            :client="project?.client" :url="project?.url" />
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
 import projects from '../data/projects.json';
 import InfoProject from '../components/project/InfoProject.vue';
-import { onMounted } from 'vue';
+import { defineComponent, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
+import Project from '../types/Project';
 
-export default {
+const route = useRoute();
+const project: Project = projects.find(project => project.id === parseInt(route.params.id[0])) || {} as Project;
+
+onMounted(() => {
+  document.title =  project.name + ' | Vasak';
+  window.scrollTo(0, 0);
+})
+
+defineComponent({
   name: 'ProjectView',
-  onMounted() {
-    window.scrollTo(0, 0);
-  },
-  computed: {
-    project() {
-      return projects.find(project => project.id === parseInt(this.$route.params.id));
-    }
-  },
   components: {
     BreadcrumbsProjects,
     InfoProject
   }
-}
+})
 </script>
 
 <style scoped>
