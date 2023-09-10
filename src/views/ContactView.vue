@@ -68,18 +68,18 @@
                         <form action="assets/php/mail.php" class="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" id="name" placeholder="Nombre" disabled required="">
+                                    <input type="text" name="name" id="name" placeholder="Nombre" disabled required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="email" id="email" placeholder="Email" disabled required="">
+                                    <input type="email" name="email" id="email" placeholder="Email" disabled required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="phone" id="phone" placeholder="Telefono" disabled required="">
+                                    <input type="text" name="phone" id="phone" placeholder="Telefono" disabled required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="subject" id="email" placeholder="Motivo" disabled required="">
+                                    <input type="text" name="subject" id="email" placeholder="Motivo" disabled required>
                                 </div>
                             </div>
                             <div class="row">
@@ -110,17 +110,19 @@
     </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
-import { onMounted } from 'vue';
-export default {
-    name: 'ContactView',
-    onMounted() {
-        document.title = 'Contacto | Vasak Group';
-        window.scrollTo(0, 0);
-    },
-    components: {
-        BreadcrumbsProjects
-    }
-}
+import { defineComponent, onMounted } from 'vue';
+
+onMounted(() => {
+    document.title = 'Contacto | Vasak Group';
+    window.scrollTo(0, 0);
+})
+
+defineComponent({
+  name: 'ContactView',
+  components: {
+    BreadcrumbsProjects,
+  },
+});
 </script>
