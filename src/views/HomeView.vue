@@ -9,7 +9,6 @@ import HeroHome from '../components/home/HeroHome.vue';
 import PortfolioHome from '../components/home/PortfolioHome.vue';
 import PricingHome from '../components/home/PricingHome.vue';
 import ServicesHome from '../components/home/ServicesHome.vue';
-import TeamHome from '../components/home/TeamHome.vue';
 import TechnologiesHome from '../components/home/TechnologiesHome.vue';
 import TestimonialsHome from '../components/home/TestimonialsHome.vue';
 </script>
@@ -25,7 +24,7 @@ import TestimonialsHome from '../components/home/TestimonialsHome.vue';
     <!--<TestimonialsHome />-->
     <!--<TechnologiesHome />-->
     <PortfolioHome />
-    <TeamHome />
+    <!--<TeamHome />-->
     <PricingHome />
     <!--<FAQHome />-->
     <!--<ContactHome />-->

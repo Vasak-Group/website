@@ -22,7 +22,7 @@
             </div>
             <div class="row teams-slider">
 
-                <MemberComponent v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
+                <TeamCard v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
 
             </div>
         </div>
@@ -31,7 +31,7 @@
 
 <script setup>
 import team from '../../data/team.json'
-import MemberComponent from './components/MemberComponent.vue'
+import TeamCard from '../cards/TeamCard.vue'
 import { tns } from "tiny-slider/src/tiny-slider"
 import { onMounted } from "vue"
 
@@ -53,7 +53,7 @@ onMounted(() => {
 
 const vskteam = team.filter(member => member.show);
 
-components: { MemberComponent }
+components: { TeamCard }
 
 </script>
 

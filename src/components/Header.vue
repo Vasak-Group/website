@@ -42,7 +42,7 @@ export default {
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" @click="scrollTo('about');" to="/#">
+                                    <RouterLink class="nav-link scrollto" to="/about">
                                         About
                                     </RouterLink>
                                 </li>
