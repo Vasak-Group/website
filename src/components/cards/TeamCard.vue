@@ -1,7 +1,6 @@
 <template>
     <div class="col-3 t-card">
-        <div class="single-team text-center mb-40 wow fadeInUp" data-wow-delay=".2s"
-            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+        <div class="single-team text-center mb-40">
             <div class="team-img ratio ratio-1x1">
                 <img :alt="name" :title="name" :src="image">
                 <div class="team-social">
