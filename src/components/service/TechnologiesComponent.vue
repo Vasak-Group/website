@@ -1,19 +1,20 @@
-<script>
+<script setup lang="ts">
 import techs from '../../data/techs.json';
+import { defineComponent } from 'vue';
 
-export default {
-    name: 'TechnologiesHome',
+defineComponent({
+    name: 'TechnologiesComponent',
     data() {
         return {
-            techs: techs
-        };
-    },
-};
+            techs
+        }
+    }
+})
 </script>
 
 <template>
-    <section id="technology" class="team bg-body-tertiary">
-        <div class="container" data-aos="fade-up">
+    <section id="technology" class="teams">
+        <div class="container">
 
             <div class="section-title">
                 <h2>Tecnologias</h2>

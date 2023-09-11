@@ -39,17 +39,13 @@
     </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import services from '../../data/services.json'
+import { defineComponent } from 'vue';
 
-export default {
-    name: 'ServicesHome',
-    data() {
-        return {
-            services: services
-        }
-    }
-}
+defineComponent( {
+    name: 'ServicesComponent',
+})
 </script>
 
 <style></style>

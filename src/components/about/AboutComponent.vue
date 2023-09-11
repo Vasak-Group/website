@@ -84,6 +84,6 @@ const projectsNumber= projects.length
 
 <style scoped>
 #about, .about-section {
-    background-color: #eff2f9 !important;
+    background-color: var(--bg-site-1);
 }
 </style>

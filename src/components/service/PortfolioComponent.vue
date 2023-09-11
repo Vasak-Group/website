@@ -37,30 +37,33 @@
             </div>-->
             <div class="row grid" style="position: relative; height: 777.75px;">
 
-                <ProjectComponent v-for="project in projects" :key="project.id" v-bind="project" />
+                <ProjectComponent v-for="project in viewProjects()" :key="project.id" v-bind="project" />
 
             </div>
         </div>
     </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import projects from '../../data/projects.json';
-import ProjectComponent from './components/ProjectComponent.vue';
-export default {
-    data() {
-        return {
-            projects: projects.filter(project => project.show)
-        };
-    },
-    computed: {
-        projects() {
-            const shuffled = this.projects.sort(function () { return .5 - Math.random() });
-            return shuffled.slice(0, 9);
-        }
-    },
-    components: { ProjectComponent }
+import ProjectComponent from '../cards/ProjectCard.vue';
+import { defineComponent } from 'vue';
+
+
+function viewProjects(){
+    const showers = projects.filter(project => project.show);
+    const shuffled = showers.sort(function () { return .5 - Math.random() });
+    return shuffled.slice(0, 9);
 }
+
+defineComponent({
+    name: 'PortfolioComponent',
+    components: { ProjectComponent }
+})
 </script>
 
-<style></style>
+<style scoped>
+.portfolio-section {
+    background-color: var(--bg-site-2);
+}
+</style>

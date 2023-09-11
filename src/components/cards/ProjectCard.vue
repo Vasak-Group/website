@@ -15,29 +15,21 @@
     </div>
 </template>
 
-<script>
-import { RouterLink } from 'vue-router';
+<script setup lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
-    props: {
-        image: {
-            type: String,
-            required: true
-        },
-        name: {
-            type: String,
-            required: true
-        },
-        type: {
-            type: String,
-            required: true
-        },
-        id: {
-            type: Number,
-            required: true
-        }
-    }
+defineProps<
+{
+    id: string
+    name: string
+    type: string
+    image: string
 }
+>()
+
+defineComponent({
+    name: 'ProjectComponent'
+})
 </script>
 
 <style scoped>
