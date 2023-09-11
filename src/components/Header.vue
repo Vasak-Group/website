@@ -37,7 +37,7 @@ export default {
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto me-auto">
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" @click="scrollTo('hero');" to="/#">
+                                    <RouterLink class="nav-link scrollto" to="/">
                                         Home
                                     </RouterLink>
                                 </li>
@@ -47,7 +47,7 @@ export default {
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" @click="scrollTo('service');" to="/#">
+                                    <RouterLink class="nav-link scrollto" to="/service">
                                         Services
                                     </RouterLink>
                                 </li>
