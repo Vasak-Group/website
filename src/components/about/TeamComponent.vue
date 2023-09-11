@@ -35,8 +35,8 @@ import { createScrollRevealDirective } from 'vue-scroll-reveal';
 import { onMounted } from "vue"
 
 const vScrollReveal = createScrollRevealDirective({
-    delay: 1000,
-    duration: 150,
+    delay: 100,
+    duration: 1500,
 });
 
 onMounted(() => {

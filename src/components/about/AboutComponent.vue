@@ -67,8 +67,8 @@ import projects from '../../data/projects.json';
 import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
 
 const vScrollReveal = createScrollRevealDirective({
-    delay: 1000,
-    duration: 150,
+    delay: 100,
+    duration: 1500,
 });
 
 function yearsOfExperience() {
