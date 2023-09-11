@@ -1,5 +1,5 @@
 <template>
-    <BreadcrumbsProjects title="Contacto" />
+    <BreadcrumbsComponent title="Contacto" />
     <section class="contact-section pt-130">
         <div class="container">
             <div class="row">
@@ -111,7 +111,7 @@
 </template>
 
 <script setup lang="ts">
-import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
+import BreadcrumbsComponent from '../components/global/BreadcrumbsComponent.vue';
 import { defineComponent, onMounted } from 'vue';
 
 onMounted(() => {
@@ -122,7 +122,7 @@ onMounted(() => {
 defineComponent({
   name: 'ContactView',
   components: {
-    BreadcrumbsProjects,
+    BreadcrumbsComponent,
   },
 });
 </script>

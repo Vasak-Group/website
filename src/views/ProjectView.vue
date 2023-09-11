@@ -1,5 +1,5 @@
 <template>
-  <BreadcrumbsProjects :title="project?.name" />
+  <BreadcrumbsComponent :title="project?.name" />
   <section class="portfolio-section pt-130">
     <div class="container">
       <div class="row">
@@ -24,12 +24,12 @@
 </template>
 
 <script setup lang="ts">
-import BreadcrumbsProjects from '../components/project/BreadcrumbsProjects.vue';
 import projects from '../data/projects.json';
 import InfoProject from '../components/project/InfoProject.vue';
 import { defineComponent, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import Project from '../types/Project';
+import BreadcrumbsComponent from '../components/global/BreadcrumbsComponent.vue';
 
 const route = useRoute();
 const project: Project = projects.find(project => project.id === parseInt(route.params.id[0])) || {} as Project;
@@ -42,7 +42,7 @@ onMounted(() => {
 defineComponent({
   name: 'ProjectView',
   components: {
-    BreadcrumbsProjects,
+    BreadcrumbsComponent,
     InfoProject
   }
 })

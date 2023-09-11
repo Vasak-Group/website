@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue';
 import AboutComponent from '../components/about/AboutComponent.vue';
 import TeamComponent from '../components/about/TeamComponent.vue';
+import BreadcrumbsComponent from '../components/global/BreadcrumbsComponent.vue';
 import TestimonialsComponent from '../components/global/TestimonialsComponent.vue';
 
 export default defineComponent({
@@ -9,6 +10,7 @@ export default defineComponent({
   components: {
     AboutComponent,
     TeamComponent,
+    BreadcrumbsComponent,
     TestimonialsComponent
   },
 });
@@ -17,6 +19,7 @@ export default defineComponent({
 
 <template>
   <div class="main">
+    <BreadcrumbsComponent title="Sobre Nosotros" />
     <AboutComponent />
     <TeamComponent />
     <TestimonialsComponent />

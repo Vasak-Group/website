@@ -82,4 +82,8 @@ const clientsNumber = clients.length
 const projectsNumber= projects.length
 </script>
 
-<style></style>
+<style scoped>
+#about, .about-section {
+    background-color: #eff2f9 !important;
+}
+</style>
