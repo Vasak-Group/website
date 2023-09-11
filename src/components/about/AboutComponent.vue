@@ -9,7 +9,7 @@
                                 <img alt="" src="/img/services/consultas.svg" style="max-width: 100%;" loading="lazy" />
                                 <div class="about-experience">
                                     <h3>{{ yearsOfExperience() }} Años de Experiencia</h3>
-                                    <p>Ya con {{ yearsOfExperience() }} años trabajando entre juntos para cumplir tus
+                                    <p>Ya con {{ yearsOfExperience() }} años trabajando juntos para cumplir tus
                                         sueños.</p>
                                 </div>
                             </div>
