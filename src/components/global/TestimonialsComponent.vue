@@ -50,17 +50,10 @@
 
 <script setup lang="ts">
 import testimonials from '../../data/testimonials.json';
-
-import { tns } from 'tiny-slider';
-import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
+import { tns } from 'tiny-slider'; 
+import { onMounted } from 'vue';
 
 import TestimonialCard from '../cards/TestimonialCard.vue';
-
-const vScrollReveal = createScrollRevealDirective({
-    delay: 100,
-    duration: 1500,
-});
-import { onMounted } from 'vue';
 
 onMounted(() => {
     tns({

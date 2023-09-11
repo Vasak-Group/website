@@ -18,7 +18,7 @@ export default defineComponent({
 <template>
   <div class="main">
     <AboutComponent />
-    <TestimonialsComponent />
     <TeamComponent />
+    <TestimonialsComponent />
   </div>
 </template>

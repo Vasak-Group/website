@@ -1,8 +1,14 @@
 [
   {
-    "name": "John",
-    "position": "Developer",
-    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
-    "image": ""
+    "name": "Sergio",
+    "position": "CEO",
+    "comment": "Llevamos mas de 1 año trabajando juntos y estamos muy contentos con el servicio que nos prestan. Son muy profesionales y siempre están dispuestos a ayudar.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Generic-person.svg/1024px-Generic-person.svg.png"
+  },{
+    "name": "Sonia",
+    "position": "Formadora de Ingles",
+    "comment": "Crearon el sitio de mis sueños. Estoy muy contenta con el resultado y con el servicio que me han prestado.",
+    "image": "https://diverenglish.com/wp-content/uploads/2023/06/diverenglish-lider.webp"
   }
+
 ]
