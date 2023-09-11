@@ -28,7 +28,7 @@ defineProps<
 >()
 
 defineComponent({
-    name: 'ProjectComponent'
+    name: 'ProjectCard',
 })
 </script>
 

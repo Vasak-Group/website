@@ -37,7 +37,13 @@
             </div>-->
             <div class="row grid" style="position: relative; height: 777.75px;">
 
-                <ProjectComponent v-for="project in viewProjects()" :key="project.id" v-bind="project" />
+                <ProjectCard 
+                    v-for="project in viewProjects()"
+                    :key="project.id"
+                    :id="project.id"
+                    :name="project.name"
+                    :image="project.image"
+                    :type="project.type" />
 
             </div>
         </div>
@@ -46,19 +52,19 @@
 
 <script setup lang="ts">
 import projects from '../../data/projects.json';
-import ProjectComponent from '../cards/ProjectCard.vue';
+import ProjectCard from '../cards/ProjectCard.vue';
 import { defineComponent } from 'vue';
 
 
 function viewProjects(){
     const showers = projects.filter(project => project.show);
     const shuffled = showers.sort(function () { return .5 - Math.random() });
-    return shuffled.slice(0, 9);
+    return shuffled.slice(0, 6);
 }
 
 defineComponent({
     name: 'PortfolioComponent',
-    components: { ProjectComponent }
+    components: { ProjectCard }
 })
 </script>
 
