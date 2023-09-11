@@ -5,7 +5,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s"
                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                        <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo"></a>
+                        <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></a>
                         <p class="mb-30 footer-desc">
                             Vasak Group es una empresa que busca contribuir con el crecimiento tecnologico y economico de
                             otras empresas PYMES y emprendimientos.

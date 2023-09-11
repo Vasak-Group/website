@@ -25,7 +25,7 @@ export default {
             <div class="row">
 
                 <div class="col-md-3 text-center" v-for="tech in techs" :key="tech.name">
-                    <img :src="tech.img" :alt="tech.name" class="img-fluid tech-img" />
+                    <img :src="tech.img" :alt="tech.name" class="img-fluid tech-img" loading="lazy" />
                 </div>
 
             </div>

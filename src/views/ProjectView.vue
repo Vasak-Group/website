@@ -8,7 +8,7 @@
           <div class="left-side-wrapper">
             <div class="single-portfolio mb-60">
               <div class="single-portfolio-img mb-30">
-                <img :src="project?.image" :alt="project?.name" :title="project?.name">
+                <img :src="project?.image" :alt="project?.name" :title="project?.name" loading="lazy">
               </div>
             </div>
           </div>

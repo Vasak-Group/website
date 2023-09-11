@@ -26,8 +26,7 @@
                 <div class="col-xl-7 col-lg-6">
                     <div class="hero-img">
                         <div class="d-inline-block hero-img-right">
-                            <img class="image wow fadeInRight" data-wow-delay=".5s" src="/img/head.svg"
-                                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                            <img class="image" src="/img/head.svg" loading="lazy">
                         </div>
                     </div>
                 </div>

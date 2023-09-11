@@ -2,7 +2,7 @@
     <div class="col-lg-4 col-md-6 grid-item branding" :class="type">
         <div class="portfolio-item-wrapper">
             <div class="portfolio-img">
-                <img :src="image" :alt="name" :title="name" />
+                <img :src="image" :alt="name" :title="name" loading="lazy" />
             </div>
             <div class="portfolio-overlay">
                 <div class="overlay-content">

@@ -2,7 +2,7 @@
     <div class="col-3 t-card">
         <div class="single-team text-center mb-40">
             <div class="team-img ratio ratio-1x1">
-                <img :alt="name" :title="name" :src="image">
+                <img :alt="name" :title="name" :src="image" loading="lazy">
                 <div class="team-social">
                     <ul>
                         <li v-for="red in social" :key="red.id">
