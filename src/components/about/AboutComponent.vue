@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img-wrapper">
-                            <div class="about-img position-relative d-inline-block" v-scroll-reveal.reset>
+                            <div class="about-img position-relative d-inline-block">
                                 <img alt="" src="/img/services/consultas.svg" style="max-width: 100%;" loading="lazy" />
                                 <div class="about-experience">
                                     <h3>{{ yearsOfExperience() }} Años de Experiencia</h3>
