@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "Profesionales dispuestos",
-        "description": "Sea un nuevo producto, o modernizar uno existente, tenemos la capacidad y experiencia para trabajar en conjunto en la búsqueda de la mejor solución.",
+        "title": "Expertos de confianza",
+        "description": "Ya sea un producto nuevo o una actualización, contamos con la experiencia y la pasión para encontrar la mejor solución para tu proyecto. ¡Trabajemos juntos para lograr el éxito!",
         "icon": "fa fa-users",
         "delay": "100"
     },
     {
         "id": 2,
         "title": "Valor agregado",
-        "description": "Entender y compartir la visión global de su producto, nos permite brindar nuestro expertise para maximizar el tiempo y resultado deseado.",
+        "description": "Confía en nosotros para transformar tus conceptos en realidades digitales. Tu éxito es nuestro objetivo, y estamos listos para ayudarte a alcanzarlo. ¡Hablemos sobre tu próximo proyecto y comencemos a crear juntos!",
         "icon": "fa fa-star",
         "delay": "250"
     },
     {
         "id": 3,
         "title": "Vinculo a largo plazo",
-        "description": "Una vez finalizado el producto, si lo requiere, puede seguir contando con nuestro apoyo en la búsqueda de la superación y excelencia.",
+        "description": "Ofrecemos un servicio de mantenimiento y mejora de primer nivel para elevar tu proyecto. No somos espectadores pasivos; trabajamos activamente para perfeccionar tu producto. Confía en nosotros para llevar tu visión al siguiente nivel.",
         "icon": "fa fa-handshake-o",
         "delay": "400"
     }
