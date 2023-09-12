@@ -4,14 +4,10 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
                     <div class="section-title text-center mb-55">
-                        <span>
-                            Caracteristicas
-                        </span>
-                        <h2>
-                            ¿En que nos diferenciamos?
-                        </h2>
+                        <span>Caracteristicas</span>
+                        <h2>¿En que nos diferenciamos?</h2>
                         <p>
-                            Pensamos en vos, por eso te ofrecemos las mejores soluciones para que tu proyecto sea un éxito.
+                            Nos diferenciamos por nuestra pasión por desafíos técnicos y soluciones personalizadas. Nuestro equipo calificado trabaja estrechamente contigo para impulsar tus objetivos comerciales.
                         </p>
                     </div>
                 </div>
