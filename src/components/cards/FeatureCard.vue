@@ -12,27 +12,19 @@
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        icon: {
-            type: String,
-            required: true
-        },
-        title: {
-            type: String,
-            required: true
-        },
-        description: {
-            type: String,
-            required: true
-        },
-        delay: {
-            type: Number,
-            default: 100
-        }
-    }
-}
+<script setup lang="ts">
+import { defineComponent } from 'vue'
+
+defineProps<{
+    icon: string
+    title: string
+    description: string
+    delay: number
+}>()
+
+defineComponent({
+    name: 'FeatureCard',
+})
 </script>
 
 <style></style>

@@ -1,5 +1,5 @@
 <template>
-    <section id="feature" class="feature-section pt-130">
+    <section id="feature" class="feature-section pt-130 pb-130">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
@@ -17,24 +17,28 @@
                 </div>
             </div>
             <div class="row">
-                <FeatureComponent v-for="featured in featureds" :key="featured.id" v-bind="featured" />
+                <FeatureCard v-for="featured in featureds" :key="featured.id" v-bind="featured" />
             </div>
         </div>
     </section>
 </template>
 
-<script>
+<script setup lang="ts">
+import { defineComponent } from 'vue';
 import featureds from '../../data/features.json';
-import FeatureComponent from './components/FeatureComponent.vue';
+import FeatureCard from '../cards/FeatureCard.vue';
 
-export default {
-    data() {
+defineComponent({
+    name: 'FeatureComponent',
+    components: {
+        FeatureCard,
+    },
+    setup() {
         return {
-            featureds: featureds
+            featureds,
         };
     },
-    components: { FeatureComponent }
-}
+});
 </script>
 
 <style></style>

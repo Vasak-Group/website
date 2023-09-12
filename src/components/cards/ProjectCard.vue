@@ -1,5 +1,5 @@
 <template>
-    <div class="col-lg-4 col-md-6 grid-item branding" :class="type">
+    <div class="col-6 col-lg-4 grid-item branding" :class="type">
         <div class="portfolio-item-wrapper">
             <div class="portfolio-img">
                 <img :src="image" :alt="name" :title="name" loading="lazy" />
