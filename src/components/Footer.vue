@@ -85,17 +85,25 @@
     <a href="#" class="scroll-top">
         <i class="fa fa-arrow-up"></i>
     </a>
+    <ToggleTheme />
 </template>
 
-<script>
+<script setup lang="ts">
+import { defineComponent  } from 'vue';
 import social from '../data/social.json';
-export default {
-    data() {
+import ToggleTheme from './global/ToggleTheme.vue';
+
+defineComponent ({
+    name: 'Footer',
+    setup() {
         return {
-            social: social
-        }
-    }
-}
+            social,
+        };
+    },
+    components: {
+        ToggleTheme,
+    },
+})
 </script>
 
 <style scoped>

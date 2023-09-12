@@ -35,7 +35,7 @@ export default {
                         </button>
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                            <ul id="nav" class="navbar-nav ms-auto me-auto">
+                            <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
                                     <RouterLink class="nav-link scrollto" to="/">
                                         Home
@@ -56,7 +56,6 @@ export default {
                                 </li>
                             </ul>
                         </div>
-                        <ToggleTheme />
                     </nav>
                 </div>
             </div>
