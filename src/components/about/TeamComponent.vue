@@ -1,9 +1,9 @@
 <template>
-    <section id="team" class="team-section img-bg pt-130">
+    <section id="team" class="team-section img-bg pt-130 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-7 mx-auto">
-                    <div class="section-title text-center mb-60">
+                    <div class="section-title mb-60">
                         <span v-scroll-reveal.reset>
                             Equipo
                         </span>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row teams-slider" v-scroll-reveal.reset>
+            <div id="teams-slider" v-scroll-reveal.reset>
 
                 <TeamCard v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
 
@@ -41,17 +41,18 @@ const vScrollReveal = createScrollRevealDirective({
 
 onMounted(() => {
     tns({
-        container: '.teams-slider',
+        container: '#teams-slider',
         items: 4,
+        autoWidth: true,
+        slideBy: 1,
+        center: true,
         speed: 400,
+        gutter: 2,
         mouseDrag: true,
         controls: false,
         nav: false,
-        swipeAngle: false,
         autoplay: true,
         autoplayButtonOutput: false,
-        autoplayTimeout: 3000,
-        autoWidth: true,
     });
 })
 

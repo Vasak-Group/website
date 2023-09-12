@@ -1,5 +1,6 @@
+import component from '../../../../chirola/src/shims-vue';
 <template>
-    <div class="col-3 t-card">
+    <div>
         <div class="single-team text-center mb-40">
             <div class="team-img ratio ratio-1x1">
                 <img :alt="name" :title="name" :src="image" loading="lazy">
@@ -41,9 +42,3 @@ export default {
     },
 }
 </script>
-
-<style>
-.t-card {
-    max-width: 340px;
-}
-</style>
