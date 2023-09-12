@@ -16,7 +16,7 @@ onMounted(() => {
         autoplayButtonOutput: false,
         responsive: {
             0: {
-                items: 2,
+                items: 1,
             },
             768: {
                 items: 4,
@@ -37,7 +37,7 @@ defineComponent({
 
 <template>
     <section id="technology" class="teams">
-        <div class="container">
+        <div class="container text-center">
             <div class="client-logo-wrapper">
 
                 <div class="tns-outer" id="tns1-ow">
