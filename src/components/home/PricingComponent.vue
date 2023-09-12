@@ -8,7 +8,7 @@
                             Planes
                         </span>
                         <h2>
-                            Compare nuestros Planes
+                            Elegi tu plan
                         </h2>
                         <p>
                             Cada uno de nuestros planes se puede modificar todo lo necesario para sastifacer sus

@@ -1,5 +1,5 @@
 <template>
-    <div class="nav-item" id="dark-mode-toggle">
+    <div class="nav-item" id="dark-mode-toggle" :ckick="toggleTheme()">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
             y="0px" viewBox="0 0 499.712 499.712" class="icon icon-tabler icon-tabler-toggle-left" xml:space="preserve">
             <path style="fill:#FFD93B;" d="M146.88,375.528c126.272,0,228.624-102.368,228.624-228.64c0-55.952-20.16-107.136-53.52-146.88
@@ -59,8 +59,59 @@
     </div>
 </template>
 
-<script>
-export default {
+<script setup lang="ts">
+import { defineComponent, onMounted } from 'vue';
 
+const localStorageKey = 'StackColorScheme';
+let body;
+let currentScheme;
+
+onMounted(()=>{
+    body = document.querySelector('body');
+    currentScheme = getSavedScheme();
+    if (body?.style.transition == ''){
+        body?.style.setProperty(
+            'transition',
+            'background-color .3s ease'
+        );
+    }
+    setBodyClass();
+})
+
+function getSavedScheme() {
+    return localStorage.getItem(localStorageKey) || 'light';
 }
+
+function setBodyClass() {
+    if (currentScheme == 'dark') {
+        document.documentElement.dataset.scheme = 'dark';
+    } else {
+        document.documentElement.dataset.scheme = 'light';
+    }
+}
+
+function toggleTheme() {
+    if (currentScheme == 'dark') {
+        this.currentScheme = 'light';
+    } else {
+        this.currentScheme = 'dark';
+    }
+    setBodyClass();
+    localStorage.setItem(localStorageKey, currentScheme);
+}
+
+defineComponent({
+    name: 'ToggleTheme',
+});
 </script>
+
+<style scoped lang="scss">
+#dark-mode-toggle{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 90px;
+    right: 80px;
+    z-index: 100;
+}
+</style>

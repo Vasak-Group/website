@@ -6,7 +6,7 @@
                 <div class="col-xl-6 col-lg-10 mx-auto">
                     <div class="section-title mb-60">
                         <span v-scroll-reveal.reset>Testimonios</span>
-                        <h2 v-scroll-reveal.reset>Que es lo que nuestros <br> clientes comentan</h2>
+                        <h2 v-scroll-reveal.reset>Lo que nuestros clientes opinan</h2>
                     </div>
                 </div>
                 

@@ -2,25 +2,18 @@
     <section id="hero" class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-xl-5 col-lg-6 text-center">
                     <div class="hero-content-wrapper">
-                        <h2 class="mb-25 wow fadeInDown" data-wow-delay=".2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                        <h2 class="mb-25">
                             Bienvenidos a
                         </h2>
-                        <h1 class="mb-25 wow fadeInDown vsk-font" data-wow-delay=".2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                        <h1 class="pb-35 vsk-font">
                             Vasak Group
                         </h1>
-                        <p class="mb-35 wow fadeInLeft" data-wow-delay=".4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                            Desarrollamos software a medida como aplicaciones web y mobile siguiendo los
-                            estándares actuales de
-                            metodologías ágiles. También armamos equipos de staff augmentation para que tu proyecto sea
-                            productivo e
-                            innovador.
+                        <p class="mb-35">
+                            Nuestra empresa se especializa en el desarrollo de software personalizado, incluyendo aplicaciones web y móviles, utilizando las metodologías ágiles más actuales. Además, ofrecemos soluciones de staff augmentation para potenciar la productividad e innovación de tu proyecto.
                         </p>
-                        <a href="#about" class="theme-btn">Conocenos</a>
+                        <RouterLink to="/contact" class="theme-btn">Conocenos</RouterLink>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6">
@@ -35,10 +28,16 @@
     </section>
 </template>
 
-<script>
-export default {
+<script setup lang="ts">
+import { defineComponent } from 'vue';
+import { RouterLink } from 'vue-router';
 
-}
+defineComponent({
+    name: 'HeroHome',
+    components: {
+        RouterLink,
+    },
+});
 </script>
 
 <style></style>
