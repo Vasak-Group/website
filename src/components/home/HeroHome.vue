@@ -5,15 +5,13 @@
                 <div class="col-xl-5 col-lg-6 text-center">
                     <div class="hero-content-wrapper">
                         <h2 class="mb-25">
-                            Bienvenidos a
+                            {{ $t('home.welcome') }}
                         </h2>
                         <h1 class="pb-35 vsk-font">
                             Vasak Group
                         </h1>
-                        <p class="mb-35">
-                            Nuestra empresa se especializa en el desarrollo de software personalizado, incluyendo aplicaciones web y móviles, utilizando las metodologías ágiles más actuales. Además, ofrecemos soluciones de staff augmentation para potenciar la productividad e innovación de tu proyecto.
-                        </p>
-                        <RouterLink to="/contact" class="theme-btn">Conocenos</RouterLink>
+                        <p class="mb-35">{{ $t('home.headerText') }}</p>
+                        <RouterLink to="/contact" class="theme-btn">{{ $t('home.knowUs') }}</RouterLink>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6">

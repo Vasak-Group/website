@@ -1,6 +1,5 @@
 <script>
 import { RouterLink } from 'vue-router';
-import ToggleTheme from './global/ToggleTheme.vue';
 
 export default {
     name: 'Header',
@@ -12,8 +11,7 @@ export default {
         }
     },
     components: {
-        RouterLink,
-        ToggleTheme
+        RouterLink
     }
 }
 </script>
@@ -38,21 +36,23 @@ export default {
                             <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
                                     <RouterLink class="nav-link scrollto" to="/">
-                                        Home
+                                        {{ $t('navbar.home') }}
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
                                     <RouterLink class="nav-link scrollto" to="/about">
-                                        About
+                                        {{ $t('navbar.about') }}
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
                                     <RouterLink class="nav-link scrollto" to="/service">
-                                        Services
+                                        {{ $t('navbar.services') }}
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/contact">Contact</RouterLink>
+                                    <RouterLink class="nav-link scrollto" to="/contact">
+                                        {{ $t('navbar.contact') }}
+                                    </RouterLink>
                                 </li>
                             </ul>
                         </div>

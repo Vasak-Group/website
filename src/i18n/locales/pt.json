@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "home":{
+    "title": "Início",
+    "welcome": "Bem vindo ao",
+    "knowUs": "Conheça-nos",
+    "headerText": "Nossa empresa é especializada no desenvolvimento de software customizado, incluindo aplicações web e mobile, utilizando as mais atuais metodologias ágeis. Além disso, oferecemos soluções de aumento de equipe para aumentar a produtividade e a inovação do seu projeto."
+  }
+}

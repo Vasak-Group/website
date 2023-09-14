@@ -3,8 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-md-6">
-                    <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                    <div class="footer-widget mb-60">
                         <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></a>
                         <p class="mb-30 footer-desc">
                             Vasak Group es una empresa que busca contribuir con el crecimiento tecnologico y economico de
@@ -13,8 +12,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s"
-                        style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                    <div class="footer-widget mb-60">
                         <h4>Free Service</h4>
                         <ul class="footer-links">
                             <li>
@@ -27,8 +25,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s"
-                        style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">
+                    <div class="footer-widget mb-60">
                         <h4>Contact</h4>
                         <ul class="footer-contact">
                             <li>
@@ -73,10 +70,10 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <p class="wow fadeInUp" data-wow-delay=".3s"
-                            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <p>
                             Todos los dertechos reservados <a href="/" class="vsk-font" rel="nofollow">Vasak group</a>
                         </p>
+                        <LangSelector />
                     </div>
                 </div>
             </div>
@@ -92,6 +89,7 @@
 import { defineComponent  } from 'vue';
 import social from '../data/social.json';
 import ToggleTheme from './global/ToggleTheme.vue';
+import LangSelector from './global/LangSelector.vue';
 
 defineComponent ({
     name: 'Footer',
@@ -102,6 +100,7 @@ defineComponent ({
     },
     components: {
         ToggleTheme,
+        LangSelector
     },
 })
 </script>

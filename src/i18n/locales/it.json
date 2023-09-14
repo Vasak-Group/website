@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Inizio",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "contact": "Contatto"
+  },
+  "home":{
+    "title": "Inizio",
+    "welcome": "Benvenuto a",
+    "knowUs": "Conosci",
+    "headerText": "La nostra azienda è specializzata nello sviluppo di software personalizzato, comprese applicazioni web e mobili, utilizzando le più attuali metodologie agili. Inoltre, offriamo soluzioni di aumento del personale per migliorare la produttività e l'innovazione del tuo progetto."
+  }
+}

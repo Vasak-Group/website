@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome To",
+    "knowUs": "Know Us",
+    "headerText": "Our company specializes in the development of custom software, including web and mobile applications, using the most current agile methodologies. In addition, we offer staff augmentation solutions to enhance the productivity and innovation of your project."
+  }
+}

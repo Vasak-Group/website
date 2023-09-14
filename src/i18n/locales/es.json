@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "home":{
+    "title": "Inicio",
+    "welcome": "Bienvenido a",
+    "knowUs": "Conócenos",
+    "headerText": "Nuestra empresa se especializa en el desarrollo de software personalizado, incluyendo aplicaciones web y móviles, utilizando las metodologías ágiles más actuales. Además, ofrecemos soluciones de staff augmentation para potenciar la productividad e innovación de tu proyecto."
+  }
+}
