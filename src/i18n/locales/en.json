@@ -46,5 +46,13 @@
       },
       "button": "Contact us"
     }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "question": "What do our clients think?",
+    "opinions": {
+      "opinion1": "“Excellent work! Highly recommended! Very professional and fast! Thank you!”",
+      "opinion2": "“More than 1 year working together and we are very happy with the service they provide us. They are very professional and always willing to help.”"
+    }
   }
 }

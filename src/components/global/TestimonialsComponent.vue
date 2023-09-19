@@ -5,25 +5,14 @@
 
                 <div class="col-xl-6 col-lg-10 mx-auto">
                     <div class="section-title mb-60">
-                        <span v-scroll-reveal.reset>Testimonios</span>
-                        <h2 v-scroll-reveal.reset>Lo que nuestros clientes opinan</h2>
+                        <span v-scroll-reveal.reset>{{ $t('testimonials.title') }}</span>
+                        <h2 v-scroll-reveal.reset>{{ $t('testimonials.question') }}</h2>
                     </div>
                 </div>
                 
                 <div class="col-xl-6 col-lg-10 mx-auto">
                         <div class="testimonial-wrapper">
                             <div class="tns-outer" id="tns2-ow">
-                                <div class="tns-controls" aria-label="Carousel Navigation" tabindex="0">
-                                    <button type="button" data-controls="prev" tabindex="-1" aria-controls="tns2">
-                                        <i class="fa fa-arrow-left"></i>
-                                    </button>
-                                    <button type="button" data-controls="next" tabindex="-1" aria-controls="tns2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                                <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">
-                                    slide <span class="current">3</span>  of 2
-                                </div>
                                 <div id="tns2-mw" class="tns-ovh">
                                     <div class="tns-inner" id="tns2-iw">
                                         <div class="testimonial-active tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns2" style="transform: translate3d(-33.3333%, 0px, 0px);">

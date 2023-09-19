@@ -5,7 +5,7 @@
               <img :src="image" :alt="name" loading="lazy"/>
           </div>
           <div class="testimonial-content mb-35">
-              <p class="pb-30">{{ comment }}</p>
+              <p class="pb-30">{{ $t(comment) }}</p>
               <div class="testimonial-info">
                   <div class="testimonial-meta">
                       <h5>{{ name }}</h5>

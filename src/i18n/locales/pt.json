@@ -5,7 +5,7 @@
     "services": "Serviços",
     "contact": "Contato"
   },
-  "home":{
+  "home": {
     "title": "Início",
     "welcome": "Bem vindo ao",
     "knowUs": "Conheça-nos",
@@ -45,6 +45,14 @@
         "maps": "Integração com Google Maps"
       },
       "button": "Contate-nos"
+    }
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "question": "O que nossos clientes pensam?",
+    "opinions": {
+      "opinion1": "“Excelente trabalho! Muito recomendável! Muito profissional e rápido! Obrigado!”",
+      "opinion2": "“Mais de 1 ano trabalhando juntos e estamos muito felizes com o serviço que nos prestam. Eles são muito profissionais e estão sempre dispostos a ajudar.”"
     }
   }
 }

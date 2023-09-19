@@ -46,5 +46,13 @@
       },
       "button": "Contattaci"
     }
+  },
+  "testimonials": {
+    "title": "Testimonianze",
+    "question": "Cosa pensano i nostri clienti?",
+    "opinions": {
+      "opinion1": "“Lavoro eccellente! Altamente raccomandato! Molto professionale e veloce! Grazie!”",
+      "opinion2": "“È più di un anno che lavoriamo insieme e siamo molto soddisfatti del servizio che ci forniscono. Sono molto professionali e sempre pronti ad aiutare.”"
+    }
   }
 }
