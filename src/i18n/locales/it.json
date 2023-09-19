@@ -5,7 +5,7 @@
     "services": "Servizi",
     "contact": "Contatto"
   },
-  "home":{
+  "home": {
     "title": "Inizio",
     "welcome": "Benvenuto a",
     "knowUs": "Conosci",
@@ -14,7 +14,7 @@
       "feature": "Caratteristiche",
       "question": "Perché scegliere noi?",
       "answer": "Il nostro team altamente qualificato lavora a stretto contatto con te per raggiungere i tuoi obiettivi aziendali. Ci concentriamo sulla qualità e sulla soddisfazione del cliente e ci impegniamo a fornire un servizio eccezionale.",
-      "cards":{
+      "cards": {
         "1title": "Esperti fidati",
         "1text": "Che si tratti di un nuovo prodotto o di un aggiornamento, abbiamo l'esperienza e la passione per trovare la soluzione migliore per il tuo progetto. Lavoriamo insieme per raggiungere il successo!",
         "2title": "Valore aggiunto",
@@ -22,6 +22,29 @@
         "3title": "Legame a lungo termine",
         "3text": "Offriamo un servizio di manutenzione e miglioramento di alto livello per elevare il tuo progetto. Non siamo spettatori passivi; Lavoriamo attivamente per perfezionare il tuo prodotto. Affidati a noi per portare la tua visione al livello successivo."
       }
+    },
+    "plans": {
+      "title": "Piani",
+      "question": "Cosa offriamo per il tuo sito web?",
+      "answer": "I nostri piani di sviluppo software personalizzati sono progettati per soddisfare le tue esigenze. Che tu stia cercando un nuovo prodotto o un aggiornamento, siamo qui per aiutarti!",
+      "cards": {
+        "landing": "Landing Page",
+        "profesional": "Sito Web professionale",
+        "ecommerce": "E-Commerce",
+        "responsive": "Progettazione reattiva",
+        "seo": "Ottimizzazione del motore di ricerca",
+        "social": "Integrazione con i social network",
+        "ssl": "Certificato SSL",
+        "google": "Integrazione con Google Analytics e Search Console",
+        "hosting": "Hosting web premium",
+        "manageable": "Pannello di amministrazione",
+        "custom": "Progettazione personalizzata",
+        "mail": "Account email",
+        "contact": "Modulo di Contatto",
+        "pay": "Casello stradale",
+        "maps": "Integrazione con Google Maps"
+      },
+      "button": "Contattaci"
     }
   }
 }

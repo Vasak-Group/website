@@ -22,6 +22,29 @@
         "3title": "Título de longo prazo",
         "3text": "Oferecemos um serviço de manutenção e melhoria de alto nível para elevar seu projeto. Não somos espectadores passivos; Trabalhamos ativamente para aperfeiçoar seu produto. Confie em nós para levar sua visão para o próximo nível."
       }
+    },
+    "plans": {
+      "title": "Planos",
+      "question": "O que oferecemos para o seu site?",
+      "answer": "Nossos planos de desenvolvimento de software personalizados são projetados para atender às suas necessidades. Esteja você procurando um novo produto ou uma atualização, estamos aqui para ajudar!",
+      "cards": {
+        "landing": "Landing Page",
+        "profesional": "Site Profissional",
+        "ecommerce": "E-Commerce",
+        "responsive": "Design Responsivo",
+        "seo": "Motor de Otimização de Busca",
+        "social": "Integração com redes sociais",
+        "ssl": "Certificado SSL",
+        "google": "Integração com Google Analytics e Search Console",
+        "hosting": "Hospedagem premium",
+        "manageable": "Painel de administração",
+        "custom": "Design personalizado",
+        "mail": "Contas de e-mail",
+        "contact": "Formulário de contato",
+        "pay": "Gateway de pagamento",
+        "maps": "Integração com Google Maps"
+      },
+      "button": "Contate-nos"
     }
   }
 }

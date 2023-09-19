@@ -22,6 +22,29 @@
         "3title": "Vínculo a largo plazo",
         "3text": "Ofrecemos un servicio de mantenimiento y mejora de primer nivel para elevar tu proyecto. No somos espectadores pasivos; trabajamos activamente para perfeccionar tu producto. Confía en nosotros para llevar tu visión al siguiente nivel."
       }
+    },
+    "plans":{
+      "title": "Planes",
+      "question": "¿Qué ofrecemos para tu web?",
+      "answer": "Nuestros planes de desarrollo de software personalizado están diseñados para satisfacer tus necesidades. Ya sea que estés buscando un producto nuevo o una actualización, ¡estamos aquí para ayudarte!",
+      "cards":{
+        "landing": "Landing Page",
+        "profesional": "Web Profesional",
+        "ecommerce": "E-Commerce",
+        "responsive": "Diseño adaptable",
+        "seo": "Optimización para motores de búsqueda",
+        "social": "Integración con redes sociales",
+        "ssl": "Certificado SSL",
+        "google": "Integración con Google Analytics y Search Console",
+        "hosting": "Alojamiento web premium",
+        "manageable": "Panel de administración",
+        "custom": "Diseño personalizado",
+        "mail": "Cuentas de correo electrónico",
+        "contact": "Formulario de contacto",
+        "pay": "Pasarela de pago",
+        "maps": "Integración con Google Maps"
+      },
+      "button": "Contáctanos"
     }
   }
 }

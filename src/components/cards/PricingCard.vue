@@ -1,14 +1,14 @@
 <template>
     <div class="col-xl-4 col-lg-4 col-md-6">
         <div class="single-pricing mb-50" :class="class">
-            <h4>{{ nombre }}</h4>
+            <h4>{{ $t(nombre) }}</h4>
             <h3><em :class="icon"></em></h3>
             <ul>
                 <li v-for="caracteristica in caracteristicas" :key="caracteristica.id" :class="caracteristica.class">
-                    {{ caracteristica.desc }}
+                    {{ $t(caracteristica.desc) }}
                 </li>
             </ul>
-            <a :href="url" class="theme-btn border-btn">Consultanos</a>
+            <a :href="url" class="theme-btn border-btn">{{ $t('home.plans.button') }}</a>
         </div>
     </div>
 </template>

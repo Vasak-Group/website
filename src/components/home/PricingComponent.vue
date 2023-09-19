@@ -4,16 +4,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 col-md-10 mx-auto">
                     <div class="section-title text-center mb-60">
-                        <span>
-                            Planes
-                        </span>
-                        <h2>
-                            Elegi tu plan
-                        </h2>
-                        <p>
-                            Cada uno de nuestros planes se puede modificar todo lo necesario para sastifacer sus
-                            necesidades
-                        </p>
+                        <span>{{ $t('home.plans.title') }}</span>
+                        <h2>{{ $t('home.plans.question') }}</h2>
+                        <p>{{ $t('home.plans.answer') }}</p>
                     </div>
                 </div>
             </div>

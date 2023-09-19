@@ -14,7 +14,7 @@
       "feature": "Features",
       "question": "Why choose us?",
       "answer": "Our highly qualified team works closely with you to drive your business goals. We focus on quality and customer satisfaction, and strive to provide exceptional service.",
-      "cards":{
+      "cards": {
         "1title": "Trusted experts",
         "1text": "Whether it's a new product or an update, we have the experience and passion to find the best solution for your project. Let's work together to achieve success!",
         "2title": "Value added",
@@ -22,6 +22,29 @@
         "3title": "Long term bond",
         "3text": "We offer a top-level maintenance and improvement service to elevate your project. We are not passive spectators; We actively work to perfect your product. Trust us to take your vision to the next level."
       }
+    },
+    "plans": {
+      "title": "Plans",
+      "question": "What do we offer for your website?",
+      "answer": "Our custom software development plans are designed to meet your needs. Whether you're looking for a new product or an upgrade, we're here to help!",
+      "cards": {
+        "landing": "Landing Page",
+        "profesional": "Professional Website",
+        "ecommerce": "E-Commerce",
+        "responsive": "Responsive Design",
+        "seo": "Search Engine Optimization",
+        "social": "Integration with social networks",
+        "ssl": "SSL Certificate",
+        "google": "Integration with Google Analytics and Search Console",
+        "hosting": "Premium web hosting",
+        "manageable": "Administration panel",
+        "custom": "Personalized design",
+        "mail": "E-mail accounts",
+        "contact": "Contact Form",
+        "pay": "Payment gateway",
+        "maps": "Integration with Google Maps"
+      },
+      "button": "Contact us"
     }
   }
 }
