@@ -4,11 +4,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
                     <div class="section-title text-center mb-55">
-                        <span>Características</span>
-                        <h2>¿En qué nos diferenciamos?</h2>
-                        <p>
-                            Nuestro equipo altamente calificado trabaja estrechamente contigo para impulsar tus objetivos comerciales. Nos enfocamos en la calidad y la satisfacción del cliente, y nos esforzamos por brindar un servicio excepcional.
-                        </p>
+                        <span>{{ $t('home.features.feature') }}</span>
+                        <h2>{{ $t('home.features.question') }}</h2>
+                        <p>{{ $t('home.features.answer') }}</p>
                     </div>
                 </div>
             </div>

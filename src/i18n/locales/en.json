@@ -9,6 +9,19 @@
     "title": "Home",
     "welcome": "Welcome To",
     "knowUs": "Know Us",
-    "headerText": "Our company specializes in the development of custom software, including web and mobile applications, using the most current agile methodologies. In addition, we offer staff augmentation solutions to enhance the productivity and innovation of your project."
+    "headerText": "Our company specializes in the development of custom software, including web and mobile applications, using the most current agile methodologies. In addition, we offer staff augmentation solutions to enhance the productivity and innovation of your project.",
+    "features": {
+      "feature": "Features",
+      "question": "Why choose us?",
+      "answer": "Our highly qualified team works closely with you to drive your business goals. We focus on quality and customer satisfaction, and strive to provide exceptional service.",
+      "cards":{
+        "1title": "Trusted experts",
+        "1text": "Whether it's a new product or an update, we have the experience and passion to find the best solution for your project. Let's work together to achieve success!",
+        "2title": "Value added",
+        "2text": "Trust us to transform your concepts into digital realities. Your success is our goal, and we are ready to help you achieve it. Let's talk about your next project and start creating together!",
+        "3title": "Long term bond",
+        "3text": "We offer a top-level maintenance and improvement service to elevate your project. We are not passive spectators; We actively work to perfect your product. Trust us to take your vision to the next level."
+      }
+    }
   }
 }

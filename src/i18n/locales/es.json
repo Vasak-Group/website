@@ -9,6 +9,19 @@
     "title": "Inicio",
     "welcome": "Bienvenido a",
     "knowUs": "Conócenos",
-    "headerText": "Nuestra empresa se especializa en el desarrollo de software personalizado, incluyendo aplicaciones web y móviles, utilizando las metodologías ágiles más actuales. Además, ofrecemos soluciones de staff augmentation para potenciar la productividad e innovación de tu proyecto."
+    "headerText": "Nuestra empresa se especializa en el desarrollo de software personalizado, incluyendo aplicaciones web y móviles, utilizando las metodologías ágiles más actuales. Además, ofrecemos soluciones de staff augmentation para potenciar la productividad e innovación de tu proyecto.",
+    "features": {
+      "feature": "Características",
+      "question": "¿Por qué elegirnos?",
+      "answer": "Nuestro equipo altamente calificado trabaja estrechamente contigo para impulsar tus objetivos comerciales. Nos enfocamos en la calidad y la satisfacción del cliente, y nos esforzamos por brindar un servicio excepcional.",
+      "cards": {
+        "1title": "Expertos de confianza",
+        "1text": "Ya sea un producto nuevo o una actualización, contamos con la experiencia y la pasión para encontrar la mejor solución para tu proyecto. ¡Trabajemos juntos para lograr el éxito!",
+        "2title": "Valor agregado",
+        "2text": "Confía en nosotros para transformar tus conceptos en realidades digitales. Tu éxito es nuestro objetivo, y estamos listos para ayudarte a alcanzarlo. ¡Hablemos sobre tu próximo proyecto y comencemos a crear juntos!",
+        "3title": "Vínculo a largo plazo",
+        "3text": "Ofrecemos un servicio de mantenimiento y mejora de primer nivel para elevar tu proyecto. No somos espectadores pasivos; trabajamos activamente para perfeccionar tu producto. Confía en nosotros para llevar tu visión al siguiente nivel."
+      }
+    }
   }
 }

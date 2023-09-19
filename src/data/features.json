@@ -1,23 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Expertos de confianza",
-        "description": "Ya sea un producto nuevo o una actualización, contamos con la experiencia y la pasión para encontrar la mejor solución para tu proyecto. ¡Trabajemos juntos para lograr el éxito!",
-        "icon": "fa fa-users",
-        "delay": "100"
+        "title": "home.features.cards.1title",
+        "description": "home.features.cards.1text",
+        "icon": "fa fa-users"
     },
     {
-        "id": 2,
-        "title": "Valor agregado",
-        "description": "Confía en nosotros para transformar tus conceptos en realidades digitales. Tu éxito es nuestro objetivo, y estamos listos para ayudarte a alcanzarlo. ¡Hablemos sobre tu próximo proyecto y comencemos a crear juntos!",
-        "icon": "fa fa-star",
-        "delay": "250"
+      "id": 2,
+      "title": "home.features.cards.1title",
+      "description": "home.features.cards.2text",
+      "icon": "fa fa-star"
     },
     {
-        "id": 3,
-        "title": "Vinculo a largo plazo",
-        "description": "Ofrecemos un servicio de mantenimiento y mejora de primer nivel para elevar tu proyecto. No somos espectadores pasivos; trabajamos activamente para perfeccionar tu producto. Confía en nosotros para llevar tu visión al siguiente nivel.",
-        "icon": "fa fa-handshake-o",
-        "delay": "400"
+      "id": 3,
+      "title": "home.features.cards.3title",
+      "description": "home.features.cards.3text",
+      "icon": "fa fa-handshake-o"
     }
 ]

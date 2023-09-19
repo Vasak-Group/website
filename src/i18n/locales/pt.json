@@ -9,6 +9,19 @@
     "title": "Início",
     "welcome": "Bem vindo ao",
     "knowUs": "Conheça-nos",
-    "headerText": "Nossa empresa é especializada no desenvolvimento de software customizado, incluindo aplicações web e mobile, utilizando as mais atuais metodologias ágeis. Além disso, oferecemos soluções de aumento de equipe para aumentar a produtividade e a inovação do seu projeto."
+    "headerText": "Nossa empresa é especializada no desenvolvimento de software customizado, incluindo aplicações web e mobile, utilizando as mais atuais metodologias ágeis. Além disso, oferecemos soluções de aumento de equipe para aumentar a produtividade e a inovação do seu projeto.",
+    "features": {
+      "feature": "Caracteristicas",
+      "question": "Porque escolher-nos?",
+      "answer": "Nossa equipe altamente qualificada trabalha em estreita colaboração com você para impulsionar seus objetivos de negócios. Nós nos concentramos na qualidade e na satisfação do cliente e nos esforçamos para fornecer um serviço excepcional.",
+      "cards": {
+        "1title": "Especialistas confiáveis",
+        "1text": "Quer se trate de um novo produto ou de uma atualização, temos a experiência e a paixão para encontrar a melhor solução para o seu projeto. Vamos trabalhar juntos para alcançar o sucesso!",
+        "2title": "Valor acrescentado",
+        "2text": "Confie em nós para transformar seus conceitos em realidades digitais. Seu sucesso é nosso objetivo e estamos prontos para ajudá-lo a alcançá-lo. Vamos conversar sobre seu próximo projeto e começar a criar juntos!",
+        "3title": "Título de longo prazo",
+        "3text": "Oferecemos um serviço de manutenção e melhoria de alto nível para elevar seu projeto. Não somos espectadores passivos; Trabalhamos ativamente para aperfeiçoar seu produto. Confie em nós para levar sua visão para o próximo nível."
+      }
+    }
   }
 }

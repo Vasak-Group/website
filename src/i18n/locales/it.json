@@ -9,6 +9,19 @@
     "title": "Inizio",
     "welcome": "Benvenuto a",
     "knowUs": "Conosci",
-    "headerText": "La nostra azienda è specializzata nello sviluppo di software personalizzato, comprese applicazioni web e mobili, utilizzando le più attuali metodologie agili. Inoltre, offriamo soluzioni di aumento del personale per migliorare la produttività e l'innovazione del tuo progetto."
+    "headerText": "La nostra azienda è specializzata nello sviluppo di software personalizzato, comprese applicazioni web e mobili, utilizzando le più attuali metodologie agili. Inoltre, offriamo soluzioni di aumento del personale per migliorare la produttività e l'innovazione del tuo progetto.",
+    "features": {
+      "feature": "Caratteristiche",
+      "question": "Perché scegliere noi?",
+      "answer": "Il nostro team altamente qualificato lavora a stretto contatto con te per raggiungere i tuoi obiettivi aziendali. Ci concentriamo sulla qualità e sulla soddisfazione del cliente e ci impegniamo a fornire un servizio eccezionale.",
+      "cards":{
+        "1title": "Esperti fidati",
+        "1text": "Che si tratti di un nuovo prodotto o di un aggiornamento, abbiamo l'esperienza e la passione per trovare la soluzione migliore per il tuo progetto. Lavoriamo insieme per raggiungere il successo!",
+        "2title": "Valore aggiunto",
+        "2text": "Affidati a noi per trasformare i tuoi concetti in realtà digitali. Il tuo successo è il nostro obiettivo e siamo pronti ad aiutarti a raggiungerlo. Parliamo del tuo prossimo progetto e iniziamo a creare insieme!",
+        "3title": "Legame a lungo termine",
+        "3text": "Offriamo un servizio di manutenzione e miglioramento di alto livello per elevare il tuo progetto. Non siamo spettatori passivi; Lavoriamo attivamente per perfezionare il tuo prodotto. Affidati a noi per portare la tua visione al livello successivo."
+      }
+    }
   }
 }

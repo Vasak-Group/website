@@ -5,8 +5,8 @@
                 <i :class="icon"></i>
             </div>
             <div class="box-content-style feature-content">
-                <h4>{{ title }}</h4>
-                <p>{{ description }}</p>
+                <h4>{{ $t(title) }}</h4>
+                <p>{{ $t(description) }}</p>
             </div>
         </div>
     </div>
@@ -15,12 +15,20 @@
 <script setup lang="ts">
 import { defineComponent } from 'vue'
 
-defineProps<{
-    icon: string
-    title: string
-    description: string
-    delay: number
-}>()
+defineProps({
+    icon: {
+        type: String,
+        required: true,
+    },
+    title: {
+        type: String,
+        required: true,
+    },
+    description: {
+        type: String,
+        required: true,
+    },
+})
 
 defineComponent({
     name: 'FeatureCard',
