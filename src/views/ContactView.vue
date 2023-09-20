@@ -1,5 +1,5 @@
 <template>
-    <BreadcrumbsComponent title="Contacto" />
+    <BreadcrumbsComponent :title="$t('contact.title')" />
     <section class="contact-section pt-130">
         <div class="container">
             <div class="row">
@@ -24,7 +24,7 @@
                                         <i class="fa fa-map"></i>
                                     </div>
                                     <div class="contact-content">
-                                        <h4>Direccion</h4>
+                                        <h4>{{ $t('contact.address') }}</h4>
                                         <p>Oporto, Portugal</p>
                                         <p>Europa</p>
                                     </div>
@@ -36,9 +36,9 @@
                                         <i class="fa fa-envelope"></i>
                                     </div>
                                     <div class="contact-content">
-                                        <h4>Correo</h4>
+                                        <h4>{{ $t('contact.mail') }}</h4>
                                         <p>info@vasak.net.ar</p>
-                                        <p>vasakgroup@gmail.com</p>
+                                        <p>&nbsp;</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,15 +50,9 @@
                         <div class="row">
                             <div class="col-xl-10 col-lg-8 mx-auto">
                                 <div class="section-title text-center mb-50">
-                                    <span>
-                                        Contacto
-                                    </span>
-                                    <h2>
-                                        Comunicate
-                                    </h2>
-                                    <p>
-                                        Comunicate con nosotros. Comenza hoy a potenciar tus ideas.
-                                    </p>
+                                    <span>{{ $t('contact.title') }}</span>
+                                    <h2>{{ $t('contact.question') }}</h2>
+                                    <p>{{ $t('contact.answer') }}</p>
                                 </div>
                             </div>
                         </div>

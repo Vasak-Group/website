@@ -63,6 +63,21 @@
       "answer": "Nuestro equipo está formado por profesionales altamente calificados, con experiencia en el desarrollo de software personalizado. Nos apasiona lo que hacemos, y nos esforzamos por brindarte un servicio a tu medida."
     }
   },
+  "contact": {
+    "title": "Contacto",
+    "question": "¿Listo para comenzar?",
+    "answer": "¡Contáctanos hoy para comenzar a trabajar en tu proyecto! Estamos aquí para ayudarte a alcanzar tus objetivos comerciales.",
+    "address": "Dirección",
+    "mail": "Correo",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "button": "Enviar"
+    }
+  },
   "testimonials": {
     "title": "Testimonios",
     "question": "¿Qué opinan nuestros clientes?",

@@ -63,6 +63,21 @@
       "answer": "Our team is made up of highly qualified professionals, with experience in custom software development. We are passionate about what we do, and we strive to provide you with a service tailored to your needs."
     }
   },
+  "contact": {
+    "title": "Contact",
+    "question": "Ready to start?",
+    "answer": "Contact us today to start working on your project! We are here to help you achieve your business goals.",
+    "address": "Address",
+    "mail": "Mail",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "phone": "Phone",
+      "message": "Message",
+      "button": "Send"
+    }
+  },
   "testimonials": {
     "title": "Testimonials",
     "question": "What do our clients think?",
