@@ -1,5 +1,6 @@
 <script>
 import { RouterLink } from 'vue-router';
+import LangSelector from './global/LangSelector.vue';
 
 export default {
     name: 'Header',
@@ -11,7 +12,8 @@ export default {
         }
     },
     components: {
-        RouterLink
+        RouterLink,
+        LangSelector
     }
 }
 </script>
@@ -54,6 +56,7 @@ export default {
                                         {{ $t('navbar.contact') }}
                                     </RouterLink>
                                 </li>
+                                <LangSelector />
                             </ul>
                         </div>
                     </nav>
