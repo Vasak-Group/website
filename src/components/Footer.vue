@@ -5,20 +5,17 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="footer-widget mb-60">
                         <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></a>
-                        <p class="mb-30 footer-desc">
-                            Vasak Group es una empresa que busca contribuir con el crecimiento tecnologico y economico de
-                            otras empresas PYMES y emprendimientos.
-                        </p>
+                        <p class="mb-30 footer-desc">{{ $t('footer.description') }}</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="footer-widget mb-60">
-                        <h4>Free Service</h4>
+                    <div class="footer-widget text-center mb-60">
+                        <h4>{{ $t('footer.freeServices') }}</h4>
                         <ul class="footer-links">
-                            <li>
+                            <li class="undecored">
                                 <a href="https://qrgenerator.vasak.net.ar/" target="_blank">QR Generator</a>
                             </li>
-                            <li>
+                            <li class="undecored">
                                 <a href="https://wppgenerator.vasak.net.ar/" target="_blank">WhatsApp Link Generator</a>
                             </li>
                         </ul>
@@ -26,7 +23,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="footer-widget mb-60">
-                        <h4>Contact</h4>
+                        <h4 class="text-center">{{ $t('footer.contact') }}</h4>
                         <ul class="footer-contact">
                             <li>
                                 <p>info@vasak.net.ar</p>
@@ -71,7 +68,7 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-                            Todos los dertechos reservados <a href="/" class="vsk-font" rel="nofollow">Vasak group</a>
+                            <a href="/" class="vsk-font" rel="nofollow">Vasak group</a> {{ $t('footer.copy')  }}
                         </p>
                         <LangSelector />
                     </div>
@@ -89,7 +86,6 @@
 import { defineComponent  } from 'vue';
 import social from '../data/social.json';
 import ToggleTheme from './global/ToggleTheme.vue';
-import LangSelector from './global/LangSelector.vue';
 
 defineComponent ({
     name: 'Footer',
@@ -99,8 +95,7 @@ defineComponent ({
         };
     },
     components: {
-        ToggleTheme,
-        LangSelector
+        ToggleTheme
     },
 })
 </script>
@@ -117,5 +112,9 @@ defineComponent ({
     color: #FFF;
     font-size: 30px;
     padding: 5px 70px;
+}
+
+.undecored::marker {
+    content: none;
 }
 </style>

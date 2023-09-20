@@ -54,5 +54,13 @@
       "opinion1": "“Excellent work! Highly recommended! Very professional and fast! Thank you!”",
       "opinion2": "“More than 1 year working together and we are very happy with the service they provide us. They are very professional and always willing to help.”"
     }
+  },
+  "footer": {
+    "freeServices": "Free Services",
+    "contact": "Contact",
+    "copy": "© All rights reserved",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "description": "We are a custom software development company, specialized in business systems, web applications and staff augmentation."
   }
 }

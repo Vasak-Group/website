@@ -54,5 +54,13 @@
       "opinion1": "“Lavoro eccellente! Altamente raccomandato! Molto professionale e veloce! Grazie!”",
       "opinion2": "“È più di un anno che lavoriamo insieme e siamo molto soddisfatti del servizio che ci forniscono. Sono molto professionali e sempre pronti ad aiutare.”"
     }
+  },
+  "footer": {
+    "freeServices": "Servizi gratuiti",
+    "contact": "Contatto",
+    "copy": "© Tutti i diritti riservati",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "description": "Siamo una società di sviluppo software personalizzato, specializzata in sistemi aziendali, applicazioni web e aumento del personale."
   }
 }
