@@ -47,6 +47,16 @@
       "button": "Contact us"
     }
   },
+  "about": {
+    "title": "About us",
+    "question": "More about",
+    "answer": "We achieve growth together, because we think of you. We are a company that was born with the aim of providing you with the appropriate solution for your needs, with the aim of your business growing and developing in the digital world.",
+    "team": {
+      "title": "Our team",
+      "question": "Who makes your project a reality?",
+      "answer": "Our team is made up of highly qualified professionals, with experience in custom software development. We are passionate about what we do, and we strive to provide you with a service tailored to your needs."
+    }
+  },
   "testimonials": {
     "title": "Testimonials",
     "question": "What do our clients think?",

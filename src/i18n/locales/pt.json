@@ -47,6 +47,16 @@
       "button": "Contate-nos"
     }
   },
+  "about": {
+    "title": "Sobre nós",
+    "question": "Mais sobre",
+    "answer": "Alcançamos o crescimento juntos, porque pensamos em você. Somos uma empresa que nasceu com o propósito de lhe fornecer a solução adequada às suas necessidades, com o objetivo de que o seu negócio cresça e se desenvolva no mundo digital.",
+    "team": {
+      "title": "Nossa equipe",
+      "question": "Quem torna seu projeto uma realidade?",
+      "answer": "Nossa equipe é formada por profissionais altamente qualificados, com experiência em desenvolvimento de software customizado. Somos apaixonados pelo que fazemos e nos esforçamos para lhe oferecer um serviço adequado às suas necessidades."
+    }
+  },
   "testimonials": {
     "title": "Depoimentos",
     "question": "O que nossos clientes pensam?",

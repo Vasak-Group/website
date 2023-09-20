@@ -47,6 +47,16 @@
       "button": "Contattaci"
     }
   },
+  "about": {
+    "title": "Chi siamo",
+    "question": "Di più",
+    "answer": "Cresciamo insieme, perché pensiamo a te. Siamo un'azienda che nasce con lo scopo di fornirti la soluzione adeguata alle tue esigenze, con l'obiettivo che il tuo business cresca e si sviluppi nel mondo digitale.",
+    "team": {
+      "title": "La nostra squadra",
+      "question": "Chi realizza il tuo progetto?",
+      "answer": "Il nostro team è composto da professionisti altamente qualificati, con esperienza nello sviluppo di software personalizzati. Siamo appassionati di ciò che facciamo e ci impegniamo a fornirti un servizio su misura per le tue esigenze."
+    }
+  },
   "testimonials": {
     "title": "Testimonianze",
     "question": "Cosa pensano i nostri clienti?",
