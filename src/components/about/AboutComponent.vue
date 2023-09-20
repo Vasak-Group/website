@@ -8,9 +8,8 @@
                             <div class="about-img position-relative d-inline-block">
                                 <img alt="" src="/img/services/consultas.svg" style="max-width: 100%;" loading="lazy" />
                                 <div class="about-experience">
-                                    <h3>{{ yearsOfExperience() }} Años de Experiencia</h3>
-                                    <p>Ya con {{ yearsOfExperience() }} años trabajando juntos para cumplir tus
-                                        sueños.</p>
+                                    <h3>{{ $t('about.years' ,{years:yearsOfExperience()}) }}</h3>
+                                    <p>{{ $t('about.yearsDescription' ,{years:yearsOfExperience()}) }}</p>
                                 </div>
                             </div>
                         </div>
@@ -30,20 +29,15 @@
                                         <span id="secondo" class="countup count color-2" :cup-end=projectsNumber cup-append="+">
                                             {{ projectsNumber }}
                                         </span>
-                                        <h4>Proyectos Finalizados</h4>
-                                        <p>
-                                            Que mejoraran la calidad de nuestros
-                                            <br class="d-none d-md-block d-lg-none d-xl-block">
-                                            clientes
-                                        </p>
+                                        <h4>{{ $t('about.proyects') }}</h4>
+                                        <p>{{ $t('about.proyectsDescription') }}</p>
                                     </div>
                                     <div class="counter">
                                         <span id="secondo" class="countup count color-1" :cup-end=clientsNumber cup-append="+">
                                             {{ clientsNumber }}
                                         </span>
-                                        <h4>Clientes que nos eligen</h4>
-                                        <p>Que nos siguen eligiendo para<br class="d-none d-md-block d-lg-none d-xl-block">
-                                            trabajar en conjunto</p>
+                                        <h4>{{ $t('about.clients') }}</h4>
+                                        <p>{{ $t('about.clientsDescription') }}</p>
                                     </div>
                                 </div>
                             </div>

@@ -51,6 +51,12 @@
     "title": "Sobre Nosotros",
     "question": "Más sobre",
     "answer": "El crecimiento lo obtenemos juntos, porque nosotros pensamos en vos. Somos una empresa que nace con el fin de brindarte la solución adecuada para tus necesidades, con el objetivo de que tu negocio crezca y se desarrolle en el mundo digital.",
+    "years": "{years} años juntos",
+    "yearsDescription": "Más de {years} años trabajando junto a vos para cumplir tus sueños.",
+    "proyects": "Proyectos completados",
+    "proyectsDescription": "Que llevan a un nuevo nivel las ideas de nuestros clientes.",
+    "clients": "Clientes satisfechos",
+    "clientsDescription": "Que nos siguen eligiendo para potenciar sus marcas y proyectos.",
     "team": {
       "title": "Nuestro equipo",
       "question": "¿Quiénes hacen tu proyecto realidad?",

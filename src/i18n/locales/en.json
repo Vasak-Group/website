@@ -51,6 +51,12 @@
     "title": "About us",
     "question": "More about",
     "answer": "We achieve growth together, because we think of you. We are a company that was born with the aim of providing you with the appropriate solution for your needs, with the aim of your business growing and developing in the digital world.",
+    "years": "{years} years together",
+    "yearsDescription": "More than {years} years working with you to fulfill your dreams.",
+    "proyects": "Completed projects",
+    "proyectsDescription": "That take our clients' ideas to a new level.",
+    "clients": "Satisfied customers",
+    "clientsDescription": "They continue to choose us to promote their brands and projects.",
     "team": {
       "title": "Our team",
       "question": "Who makes your project a reality?",
