@@ -18,19 +18,13 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content-wrapper">
                             <div class="section-title">
-                                <span>
-                                    Sobre Nosotros
-                                </span>
+                                <span>{{ $t('about.title') }}</span>
                                 <h2 class="mb-40">
-                                    Mas sobre <span class="vsk-font" style="font-size: 35px;">Vasak Group</span>
+                                    {{ $t('about.question') }} <span class="vsk-font" style="font-size: 35px;">Vasak Group</span>
                                 </h2>
                             </div>
                             <div class="about-content">
-                                <p class="mb-45">
-                                    El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros.
-                                    Somos una empresa que nace con el fin de brindar al cliente las soluciones adecuadas a
-                                    sus inconvenientes.
-                                </p>
+                                <p class="mb-45">{{ $t('about.answer') }}</p>
                                 <div class="counter-up">
                                     <div class="counter">
                                         <span id="secondo" class="countup count color-2" :cup-end=projectsNumber cup-append="+">

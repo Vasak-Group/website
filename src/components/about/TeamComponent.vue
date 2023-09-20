@@ -4,16 +4,9 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-7 mx-auto">
                     <div class="section-title mb-60">
-                        <span>
-                            Equipo
-                        </span>
-                        <h2>
-                            Conocé a nuestro equipo
-                        </h2>
-                        <p>
-                            Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus
-                            proyectos.
-                        </p>
+                        <span>{{ $t('about.team.title') }}</span>
+                        <h2>{{ $t('about.team.question') }}</h2>
+                        <p>{{ $t('about.team.answer') }}</p>
                     </div>
                 </div>
             </div>
