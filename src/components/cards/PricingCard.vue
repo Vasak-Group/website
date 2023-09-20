@@ -1,10 +1,10 @@
 <template>
     <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="single-pricing mb-50" :class="class">
+        <div class="single-pricing mb-50" :class="classStyle">
             <h4>{{ $t(nombre) }}</h4>
             <h3><em :class="icon"></em></h3>
             <ul>
-                <li v-for="caracteristica in caracteristicas" :key="caracteristica.id" :class="caracteristica.class">
+                <li v-for="caracteristica in caracteristicas" :key="caracteristica.id" :class="caracteristica.classStyle">
                     {{ $t(caracteristica.desc) }}
                 </li>
             </ul>
@@ -13,31 +13,24 @@
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        nombre: {
-            type: String,
-            required: true
-        },
-        caracteristicas: {
-            type: Array,
-            required: true
-        },
-        icon: {
-            type: String,
-            required: true
-        },
-        url: {
-            type: String,
-            required: true
-        },
-        class: {
-            type: String,
-            required: true
-        }
-    }
-}
+<script setup lang="ts">
+import { defineComponent } from 'vue';
+
+defineProps<{
+    nombre: string;
+    caracteristicas: Array<{
+        id: number;
+        desc: string;
+        classStyle: string;
+    }>;
+    icon: string;
+    url: string;
+    classStyle: string;
+}>();
+
+defineComponent({
+    name: 'PricingCard',
+});
 </script>
 
 <style></style>

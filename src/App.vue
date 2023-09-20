@@ -1,21 +1,28 @@
 <script setup lang="ts">
+/* eslint-disable */
 import { RouterView } from 'vue-router';
-import { onMounted } from 'vue';
-import ScrollReveal from 'scrollreveal';
+import { onMounted, defineComponent } from 'vue';
 
-import Footer from './components/Footer.vue';
-import Header from './components/Header.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue';
 
 onMounted(() => {
   window.scrollTo(0, 0);
-  ScrollReveal().reveal('.reveal');
 })
+
+defineComponent({
+  name: 'App',
+  components: {
+    FooterComponent,
+    HeaderComponent,
+  },
+});
 </script>
 
 <template>
-  <Header />
+  <HeaderComponent />
   <RouterView />
-  <Footer />
+  <FooterComponent />
 </template>
 
 <style lang="scss">

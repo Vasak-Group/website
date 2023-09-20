@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-7 mx-auto">
                     <div class="section-title mb-60">
-                        <span v-scroll-reveal.reset>
+                        <span>
                             Equipo
                         </span>
-                        <h2 v-scroll-reveal.reset>
+                        <h2>
                             Conocé a nuestro equipo
                         </h2>
-                        <p v-scroll-reveal.reset>
+                        <p>
                             Conocé a las personas que hacen posible todo esto. Y se preocupan por hacer crecer tus
                             proyectos.
                         </p>
@@ -26,18 +26,13 @@
     </section>
 </template>
 
-<script setup>
-import team from '../../data/team.json'
-import TeamCard from '../cards/TeamCard.vue'
+<script setup lang="ts">
+import team from '@/data/team.json'
+import TeamCard from '@/components/cards/TeamCard.vue'
 
 import { tns } from "tiny-slider/src/tiny-slider"
-import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
-import { onMounted } from "vue"
-
-const vScrollReveal = createScrollRevealDirective({
-    delay: 100,
-    duration: 1500,
-});
+import { defineComponent, onMounted } from "vue"
+import { TeamMember } from '@/types/TeamMember';
 
 onMounted(() => {
     tns({
@@ -48,28 +43,44 @@ onMounted(() => {
         center: true,
         speed: 400,
         gutter: 2,
+        loop: true,
         mouseDrag: true,
         controls: false,
         nav: true,
         navPosition: 'bottom',
-        navContainer: '#customize-controls',
         autoplay: true,
         autoplayButtonOutput: false,
     });
 })
 
-const vskteam = team.filter(member => member.show);
+const vskteam:TeamMember[] = team.filter(member => member.show);
 
-components: { TeamCard }
-
+defineComponent({
+    name: 'TeamComponent',
+    components: {
+        TeamCard
+    },
+    data() {
+        return {
+            vskteam
+        }
+    }
+});
 </script>
 
-<style scoped>
-#customize-controls {
-    border-radius: 50px;
-    margin: 1px;
-    height: 2px;
-    width: 2px;
-    background-color: #fff;
+<style lang="scss">
+.tns-nav {
+    button{
+        border-radius: 50px;
+        margin: 2px;
+        height: 7px;
+        width: 7px;
+        background: var(--bg-site-2);
+        border: none;
+
+        &.tns-nav-active{
+            background: var(--site-gradient);
+        }
+    }
 } 
 </style>

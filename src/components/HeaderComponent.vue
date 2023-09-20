@@ -1,21 +1,15 @@
-<script>
+<script setup lang="ts">
 import { RouterLink } from 'vue-router';
-import LangSelector from './global/LangSelector.vue';
+import LangSelector from '@/components/global/LangSelector.vue';
+import { defineComponent } from 'vue';
 
-export default {
-    name: 'Header',
-    methods: {
-        scrollTo(id) {
-            const element = document.getElementById(id);
-            console.log(element)
-            window.scrollTo(0, element.offsetTop);
-        }
-    },
+defineComponent( {
+    name: 'HeaderComponent',
     components: {
         RouterLink,
         LangSelector
     }
-}
+});
 </script>
 
 <template>

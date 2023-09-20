@@ -1,4 +1,3 @@
-import component from '../../../../chirola/src/shims-vue';
 <template>
     <div>
         <div class="single-team text-center mb-40">
@@ -20,25 +19,26 @@ import component from '../../../../chirola/src/shims-vue';
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        image: {
-            type: String,
-            required: true
-        },
-        name: {
-            type: String,
-            required: true
-        },
-        position: {
-            type: String,
-            required: true
-        },
-        social: {
-            type: Array,
-            required: true
-        }
+<script setup lang="ts">
+import { defineComponent } from 'vue'
+import { Social } from '@/types/TeamMember';
+
+defineProps({
+    name: {
+        type: String
     },
-}
+    image: {
+        type: String
+    },
+    position: {
+        type: String
+    },
+    social: {
+        type: Array as () => Social[]
+    },
+})
+
+defineComponent({
+    name: 'TeamCard',
+});
 </script>

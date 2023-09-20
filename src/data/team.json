@@ -5,7 +5,6 @@
     "image": "https://joaquindecima.gitlab.io/img/profile.jpeg",
     "position": "CEO",
     "show": true,
-    "delay": 100,
     "social": [
       {
         "id": 1,
@@ -40,7 +39,6 @@
     "image": "/img/team/eze.jpeg",
     "position": "Quality assurance",
     "show": true,
-    "delay": 200,
     "social": [
       {
         "id": 1,
@@ -60,7 +58,6 @@
     "image": "https://i.postimg.cc/qq6whMPM/image.png",
     "position": "Product Manager",
     "show": true,
-    "delay": 300,
     "social": [
       {
         "id": 1,
@@ -75,7 +72,6 @@
     "image": "https://avatars.githubusercontent.com/u/108763412?v=4",
     "position": "Developer",
     "show": true,
-    "delay": 400,
     "social": [
       {
         "id": 1,
@@ -95,7 +91,6 @@
     "image": "https://i.postimg.cc/G2ZGt1M4/amanda-trujillo.webp",
     "position": "Scrum master",
     "show": true,
-    "delay": 500,
     "social": [
       {
         "id": 1,
@@ -113,9 +108,8 @@
     "id": 6,
     "name": "Nicolas Avila",
     "image": "https://i.postimg.cc/65VBw8pd/Whats-App-Image-2023-09-05-at-10-43-51.jpg",
-    "position": "Full-Stack Developer",
+    "position": "Developer",
     "show": true,
-    "delay": 500,
     "social": [
       {
         "id": 1,

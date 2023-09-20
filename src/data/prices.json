@@ -3,68 +3,68 @@
 		"id": 1,
 		"nombre": "home.plans.cards.landing",
 		"icon": "fa fa-globe",
-		"class": "",
+		"classStyle": "",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Web%20Básica%20que%20vi%20en%20https://lynx.net.ar",
 		"caracteristicas": [
       {
         "id": 0,
         "desc": "home.plans.cards.custom",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 2,
         "desc": "home.plans.cards.responsive",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 3,
         "desc": "home.plans.cards.seo",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 4,
         "desc": "home.plans.cards.social",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 5,
         "desc": "home.plans.cards.ssl",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 6,
         "desc": "home.plans.cards.google",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 7,
         "desc": "home.plans.cards.hosting",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 8,
         "desc": "home.plans.cards.manageable",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 9,
         "desc": "home.plans.cards.mail",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 10,
         "desc": "home.plans.cards.contact",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 11,
         "desc": "home.plans.cards.pay",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 12,
         "desc": "home.plans.cards.maps",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       }
     ]
 	},
@@ -72,68 +72,68 @@
 		"id": 2,
 		"nombre": "home.plans.cards.profesional",
 		"icon": "fa fa-object-group",
-		"class": "active",
+		"classStyle": "active",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Profesional%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
 		"caracteristicas": [
       {
         "id": 0,
         "desc": "home.plans.cards.custom",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 1,
         "desc": "home.plans.cards.responsive",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 2,
         "desc": "home.plans.cards.seo",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 3,
         "desc": "home.plans.cards.social",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 4,
         "desc": "home.plans.cards.ssl",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 5,
         "desc": "home.plans.cards.google",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 6,
         "desc": "home.plans.cards.hosting",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 7,
         "desc": "home.plans.cards.manageable",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 8,
         "desc": "home.plans.cards.mail",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 9,
         "desc": "home.plans.cards.contact",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 10,
         "desc": "home.plans.cards.pay",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       },
       {
         "id": 11,
         "desc": "home.plans.cards.maps",
-        "class": "na text-body"
+        "classStyle": "na text-body"
       }
     ]
 	},
@@ -141,68 +141,68 @@
 		"id": 3,
 		"nombre": "home.plans.cards.ecommerce",
 		"icon": "fa fa-shopping-cart",
-		"class": "",
+		"classStyle": "",
 		"url": "https://wa.me/541123882753?text=Hola,%20me%20comunico%20por%20el%20Plan%20Tu%20tienda%20en%20Linea%20que%20vi%20en%20la%20seccion%20de%20webs%20de%20https://lynx.net.ar",
 		"caracteristicas": [
       {
         "id": 0,
         "desc": "home.plans.cards.custom",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 1,
         "desc": "home.plans.cards.responsive",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 2,
         "desc": "home.plans.cards.seo",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 3,
         "desc": "home.plans.cards.social",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 4,
         "desc": "home.plans.cards.ssl",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 5,
         "desc": "home.plans.cards.google",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 6,
         "desc": "home.plans.cards.hosting",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 7,
         "desc": "home.plans.cards.manageable",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 8,
         "desc": "home.plans.cards.mail",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 9,
         "desc": "home.plans.cards.contact",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 10,
         "desc": "home.plans.cards.pay",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       },
       {
         "id": 11,
         "desc": "home.plans.cards.maps",
-        "class": "text-body-emphasis"
+        "classStyle": "text-body-emphasis"
       }
     ]
 	}

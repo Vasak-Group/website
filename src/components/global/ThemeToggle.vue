@@ -64,7 +64,7 @@ import { defineComponent, onMounted } from 'vue';
 
 const localStorageKey = 'StackColorScheme';
 let body;
-let currentScheme;
+let currentScheme: string;
 
 onMounted(()=>{
     body = document.querySelector('body');
@@ -92,16 +92,16 @@ function setBodyClass() {
 
 function toggleTheme() {
     if (currentScheme == 'dark') {
-        this.currentScheme = 'light';
+        currentScheme = 'light';
     } else {
-        this.currentScheme = 'dark';
+        currentScheme = 'dark';
     }
     setBodyClass();
     localStorage.setItem(localStorageKey, currentScheme);
 }
 
 defineComponent({
-    name: 'ToggleTheme',
+    name: 'ThemeToggle',
 });
 </script>
 

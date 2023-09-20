@@ -18,6 +18,7 @@
                                         <div class="testimonial-active tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns2" style="transform: translate3d(-33.3333%, 0px, 0px);">
                                             
                                             <TestimonialCard 
+                                                :key="testimonial.id"
                                                 v-for="testimonial in testimonials" 
                                                 :name="testimonial.name"
                                                 :position="testimonial.position"

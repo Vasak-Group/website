@@ -26,7 +26,10 @@ export default defineComponent({
         name: String,
         position: String,
         image: String,
-        comment: String,
+        comment: {
+            type: String,
+            required: true
+        },
     },
 });
 </script>

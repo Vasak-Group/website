@@ -18,20 +18,20 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content-wrapper">
                             <div class="section-title">
-                                <span v-scroll-reveal.reset>
+                                <span>
                                     Sobre Nosotros
                                 </span>
-                                <h2 class="mb-40" v-scroll-reveal.reset>
+                                <h2 class="mb-40">
                                     Mas sobre <span class="vsk-font" style="font-size: 35px;">Vasak Group</span>
                                 </h2>
                             </div>
                             <div class="about-content">
-                                <p class="mb-45" v-scroll-reveal.reset>
+                                <p class="mb-45">
                                     El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros.
                                     Somos una empresa que nace con el fin de brindar al cliente las soluciones adecuadas a
                                     sus inconvenientes.
                                 </p>
-                                <div class="counter-up" v-scroll-reveal.reset>
+                                <div class="counter-up">
                                     <div class="counter">
                                         <span id="secondo" class="countup count color-2" :cup-end=projectsNumber cup-append="+">
                                             {{ projectsNumber }}
@@ -61,25 +61,31 @@
     </section>
 </template>
 
-<script setup>
-import clients from '../../data/clients.json';
-import projects from '../../data/projects.json';
-import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
-
-const vScrollReveal = createScrollRevealDirective({
-    delay: 100,
-    duration: 1500,
-});
+<script setup lang="ts">
+import clients from '@/data/clients.json';
+import projects from '@/data/projects.json'; 
+import { defineComponent } from 'vue';
 
 function yearsOfExperience() {
-    let start = 2019;
-    let end = new Date().getFullYear();
-    let years = end - start;
+    const start = 2019;
+    const end = new Date().getFullYear();
+    const years = end - start;
     return years;
 }
 
 const clientsNumber = clients.length
 const projectsNumber= projects.length
+
+defineComponent({
+    name: 'AboutComponent',
+    data() {
+        return {
+            yearsOfExperience,
+            clientsNumber,
+            projectsNumber
+        }
+    }
+});
 </script>
 
 <style scoped>

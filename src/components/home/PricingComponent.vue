@@ -23,18 +23,19 @@
     </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import prices from '../../data/prices.json';
-import PricingCard from '../cards/PricingCard.vue';
+import PricingCard from '@/components/cards/PricingCard.vue';
+import { defineComponent } from 'vue';
 
-export default {
+defineComponent( {
     data() {
         return {
             prices
         };
     },
     components: { PricingCard }
-}
+});
 </script>
 
 <style></style>

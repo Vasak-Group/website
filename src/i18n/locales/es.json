@@ -47,6 +47,16 @@
       "button": "Contáctanos"
     }
   },
+  "about": {
+    "title": "Sobre Nosotros",
+    "question": "Mas sobre",
+    "answer": "El crecimiento lo obtenemos juntos, nosotros pensamos en vos y vos pensas en nostros. Somos una empresa que nace con el fin de brindar al cliente las soluciones adecuadas a sus necesidades, con el objetivo de que su negocio crezca y se desarrolle en el mundo digital.",
+    "team": {
+      "title": "Nuestro equipo",
+      "question": "¿Quiénes hacen tu proyecto realidad?",
+      "answer": "Nuestro equipo está formado por profesionales altamente calificados, con experiencia en el desarrollo de software personalizado. Nos apasiona lo que hacemos, y nos esforzamos por brindarte un servicio a tu medida."
+    }
+  },
   "testimonials": {
     "title": "Testimonios",
     "question": "¿Qué opinan nuestros clientes?",
