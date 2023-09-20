@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div id="teams-slider" v-scroll-reveal.reset>
+            <div id="teams-slider">
 
                 <TeamCard v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
 
@@ -50,7 +50,9 @@ onMounted(() => {
         gutter: 2,
         mouseDrag: true,
         controls: false,
-        nav: false,
+        nav: true,
+        navPosition: 'bottom',
+        navContainer: '#customize-controls',
         autoplay: true,
         autoplayButtonOutput: false,
     });
@@ -62,4 +64,12 @@ components: { TeamCard }
 
 </script>
 
-<style></style>
+<style scoped>
+#customize-controls {
+    border-radius: 50px;
+    margin: 1px;
+    height: 2px;
+    width: 2px;
+    background-color: #fff;
+} 
+</style>
