@@ -20,7 +20,7 @@ import { defineComponent } from 'vue';
 
 defineProps<
 {
-    id: string
+    id: number
     name: string
     type: string
     image: string

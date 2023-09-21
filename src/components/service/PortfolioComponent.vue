@@ -4,24 +4,13 @@
             <div class="row align-items-end">
                 <div class="col-xl-6 col-lg-6">
                     <div class="section-title mb-60">
-                        <span class="wow fadeInDown" data-wow-delay=".2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
-                            Portfolio
-                        </span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            Revisa nuestros Trabajos
-                        </h2>
+                        <span>{{ $t('portfolio.title') }}</span>
+                        <h2>{{ $t('portfolio.question') }}</h2>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="section-title mb-60">
-                        <p class="wow fadeInUp" data-wow-delay=".4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            Revisa algunos de nuestros trabajos realizados para nuestros clientes. Si deseas ver más de
-                            nuestros trabajos, puedes visitar nuestro portafolio completo. Si deseas que te ayudemos con tu
-                            proyecto, puedes contactarnos.
-                        </p>
+                        <p>{{ $t('portfolio.answer') }}</p>
                     </div>
                 </div>
             </div><!--

@@ -95,6 +95,11 @@
       "button": "More information"
     }
   },
+  "portfolio": {
+    "title": "Portfolio",
+    "question": "What have we done?",
+    "answer": "Learn about some of the projects we have carried out for our clients. Yours could be next. Contact us today to start working together!"
+  },
   "contact": {
     "title": "Contact",
     "question": "Ready to start?",

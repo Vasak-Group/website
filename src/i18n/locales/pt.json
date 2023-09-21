@@ -95,6 +95,11 @@
       "button": "Mais informação"
     }
   },
+  "portfolio": {
+    "title": "Portfolio",
+    "question": "O que fizemos?",
+    "answer": "Conheça alguns dos projetos que realizamos para nossos clientes. O seu pode ser o próximo. Contate-nos hoje para começarmos a trabalhar juntos!"
+  },
   "contact": {
     "title": "Contato",
     "question": "Pronto para começar?",
