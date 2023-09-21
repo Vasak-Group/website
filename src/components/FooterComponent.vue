@@ -2,16 +2,16 @@
     <footer class="footer pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="footer-widget mb-60">
                         <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></a>
                         <p class="mb-30 footer-desc">{{ $t('footer.description') }}</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="footer-widget text-center mb-60">
                         <h4>{{ $t('footer.freeServices') }}</h4>
-                        <ul class="footer-links">
+                        <ul class="footer-links center">
                             <li class="undecored">
                                 <a href="https://qrgenerator.vasak.net.ar/" target="_blank">QR Generator</a>
                             </li>
@@ -21,7 +21,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="footer-widget mb-60">
                         <h4 class="text-center">{{ $t('footer.contact') }}</h4>
                         <ul class="footer-contact">
@@ -116,5 +116,9 @@ defineComponent ({
 
 .undecored::marker {
     content: none;
+}
+
+.center {
+    padding: 0 !important;
 }
 </style>
