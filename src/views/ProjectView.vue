@@ -32,7 +32,7 @@ import { useRoute } from 'vue-router';
 import Project from '@/types/Project';
 
 const route = useRoute();
-const project: Project = projects.find(project => project.id === parseInt(route.params.id[0])) || {} as Project;
+const project: Project = projects.find(project => project.id === parseInt(route.params.id.toString())) || {} as Project;
 
 onMounted(() => {
   document.title =  project.name + ' | Vasak';
