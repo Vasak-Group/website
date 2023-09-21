@@ -2,6 +2,7 @@
   <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
       <div class="row">
           <div class="col-md-6">
+              <input type="hidden" name="access_key" value="49ec7e84-cca9-4059-b1a7-cc6652d32a03">
               <input type="text" name="name" id="name" :placeholder="$t('contact.form.name')" required>
           </div>
           <div class="col-md-6">
