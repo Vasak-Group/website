@@ -4,9 +4,12 @@ import AboutComponent from '@/components/about/AboutComponent.vue';
 import TeamComponent from '@/components/about/TeamComponent.vue';
 import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
 import TestimonialsComponent from '@/components/global/TestimonialsComponent.vue';
+import i18n from '@/i18n';
+
+const { t } = i18n().global;
 
 onMounted(() => {
-  document.title = ` Vasak Group`;
+  document.title = `${t('about.title')} | Vasak Group`;
   window.scrollTo(0, 0);
 });
 

@@ -70,9 +70,12 @@ import ContactForm from '@/components/contact/ContactForm.vue';
 import MapComponent from '@/components/contact/MapComponent.vue';
 import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
 import { defineComponent, onMounted } from 'vue';
+import i18n from '@/i18n';
+
+const { t } = i18n().global;
 
 onMounted(() => {
-    document.title = 'Contacto | Vasak Group';
+    document.title = t('contact.title') + ' | Vasak Group';
     window.scrollTo(0, 0);
 })
 
