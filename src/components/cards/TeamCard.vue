@@ -6,7 +6,7 @@
                 <div class="team-social">
                     <ul>
                         <li v-for="red in social" :key="red.id">
-                            <a :href="red.url"><i :class="red.icon"></i></a>
+                            <a :href="sanitizeUrl(red.url)"><i :class="red.icon"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -22,6 +22,7 @@
 <script setup lang="ts">
 import { defineComponent } from 'vue'
 import { Social } from '@/types/TeamMember';
+import { sanitizeUrl } from '@braintree/sanitize-url';
 
 defineProps({
     name: {

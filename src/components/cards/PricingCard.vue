@@ -8,13 +8,14 @@
                     {{ $t(caracteristica.desc) }}
                 </li>
             </ul>
-            <a :href="url" class="theme-btn border-btn">{{ $t('home.plans.button') }}</a>
+            <a :href="sanitizeUrl(url)" class="theme-btn border-btn">{{ $t('home.plans.button') }}</a>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
 import { defineComponent } from 'vue';
+import { sanitizeUrl } from '@braintree/sanitize-url';
 
 defineProps<{
     nombre: string;

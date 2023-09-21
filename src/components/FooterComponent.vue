@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-6 col-md-6">
                     <div class="footer-widget mb-60">
-                        <a href="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></a>
+                        <RouterLink to="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></RouterLink>
                         <p class="mb-30 footer-desc">{{ $t('footer.description') }}</p>
                     </div>
                 </div>
@@ -13,10 +13,10 @@
                         <h4>{{ $t('footer.freeServices') }}</h4>
                         <ul class="footer-links center">
                             <li class="undecored">
-                                <a href="https://qrgenerator.vasak.net.ar/" target="_blank">QR Generator</a>
+                                <a href="https://qrgenerator.vasak.net.ar/" rel="noopener" target="_blank">QR Generator</a>
                             </li>
                             <li class="undecored">
-                                <a href="https://wppgenerator.vasak.net.ar/" target="_blank">WhatsApp Link Generator</a>
+                                <a href="https://wppgenerator.vasak.net.ar/" rel="noopener" target="_blank">WhatsApp Link Generator</a>
                             </li>
                         </ul>
                     </div>
@@ -44,22 +44,22 @@
                         <div class="footer-social-links">
                             <ul class="d-flex">
                                 <li>
-                                    <a href="https://web.facebook.com/vasakgroup" target="_blank">
+                                    <a href="https://web.facebook.com/vasakgroup" rel="noopener" target="_blank">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:info@vasak.net.ar" target="_blank">
+                                    <a href="mailto:info@vasak.net.ar" rel="noopener" target="_blank">
                                         <i class="fa fa-envelope"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/vasakgroup/" target="_blank">
+                                    <a href="https://www.linkedin.com/company/vasakgroup/" rel="noopener" target="_blank">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/vasakgroup/" target="_blank">
+                                    <a href="https://www.instagram.com/vasakgroup/" rel="noopener" target="_blank">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-6">
                         <p>
-                            <a href="/" class="vsk-font" rel="nofollow">Vasak group</a> {{ $t('footer.copy')  }}
+                            <RouterLink to="/" class="vsk-font" rel="nofollow">Vasak group</RouterLink> {{ $t('footer.copy')  }}
                         </p>
                         <LangSelector />
                     </div>
@@ -84,7 +84,8 @@
 
 <script setup lang="ts">
 import { defineComponent  } from 'vue';
-import social from '../data/social.json';
+import { RouterLink } from 'vue-router';
+import social from '@/data/social.json';
 import ThemeToggle from '@/components/global/ThemeToggle.vue';
 
 defineComponent ({
@@ -95,7 +96,8 @@ defineComponent ({
         };
     },
     components: {
-        ThemeToggle
+        ThemeToggle,
+        RouterLink,
     },
 })
 </script>

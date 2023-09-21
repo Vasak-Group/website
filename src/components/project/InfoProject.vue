@@ -6,7 +6,7 @@
             <ul>
                 <li>
                     <span class="destination"><strong>Client:</strong></span>
-                    <span>{{ clients.find(clientd => clientd.id === client).name }}</span>
+                    <span>{{ clientObject.name }}</span>
                 </li>
                 <li>
                     <span class="destination"><strong>Categoria</strong>:</span>
@@ -14,44 +14,36 @@
                 </li>
                 <li>
                     <span class="destination"><strong>URL</strong>:</span>
-                    <span><a :href="url">{{ url }}</a></span>
+                    <span><a :href="sanitizeUrl(url)">{{ url }}</a></span>
                 </li>
             </ul>
         </div>
     </div>
 </template>
 
-<script>
-import clients from '../../data/clients.json';
-export default {
-    props: {
-        type: {
-            type: String,
-            required: true
-        },
-        url: {
-            type: String,
-            required: true
-        },
-        client: {
-            type: Number,
-            required: true
-        },
-        name: {
-            type: String,
-            required: true
-        },
-        description: {
-            type: String,
-            required: true
-        }
-    },
+<script setup lang="ts">
+import clients from '@/data/clients.json';
+import { defineComponent } from 'vue';
+import { sanitizeUrl } from '@braintree/sanitize-url';
+
+const props = defineProps<{
+    type: string
+    url: string
+    client: number
+    name: string
+    description: string
+}>()
+
+const clientObject = clients.find(clientd => clientd.id === props.client) || {name: ''};
+
+defineComponent( {
+    name: 'InfoProject',
     data() {
         return {
             clients
         };
     }
-}
+})
 </script>
 
 <style></style>

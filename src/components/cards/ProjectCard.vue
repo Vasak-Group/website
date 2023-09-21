@@ -8,7 +8,7 @@
                 <div class="overlay-content">
                     <h4>{{ name }}</h4>
                     <p>{{ type }}</p>
-                    <a :href="'/project/' + id" class="theme-btn border-btn">Ver</a>
+                    <RouterLink :to="sanitizeUrl('/project/' + id)" class="theme-btn border-btn">Ver</RouterLink>
                 </div>
             </div>
         </div>
@@ -17,6 +17,8 @@
 
 <script setup lang="ts">
 import { defineComponent } from 'vue';
+import { RouterLink } from 'vue-router';
+import { sanitizeUrl } from '@braintree/sanitize-url';
 
 defineProps<
 {
@@ -29,6 +31,7 @@ defineProps<
 
 defineComponent({
     name: 'ProjectCard',
+    components: { RouterLink }
 })
 </script>
 

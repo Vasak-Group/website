@@ -14,7 +14,7 @@
                                     <div class="contact-content">
                                         <h4>WhatsApp</h4>
                                         <p>+54 9 11 6010-9950</p>
-                                        <p><a href="https://t.me/PatoJAD" target="_blank">https://t.me/PatoJAD</a></p>
+                                        <p><a href="https://t.me/PatoJAD" rel="noopener" target="_blank">https://t.me/PatoJAD</a></p>
                                     </div>
                                 </div>
                             </div>
