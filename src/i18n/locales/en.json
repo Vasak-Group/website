@@ -63,6 +63,38 @@
       "answer": "Our team is made up of highly qualified professionals, with experience in custom software development. We are passionate about what we do, and we strive to provide you with a service tailored to your needs."
     }
   },
+  "services": {
+    "title": "Services",
+    "question": "What do we do to boost your business?",
+    "answer": "Learn about the services that will take your project to the next level with the presence it needs in the digital world. Contact us today to start working together!",
+    "cards": {
+      "web": {
+        "title": "Web development",
+        "text": "We develop personalized websites, using the most current technologies. We work together to create a product that suits your needs and exceeds your expectations."
+      },
+      "mobile": {
+        "title": "Mobile development",
+        "text": "We develop personalized mobile applications, using the most current technologies. We work together to create a product that suits your needs and exceeds your expectations."
+      },
+      "staff": {
+        "title": "Staff Augmentation",
+        "text": "We offer staff augmentation solutions to enhance the productivity and innovation of your project. We work together to find the best solution for your needs."
+      },
+      "maps": {
+        "title": "My Business",
+        "text": "We create and optimize your My Business Google profile so that your business appears in search results and on Google Maps."
+      },
+      "seo": {
+        "title": "SEO",
+        "text": "We optimize your website so that it appears in the first Google search results. Increase your visibility and reach more customers!"
+      },
+      "architecture": {
+        "title": "Software Architecture",
+        "text": "We design the architecture of your software so that it is scalable and easy to maintain. Trust us to take your vision to the next level!"
+      },
+      "button": "More information"
+    }
+  },
   "contact": {
     "title": "Contact",
     "question": "Ready to start?",

@@ -24,12 +24,12 @@
 </template>
 
 <script setup lang="ts">
-import projects from '../data/projects.json';
-import InfoProject from '../components/project/InfoProject.vue';
+import projects from '@/data/projects.json';
+import InfoProject from '@/components/project/InfoProject.vue';
+import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
 import { defineComponent, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
-import Project from '../types/Project';
-import BreadcrumbsComponent from '../components/global/BreadcrumbsComponent.vue';
+import Project from '@/types/Project';
 
 const route = useRoute();
 const project: Project = projects.find(project => project.id === parseInt(route.params.id[0])) || {} as Project;

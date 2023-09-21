@@ -63,6 +63,38 @@
       "answer": "Il nostro team è composto da professionisti altamente qualificati, con esperienza nello sviluppo di software personalizzati. Siamo appassionati di ciò che facciamo e ci impegniamo a fornirti un servizio su misura per le tue esigenze."
     }
   },
+  "services": {
+    "title": "Servizi",
+    "question": "Cosa facciamo per potenziare il tuo business?",
+    "answer": "Scopri i servizi che porteranno il tuo progetto al livello successivo con la presenza di cui ha bisogno nel mondo digitale. Contattaci oggi per iniziare a lavorare insieme!",
+    "cards": {
+      "web": {
+        "title": "Sviluppo web",
+        "text": "Sviluppiamo siti web personalizzati, utilizzando le tecnologie più attuali. Lavoriamo insieme per creare un prodotto che soddisfi le vostre esigenze e superi le vostre aspettative."
+      },
+      "mobile": {
+        "title": "Sviluppo mobile",
+        "text": "Sviluppiamo applicazioni mobili personalizzate, utilizzando le tecnologie più attuali. Lavoriamo insieme per creare un prodotto che soddisfi le vostre esigenze e superi le vostre aspettative."
+      },
+      "staff": {
+        "title": "Staff Augmentation",
+        "text": "Offriamo soluzioni di aumento del personale per migliorare la produttività e l'innovazione del tuo progetto. Lavoriamo insieme per trovare la soluzione migliore per le vostre esigenze."
+      },
+      "maps": {
+        "title": "My Business",
+        "text": "Creiamo e ottimizziamo il tuo profilo Google My Business in modo che la tua attività appaia nei risultati di ricerca e su Google Maps."
+      },
+      "seo": {
+        "title": "SEO",
+        "text": "Ottimizziamo il tuo sito web in modo che appaia nei primi risultati di ricerca di Google. Aumenta la tua visibilità e raggiungi più clienti!"
+      },
+      "architecture": {
+        "title": "Architettura del software",
+        "text": "Progettiamo l'architettura del tuo software in modo che sia scalabile e di facile manutenzione. Affidati a noi per portare la tua visione al livello successivo!"
+      },
+      "button": "Maggiori informazioni"
+    }
+  },
   "contact": {
     "title": "Contatto",
     "question": "Pronto per iniziare?",

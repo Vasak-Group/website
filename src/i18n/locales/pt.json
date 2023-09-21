@@ -63,6 +63,38 @@
       "answer": "Nossa equipe é formada por profissionais altamente qualificados, com experiência em desenvolvimento de software customizado. Somos apaixonados pelo que fazemos e nos esforçamos para lhe oferecer um serviço adequado às suas necessidades."
     }
   },
+  "services": {
+    "title": "Serviços",
+    "question": "O que fazemos para impulsionar o seu negócio?",
+    "answer": "Conheça os serviços que levarão o seu projeto ao próximo nível com a presença que necessita no mundo digital. Contate-nos hoje para começarmos a trabalhar juntos!",
+    "cards": {
+      "web": {
+        "title": "Desenvolvimento web",
+        "text": "Desenvolvemos sites personalizados, utilizando as tecnologias mais atuais. Trabalhamos juntos para criar um produto que atenda às suas necessidades e supere as suas expectativas."
+      },
+      "mobile": {
+        "title": "Desenvolvimento móvel",
+        "text": "Desenvolvemos aplicações móveis personalizadas, utilizando as tecnologias mais atuais. Trabalhamos juntos para criar um produto que atenda às suas necessidades e supere as suas expectativas."
+      },
+      "staff": {
+        "title": "Staff Augmentation",
+        "text": "Oferecemos soluções de aumento de equipe para aumentar a produtividade e a inovação do seu projeto. Trabalhamos juntos para encontrar a melhor solução para as suas necessidades."
+      },
+      "maps": {
+        "title": "My Business",
+        "text": "Criamos e otimizamos o seu perfil do Google Meu Negócio para que sua empresa apareça nos resultados de pesquisa e no Google Maps."
+      },
+      "seo": {
+        "title": "SEO",
+        "text": "Otimizamos o seu site para que apareça nos primeiros resultados de pesquisa do Google. Aumente sua visibilidade e alcance mais clientes!"
+      },
+      "architecture": {
+        "title": "Arquitetura de software",
+        "text": "Projetamos a arquitetura do seu software para que seja escalável e fácil de manter. Confie em nós para levar sua visão para o próximo nível!"
+      },
+      "button": "Mais informação"
+    }
+  },
   "contact": {
     "title": "Contato",
     "question": "Pronto para começar?",
