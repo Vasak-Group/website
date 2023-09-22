@@ -25,11 +25,11 @@
       </div>
       <div v-if="alert_error" class="alert alert-danger alert-dismissible fade show" role="alert">
         {{ $t('contact.form.error') }}
-        <button type="button" class="btn-close" v-on:click="closeError" aria-label="Close"></button>
+        <button type="button" class="btn-close" @:click="closeError" aria-label="Close"></button>
       </div>
       <div v-if="alert_succes" class="alert alert-success alert-dismissible fade show" role="alert">
         {{ $t('contact.form.success') }}
-        <button type="button" class="btn-close" v-on:click="closeSuccess" aria-label="Close"></button>
+        <button type="button" class="btn-close" @:click="closeSuccess" aria-label="Close"></button>
       </div>
   </form>
 </template>
