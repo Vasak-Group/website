@@ -112,7 +112,9 @@
       "subject": "Subject",
       "phone": "Phone",
       "message": "Message",
-      "button": "Send"
+      "button": "Send",
+      "success": "Your message has been sent successfully. We will contact you as soon as possible.",
+      "error": "An error occurred while sending the message. Please try again later."
     }
   },
   "testimonials": {

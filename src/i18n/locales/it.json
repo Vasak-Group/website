@@ -112,7 +112,9 @@
       "subject": "Affare",
       "phone": "Telefono",
       "message": "Messaggio",
-      "button": "Inviare"
+      "button": "Inviare",
+      "success": "Il tuo messaggio è stato inviato con successo. Ti contatteremo al più presto.",
+      "error": "Si è verificato un errore durante l'invio del messaggio. Riprova più tardi."
     }
   },
   "testimonials": {
