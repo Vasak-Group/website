@@ -10,6 +10,10 @@ defineComponent( {
         LangSelector
     }
 });
+
+function unshow(){
+    document.getElementById("navbarSupportedContent")?.classList.remove("show");
+}
 </script>
 
 <template>
@@ -31,22 +35,29 @@ defineComponent( {
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/">
+                                    <RouterLink @click="unshow" class="nav-link scrollto" to="/">
                                         {{ $t('navbar.home') }}
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/about">
+                                    <RouterLink @click="unshow" class="nav-link scrollto" to="/about">
                                         {{ $t('navbar.about') }}
                                     </RouterLink>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/service">
+                                    <RouterLink @click="unshow" class="nav-link scrollto" to="/service">
                                         {{ $t('navbar.services') }}
                                     </RouterLink>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item">
+                                            <RouterLink @click="unshow" to="/service/web">
+                                                {{ $t('services.web.title') }}
+                                            </RouterLink>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <RouterLink class="nav-link scrollto" to="/contact">
+                                    <RouterLink @click="unshow" class="nav-link scrollto" to="/contact">
                                         {{ $t('navbar.contact') }}
                                     </RouterLink>
                                 </li>
