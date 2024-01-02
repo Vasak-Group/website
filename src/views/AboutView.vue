@@ -19,7 +19,7 @@ export default defineComponent({
     BreadcrumbsComponent,
     TestimonialsComponent,
   },
-  onload() {
+  mounted() {
     document.title = `${t("about.title")} | Vasak Group`;
     window.scrollTo(0, 0);
   },
