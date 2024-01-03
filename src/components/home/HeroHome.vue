@@ -32,16 +32,16 @@
           {{ $t("home.headerText") }}
         </p>
         <div class="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
-          <div class="flex sm:flex-row flex-col gap-5 w-full">
+          <div class="flex items-center justify-center sm:flex-row flex-col gap-5 w-full">
             <RouterLink
               to="/about"
               class="w-full sm:w-auto flex items-center justify-center px-3 py-3 border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-bl from-vsk-2 to-vsk-1 hover:to-vsk-2 md:py-4 md:text-lg md:px-10"
             >
-              {{ $t("navbar.about") }}
+              {{ $t("home.knowUs") }}
             </RouterLink>
             <RouterLink
               to="/contact"
-              class="w-full sm:w-auto flex items-center justify-center px-6 py-3 border-transparent text-base font-medium rounded-xl text-vsk-1 bg-white hover:bg-vsk-1 hover:text-white md:py-4 md:text-lg md:px-10"
+              class="w-full sm:w-auto flex items-center justify-center px-3 py-3 border-transparent text-base font-medium rounded-xl text-vsk-1 bg-white hover:bg-vsk-1 hover:text-white md:py-4 md:text-lg md:px-10"
             >
               {{ $t("navbar.contact") }}
             </RouterLink>

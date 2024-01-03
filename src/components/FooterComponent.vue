@@ -62,7 +62,7 @@ export default defineComponent({
           </div>
           <div class="flex items-center">
             <p
-              class="text-base font-normal leading-7 text-center text-gray-700 dark:text-gray-300"
+              class="text-base px-5 font-normal leading-7 text-center text-gray-700 dark:text-gray-300"
             >
               {{ $t("footer.description") }}
             </p>
