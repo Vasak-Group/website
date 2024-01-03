@@ -146,6 +146,7 @@ export default defineComponent({
         </template>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <LangSelector />
         <ThemeToggle />
       </div>
     </nav>
@@ -218,6 +219,7 @@ export default defineComponent({
               >
             </div>
             <div class="py-6">
+              <LangSelector />
               <ThemeToggle />
             </div>
           </div>

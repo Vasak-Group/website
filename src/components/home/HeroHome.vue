@@ -61,22 +61,6 @@
       </div>
     </div>
   </section>
-  <section id="hero" class="hero-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-xl-5 col-lg-6 text-center">
-          <div class="hero-content-wrapper">
-            <h2 class="mb-25"></h2>
-            <h1 class="pb-35 vsk-font"></h1>
-            <p class="mb-35"></p>
-            <RouterLink to="/contact" class="theme-btn">{{
-              $t("home.knowUs")
-            }}</RouterLink>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 </template>
 
 <script lang="ts">
