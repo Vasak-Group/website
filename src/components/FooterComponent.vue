@@ -1,126 +1,90 @@
-<template>
-    <footer class="footer pt-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-md-6">
-                    <div class="footer-widget mb-60">
-                        <RouterLink to="/" class="logo mb-30 text-center"><img src="/img/logo.svg" alt="logo" loading="lazy"></RouterLink>
-                        <p class="mb-30 footer-desc">{{ $t('footer.description') }}</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-widget text-center mb-60">
-                        <h4>{{ $t('footer.freeServices') }}</h4>
-                        <ul class="footer-links center">
-                            <li class="undecored">
-                                <a href="https://qrgenerator.vasak.net.ar/" rel="noopener" target="_blank">QR Generator</a>
-                            </li>
-                            <li class="undecored">
-                                <a href="https://wppgenerator.vasak.net.ar/" rel="noopener" target="_blank">WhatsApp Link Generator</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-widget mb-60">
-                        <h4 class="text-center">{{ $t('footer.contact') }}</h4>
-                        <ul class="footer-contact">
-                            <li>
-                                <p>info@vasak.net.ar</p>
-                            </li>
-                            <li>
-                                <p>Oporto, Portugal</p>
-                            </li>
-                            <li>
-                                <p>Buenos Aires, Argentina</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-area">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="footer-social-links">
-                            <ul class="d-flex">
-                                <li>
-                                    <a href="https://web.facebook.com/vasakgroup" rel="noopener" target="_blank">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@vasak.net.ar" rel="noopener" target="_blank">
-                                        <i class="fa fa-envelope"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/company/vasakgroup/" rel="noopener" target="_blank">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/vasakgroup/" rel="noopener" target="_blank">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p>
-                            <RouterLink to="/" class="vsk-font" rel="nofollow">Vasak group</RouterLink> {{ $t('footer.copy')  }}
-                        </p>
-                        <LangSelector />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <a href="#" class="scroll-top">
-        <i class="fa fa-arrow-up"></i>
-    </a>
-    <ThemeToggle />
-</template>
+<script lang="ts">
+import { defineComponent } from "vue";
+import { RouterLink } from "vue-router";
+// @ts-ignore
+import social from "@/data/social.json";
 
-<script setup lang="ts">
-import { defineComponent  } from 'vue';
-import { RouterLink } from 'vue-router';
-import social from '@/data/social.json';
-import ThemeToggle from '@/components/global/ThemeToggle.vue';
-
-defineComponent ({
-    name: 'FooterComponent',
-    setup() {
-        return {
-            social,
-        };
-    },
-    components: {
-        ThemeToggle,
-        RouterLink,
-    },
-})
+export default defineComponent({
+  name: "FooterComponent",
+  data() {
+    return {
+      social,
+    };
+  },
+  components: {
+    RouterLink,
+  },
+});
 </script>
 
-<style scoped>
-.logo img {
-    height: 110px;
-}
-
-.btn-contact {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color-dark);
-    border-radius: var(--border-radius);
-    color: #FFF;
-    font-size: 30px;
-    padding: 5px 70px;
-}
-
-.undecored::marker {
-    content: none;
-}
-
-.center {
-    padding: 0 !important;
-}
-</style>
+<template>
+  <div class="flex flex-col mx-3 mt-3 bg-white dark:bg-gray-800 rounded-xl">
+    <div class="w-full draggable">
+      <div class="container flex flex-col mx-auto">
+        <div class="flex flex-col items-center w-full my-20">
+          <span class="mb-8">
+            <img src="/img/logo.svg" alt="logo" loading="lazy" class="h-20" />
+          </span>
+          <div class="flex flex-col items-center gap-6 mb-8">
+            <div
+              class="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900"
+            >
+              <RouterLink to="/about" class="text-gray-500 hover:text-vsk-1">{{
+                $t("navbar.about")
+              }}</RouterLink>
+              <RouterLink
+                to="/contact"
+                class="text-gray-500 hover:text-vsk-1"
+                >{{ $t("footer.contact") }}</RouterLink
+              >
+              <a
+                href="https://qrgenerator.vasak.net.ar/"
+                rel="noopener"
+                target="_blank"
+                class="text-gray-500 hover:text-vsk-1"
+                >QR Generator</a
+              >
+              <a
+                href="https://wppgenerator.vasak.net.ar/"
+                rel="noopener"
+                target="_blank"
+                class="text-gray-500 hover:text-vsk-1"
+                >WhatsApp Link Generator</a
+              >
+            </div>
+            <div class="flex items-center gap-8">
+              <template v-for="red in social" :key="red.name">
+                <a :href="red.url" class="text-grey-700 dark:text-gray-300 hover:text-vsk-2"
+                  ><i :class="red.icon"></i
+                ></a>
+              </template>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <p
+              class="text-base font-normal leading-7 text-center text-gray-700 dark:text-gray-300"
+            >
+              {{ $t("footer.description") }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-wrap my-5">
+    <div class="w-full max-w-full sm:w-3/4 mx-auto text-center">
+      <p class="text-sm text-slate-500 py-1">
+        <RouterLink
+          to="/"
+          class="text-transparent bg-clip-text bg-gradient-to-bl from-vsk-2 to-vsk-1"
+          rel="nofollow"
+          >Vasak group</RouterLink
+        >
+        {{ $t("footer.copy") }}
+        <a href="#" class="scroll-top">
+          <i class="fa fa-arrow-up"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</template>
