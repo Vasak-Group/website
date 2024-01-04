@@ -24,7 +24,7 @@
         >
           {{ $t("home.welcome") }}
           <span
-            class="text-transparent bg-clip-text bg-gradient-to-bl from-vsk-2 to-vsk-1"
+            class="text-transparent bg-clip-text bg-gradient-to-bl from-vsk-2 to-vsk-1 font-vsk font-bold"
             >Vasak Group</span
           >
         </h1>

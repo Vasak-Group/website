@@ -76,7 +76,7 @@ export default defineComponent({
       <p class="text-sm text-slate-500 py-1">
         <RouterLink
           to="/"
-          class="text-transparent bg-clip-text bg-gradient-to-bl from-vsk-2 to-vsk-1"
+          class="text-transparent bg-clip-text bg-gradient-to-bl from-vsk-2 to-vsk-1 family-vsk font-bold"
           rel="nofollow"
           >Vasak group</RouterLink
         >
