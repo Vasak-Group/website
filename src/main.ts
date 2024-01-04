@@ -18,6 +18,8 @@ import {
   faHandshakeAngle,
   faStar,
   faUserTie,
+  faXmark,
+  faChevronDown
 } from '@fortawesome/free-solid-svg-icons';
 
 import App from '@/App.vue';
@@ -43,6 +45,8 @@ library.add(
   faUserTie,
   faTwitter,
   faGithub,
+  faXmark,
+  faChevronDown,
 );
 
 // @ts-ignore
