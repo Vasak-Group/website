@@ -1,20 +1,20 @@
 <script lang="ts">
-import { defineComponent } from "vue";
-import { RouterLink } from "vue-router";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import social from "@/data/social";
+import { defineComponent } from 'vue';
+import { RouterLink } from 'vue-router';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import social from '@/data/social';
 
 export default defineComponent({
-  name: "FooterComponent",
+  name: 'FooterComponent',
   data() {
     return {
-      social,
+      social
     };
   },
   components: {
     RouterLink,
-    FontAwesomeIcon,
-  },
+    FontAwesomeIcon
+  }
 });
 </script>
 
@@ -31,13 +31,11 @@ export default defineComponent({
               class="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900"
             >
               <RouterLink to="/about" class="text-gray-500 hover:text-vsk-1">{{
-                $t("navbar.about")
+                $t('navbar.about')
               }}</RouterLink>
-              <RouterLink
-                to="/contact"
-                class="text-gray-500 hover:text-vsk-1"
-                >{{ $t("footer.contact") }}</RouterLink
-              >
+              <RouterLink to="/contact" class="text-gray-500 hover:text-vsk-1">{{
+                $t('footer.contact')
+              }}</RouterLink>
               <a
                 href="https://qrgenerator.vasak.net.ar/"
                 rel="noopener"
@@ -56,15 +54,16 @@ export default defineComponent({
             <div class="flex items-center gap-8">
               <template v-for="red in social" :key="red.name">
                 <a :href="red.url" class="text-grey-700 dark:text-gray-300 hover:text-vsk-2"
-                  ><FontAwesomeIcon :icon="red.icon" /></a>
+                  ><FontAwesomeIcon :icon="red.icon"
+                /></a>
               </template>
             </div>
           </div>
           <div class="flex items-center">
             <p
-              class="text-base px-5 font-normal leading-7 text-center text-gray-700 dark:text-gray-300"
+              class="text-base px-5 font-normal leading-7 text-center text-gray-700 dark:text-gray-300 max-w-5xl"
             >
-              {{ $t("footer.description") }}
+              {{ $t('footer.description') }}
             </p>
           </div>
         </div>
@@ -80,7 +79,7 @@ export default defineComponent({
           rel="nofollow"
           >Vasak group</RouterLink
         >
-        {{ $t("footer.copy") }}
+        {{ $t('footer.copy') }}
         <a href="#" class="scroll-top">
           <FontAwesomeIcon :icon="['fas', 'arrow-up']" />
         </a>
