@@ -1,20 +1,22 @@
-[
+const features: Array<any> = [
     {
-        "id": 1,
+        "id": 0,
         "title": "home.features.cards.1title",
         "description": "home.features.cards.1text",
-        "icon": "fa fa-users"
+        "icon": "fas fa-user-tie"
+    },
+    {
+      "id": 1,
+      "title": "home.features.cards.2title",
+      "description": "home.features.cards.2text",
+      "icon": "fas fa-star"
     },
     {
       "id": 2,
-      "title": "home.features.cards.2title",
-      "description": "home.features.cards.2text",
-      "icon": "fa fa-star"
-    },
-    {
-      "id": 3,
       "title": "home.features.cards.3title",
       "description": "home.features.cards.3text",
-      "icon": "fa fa-handshake-o"
+      "icon": "fas fa-handshake-angle"
     }
 ]
+
+export default features
