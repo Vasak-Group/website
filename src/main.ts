@@ -5,7 +5,9 @@ import {
   faLinkedin,
   faInstagram,
   faWhatsapp,
-  faSafari
+  faSafari,
+  faTwitter,
+  faGithub
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faEnvelope,
@@ -39,6 +41,8 @@ library.add(
   faHandshakeAngle,
   faStar,
   faUserTie,
+  faTwitter,
+  faGithub,
 );
 
 // @ts-ignore
