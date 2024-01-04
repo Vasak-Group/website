@@ -45,7 +45,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <header class="sticky top-0 bg-white dark:bg-gray-800 rounded-b-xl z-10 drop-shadow-lg">
+  <header class="sticky top-0 bg-white dark:bg-gray-800 rounded-b-xl z-20 drop-shadow-lg">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       aria-label="Global"
@@ -86,7 +86,7 @@ export default defineComponent({
     <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
       <DialogPanel
-        class="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-white dark:bg-gray-800 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 drop-shadow-lg"
+        class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white dark:bg-gray-800 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 drop-shadow-lg"
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
