@@ -5,7 +5,7 @@
   >
     <div class="flex flex-col items-center p-10 bg-vsk-1">
       <span class="font-semibold text-white">{{ $t(nombre) }}</span>
-      <div class="flex items-center">
+      <div class="flex items-center pt-3">
         <span class="text-6xl font-bold text-white"><FontAwesomeIcon :icon="icon" /></span>
       </div>
     </div>
