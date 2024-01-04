@@ -1,41 +1,34 @@
 <template>
-    <section id="pricing" class="pricing-section pt-140 pb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-10 mx-auto">
-                    <div class="section-title text-center mb-60">
-                        <span>{{ $t('home.plans.title') }}</span>
-                        <h2>{{ $t('home.plans.question') }}</h2>
-                        <p>{{ $t('home.plans.answer') }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <div class="row">
-
-                        <PricingCard v-for="price in prices" :key="price.id" v-bind="price" />
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="flex flex-col items-center justify-center mt-20">
+    <p class="text-vsk-2 font-bold">{{ $t("home.plans.title") }}</p>
+    <h2 class="text-vsk-1 text-5xl font-bold text-center">
+      {{ $t("home.plans.question") }}
+    </h2>
+    <p class="py-5 max-w-md text-center text-gray-800 dark:text-gray-200">
+      {{ $t("home.plans.answer") }}
+    </p>
+  </div>
+  <div
+    class="flex flex-wrap items-center justify-center w-full mx-auto mb-20"
+  >
+    <PricingCard v-for="price in prices" :key="price.id" v-bind="price" />
+  </div>
 </template>
 
 <script setup lang="ts">
-import prices from '../../data/prices.json';
-import PricingCard from '@/components/cards/PricingCard.vue';
-import { defineComponent } from 'vue';
+import prices from "@/data/prices";
+import PricingCard from "@/components/cards/PricingCard.vue";
+import { defineComponent } from "vue";
 
-defineComponent( {
-    data() {
-        return {
-            prices
-        };
-    },
-    components: { PricingCard }
+defineComponent({
+  data() {
+    return {
+      prices,
+    };
+  },
+  components: { PricingCard },
 });
 </script>
 
 <style></style>
+../../data/prices
