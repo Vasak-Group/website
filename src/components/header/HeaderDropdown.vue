@@ -3,6 +3,7 @@ import { defineComponent } from "vue";
 import { RouterLink } from "vue-router";
 // @ts-ignore
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 export default defineComponent({
   name: "HeaderDropdown",
@@ -29,6 +30,7 @@ export default defineComponent({
     Popover,
     PopoverButton,
     PopoverPanel,
+    FontAwesomeIcon,
   },
 })
 </script>
@@ -41,9 +43,10 @@ export default defineComponent({
       <RouterLink :to="link">
       {{ title }}
       </RouterLink>
-      <ChevronDownIcon
+      <FontAwesomeIcon
         class="h-5 w-5 flex-none text-gray-400"
         aria-hidden="true"
+        icon="fas fa-chevron-down"
       />
     </PopoverButton>
 
