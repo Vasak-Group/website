@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFacebookF, faLinkedin, faInstagram, faWhatsapp, faSafari } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faArrowUp, faCartShopping, faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faArrowUp, faCartShopping, faEarthAmericas, faBars } from '@fortawesome/free-solid-svg-icons';
 
 import App from '@/App.vue';
 import router from '@/router/index';
@@ -20,6 +20,7 @@ library.add(
   faCartShopping,
   faEarthAmericas,
   faSafari,
+  faBars,
 );
 
 // @ts-ignore
