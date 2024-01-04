@@ -21,7 +21,7 @@
     <div class="flex px-10 pb-10 justfy-center">
       <a
         :href="sanitizeUrl(url)"
-        class="flex items-center justify-center text-gray-950 dark:text-gray-100 w-full h-12 px-6 text-sm uppercase bg-gray-200 dark:bg-gray-700 rounded-xl"
+        class="flex items-center justify-center text-gray-950 dark:text-gray-100 w-full h-12 px-6 text-sm uppercase bg-gray-200 dark:bg-gray-700 rounded-xl hover:bg-vsk-1"
       >
         {{$t("home.plans.button")}}
       </a>
