@@ -1,4 +1,4 @@
-import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import WebDevelopView from "@/views/services/WebDevelopView.vue";
 import AboutView from "@/views/AboutView.vue";
 import ContactView from "@/views/ContactView.vue";
@@ -6,7 +6,7 @@ import HomeView from "@/views/HomeView.vue";
 import ProjectView from "@/views/ProjectView.vue";
 import ServiceView from "@/views/ServiceView.vue";
 
-const routes: Array<RouteRecordRaw> = [
+const routes: Array<any> = [
   {
     path: "/",
     name: "home",
