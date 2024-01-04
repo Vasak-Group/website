@@ -1,8 +1,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { RouterLink } from "vue-router";
-// @ts-ignore
-import social from "@/data/social.json";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import social from "@/data/social";
 
 export default defineComponent({
   name: "FooterComponent",
@@ -13,6 +13,7 @@ export default defineComponent({
   },
   components: {
     RouterLink,
+    FontAwesomeIcon,
   },
 });
 </script>
@@ -55,8 +56,7 @@ export default defineComponent({
             <div class="flex items-center gap-8">
               <template v-for="red in social" :key="red.name">
                 <a :href="red.url" class="text-grey-700 dark:text-gray-300 hover:text-vsk-2"
-                  ><i :class="red.icon"></i
-                ></a>
+                  ><FontAwesomeIcon :icon="red.icon" /></a>
               </template>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default defineComponent({
         >
         {{ $t("footer.copy") }}
         <a href="#" class="scroll-top">
-          <i class="fa fa-arrow-up"></i>
+          <FontAwesomeIcon :icon="['fas', 'arrow-up']" />
         </a>
       </p>
     </div>
