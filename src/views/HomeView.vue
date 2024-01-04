@@ -3,6 +3,7 @@ import FeatureComponent from '@/components/home/FeatureComponent.vue';
 import HeroHome from '@/components/home/HeroHome.vue';
 import PricingComponent from '@/components/home/PricingComponent.vue';
 import TestimonialsComponent from '@/components/global/TestimonialsComponent.vue';
+import CallToAction from '@/components/home/CallToAction.vue';
 
 import { onMounted } from 'vue';
 
@@ -18,5 +19,6 @@ onMounted(() => {
     <FeatureComponent />
     <PricingComponent />
     <TestimonialsComponent />
+    <CallToAction />
   </main>
 </template>
