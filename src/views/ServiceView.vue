@@ -1,28 +1,28 @@
-<script lang="ts" setup>
+<script lang="ts">
 import { defineComponent, onMounted } from 'vue';
 import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
 import PortfolioComponent from '@/components/service/PortfolioComponent.vue';
 import ServicesComponent from '@/components/service/ServicesComponent.vue';
 import TechnologiesComponent from '@/components/service/TechnologiesComponent.vue';
-import i18n from '@/i18n';
 
-const { t } = i18n().global;
-
-onMounted(() => {
-  document.title = t('services.title') + ' | Vasak Group';
-  window.scrollTo(0, 0);
+export default defineComponent({
+  name: 'ServiceView',
+  mounted() {
+    document.title = this.$t('services.title') + ' | Vasak Group';
+    window.scrollTo(0, 0);
+  },
+  components: {
+    BreadcrumbsComponent,
+    PortfolioComponent,
+    ServicesComponent,
+    TechnologiesComponent
+  }
 });
-
-defineComponent({
-  name: 'ServiceView'
-})
 </script>
 
 <template>
   <BreadcrumbsComponent :title="$t('services.title')" />
-  <div class="main">
-    <ServicesComponent />
-    <PortfolioComponent />
-    <TechnologiesComponent />
-  </div>
+  <ServicesComponent />
+  <PortfolioComponent />
+  <TechnologiesComponent />
 </template>
