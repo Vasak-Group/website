@@ -19,7 +19,9 @@ import {
   faStar,
   faUserTie,
   faXmark,
-  faChevronDown
+  faChevronDown,
+  faPhone,
+  faLocationDot,
 } from '@fortawesome/free-solid-svg-icons';
 
 import App from '@/App.vue';
@@ -47,6 +49,8 @@ library.add(
   faGithub,
   faXmark,
   faChevronDown,
+  faPhone,
+  faLocationDot,
 );
 
 // @ts-ignore
