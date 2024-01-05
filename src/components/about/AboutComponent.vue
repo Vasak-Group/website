@@ -69,7 +69,7 @@
 
 <script lang="ts">
 import clients from '@/data/clients.json';
-import projects from '@/data/projects.json';
+import projects from '@/data/projects';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
