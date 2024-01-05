@@ -1,73 +1,58 @@
-<script setup lang="ts">
-import techs from '../../data/techs.json';
-import { defineComponent, onMounted } from 'vue';
-import { tns } from 'tiny-slider';
+<script lang="ts">
+import techs from '@/data/techs';
+import { defineComponent } from 'vue';
 
-onMounted(() => {
-    tns({
-        container: '#tns1-ow',
-        items: 4,
-        slideBy: 'page',
-        autoplay: true,
-        mouseDrag: true,
-        gutter: 20,
-        controls: false,
-        nav: false,
-        autoplayButtonOutput: false,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            768: {
-                items: 4,
-            },
-        },
-    });
-});
-
-defineComponent({
-    name: 'TechnologiesComponent',
-    data() {
-        return {
-            techs
-        }
+export default defineComponent({
+  name: 'TechnologiesComponent',
+  data() {
+    return {
+      techs,
+      active: 0
+    };
+  },
+  computed: {
+    subsArrayTechs() {
+      const newArray = [];
+      for (let i = 0; i < this.techs.length; i += 4) {
+        const chunk = this.techs.slice(i, i + 4);
+        newArray.push(chunk);
+      }
+      return newArray;
     }
-})
+  },
+  mounted() {
+    let i = 0;
+    setInterval(() => {
+      if (i > this.subsArrayTechs.length - 1) {
+        i = 0;
+      }
+      this.active = i;
+      i++;
+    }, 4000);
+  }
+});
 </script>
 
 <template>
-    <section id="technology" class="teams">
-        <div class="container text-center">
-            <div class="client-logo-wrapper">
-
-                <div class="tns-outer" id="tns1-ow">
-                    <div class="client-logo tns-item" v-for="tech in techs" :key="tech.name" >
-                        <img :src="tech.img" :alt="tech.name" class="img-fluid tech-img" loading="lazy">
-                    </div>
-                </div>
-
-            </div>
+  <div id="app">
+    <div class="relative slide p-32">
+      <div class="carousel-inner relative overflow-hidden w-full">
+        <div
+          v-for="(techs, i) in subsArrayTechs"
+          :id="`slide-${i}`"
+          :key="i"
+          :class="`${active === i ? 'active' : 'left-full'}`"
+          class="carousel-item inset-0 relative w-full transform transition-all duration-500 ease-in-out"
+        >
+          <div
+            class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-around"
+          >
+            <span v-for="tech in techs">
+              <img class="h-20 grayscale hover:grayscale-0 transform transition-all duration-500" :src="tech.img" :alt="tech.name" />
+            </span>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
 </template>
-
-<style>
-#technology{
-    padding: 100px 0;
-}
-
-.tech-img {
-    height: 100px;
-    margin: 15px;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    transition:0.3s scale;
-}
-
-.tech-img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    scale: 1.3;
-    transition:0.5s scale;
-}
-</style>
