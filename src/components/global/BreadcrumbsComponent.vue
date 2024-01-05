@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gradient-to-bl from-vsk-2 to-vsk-1 -mt-3">
-    <div class="container mx-auto flex flex-col items-center py-12 sm:py-24">
+    <div class="container mx-auto flex flex-col items-center py-36">
       <div
         class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10"
       >
