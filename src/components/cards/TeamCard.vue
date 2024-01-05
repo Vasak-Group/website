@@ -15,10 +15,10 @@
       <p class="text-xl text-gray-700 dark:text-gray-100 font-bold mb-2">{{ name }}</p>
       <p class="text-base text-gray-500 dark:text-gray-400 font-normal">{{ position }}</p>
       <div class="team-social">
-        <div class="mt-2 mb-5 space-x-2">
+        <div class="mt-2 space-x-2">
           <template v-for="red  in social" :key="red.id">
-            <a :href="sanitizeUrl((red as any).url)" class="text-vsk-1 hover:text-vsk-2"
-              ><FontAwesomeIcon :icon="(red as any).icon" /></a>
+            <a :href="sanitizeUrl((red as any).url)" target="_blank" ref="nooref" class="text-vsk-1 hover:text-vsk-2 px-1"
+              ><FontAwesomeIcon :icon="(red as any).icon" size="lg" /></a>
           </template>
         </div>
       </div>
