@@ -1,39 +1,47 @@
-<template>
-    <section id="service" class="service-section pt-130 pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
-                    <div class="section-title text-center mb-55">
-                        <span>{{ $t('services.title') }}</span>
-                        <h2>{{ $t('services.question') }}</h2>
-                        <p>{{ $t('services.answer') }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div v-for="service in services" :key="service.id" class="col-lg-4 col-md-6">
-                    <div class="service-box box-style">
-                        <div class="service-icon box-icon-style">
-                            <i :class="service.icon"></i>
-                        </div>
-                        <div class="box-content-style service-content">
-                            <h4>{{ $t(service.title) }}</h4>
-                            <p>{{ $t(service.description) }}</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-</template>
-
-<script setup lang="ts">
-import services from '@/data/services.json'
+<script lang="ts">
 import { defineComponent } from 'vue';
+import ServiceCard from '@/components/cards/ServiceCard.vue';
+import services from '@/data/services';
 
-defineComponent( {
-    name: 'ServicesComponent',
-})
+export default defineComponent({
+  name: 'ServicesComponent',
+  data() {
+    return {
+      services
+    };
+  },
+  components: {
+    ServiceCard
+  }
+});
 </script>
+
+<template>
+  <section class="pt-20 pb-12">
+
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
+            <span class="font-semibold text-lg mb-2 block text-vsk-2">{{
+              $t('services.title')
+            }}</span>
+            <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-vsk-1 mb-4">
+              {{ $t('services.question') }}
+            </h2>
+            <p class="text-gray-700 dark:text-gray-200">
+              {{ $t('services.answer') }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap">
+        <div v-for="service in services" :key="service.id" class="w-full md:w-1/2 lg:w-1/3 px-4 pb-8">
+          <ServiceCard
+            :icon="service.icon"
+            :title="service.title"
+            :description="service.description"
+          />
+        </div>
+      </div>
+  </section>
+</template>
