@@ -22,6 +22,11 @@ import {
   faChevronDown,
   faPhone,
   faLocationDot,
+  faMobile,
+  faSitemap,
+  faMagnifyingGlassPlus,
+  faPeopleGroup,
+  faP,
 } from '@fortawesome/free-solid-svg-icons';
 
 import App from '@/App.vue';
@@ -51,6 +56,10 @@ library.add(
   faChevronDown,
   faPhone,
   faLocationDot,
+  faMobile,
+  faSitemap,
+  faMagnifyingGlassPlus,
+  faPeopleGroup,
 );
 
 // @ts-ignore
