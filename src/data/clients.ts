@@ -1,4 +1,4 @@
-[
+const clients: Array<any> = [
   {
     "id": 0,
     "name": "Vasak",
@@ -98,3 +98,5 @@
     "logo": "https://i.postimg.cc/k4XW8XbP/image.png"
   }
 ]
+
+export default clients;
