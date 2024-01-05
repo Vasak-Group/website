@@ -19,7 +19,7 @@ export default defineComponent({
 <template>
   <section class="pt-20 pb-12">
 
-      <div class="flex flex-wrap -mx-4">
+      <div class="flex flex-wrap">
         <div class="w-full px-4">
           <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
             <span class="font-semibold text-lg mb-2 block text-vsk-2">{{
