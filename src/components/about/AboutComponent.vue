@@ -68,7 +68,7 @@
 </template>
 
 <script lang="ts">
-import clients from '@/data/clients.json';
+import clients from '@/data/clients';
 import projects from '@/data/projects';
 import { defineComponent } from 'vue';
 
