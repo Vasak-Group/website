@@ -1,15 +1,24 @@
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent } from 'vue';
 import FeatureComponent from '@/components/home/FeatureComponent.vue';
 import HeroHome from '@/components/home/HeroHome.vue';
 import PricingComponent from '@/components/home/PricingComponent.vue';
 import TestimonialsComponent from '@/components/global/TestimonialsComponent.vue';
 import CallToAction from '@/components/home/CallToAction.vue';
 
-import { onMounted } from 'vue';
-
-onMounted(() => {
+export default defineComponent({
+  name: 'HomeView',
+  mounted() {
     document.title = 'Vasak Group';
     window.scrollTo(0, 0);
+  },
+  components: {
+    FeatureComponent,
+    HeroHome,
+    PricingComponent,
+    TestimonialsComponent,
+    CallToAction
+  }
 });
 </script>
 

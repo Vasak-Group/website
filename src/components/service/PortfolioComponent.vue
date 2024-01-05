@@ -10,13 +10,13 @@
       </p>
     </div>
     <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
-        <ProjectCard
-          v-for="project in viewProjects()"
-          :key="project.id"
-          :id="project.id"
-          :name="project.name"
-          :image="project.image"
-        />
+      <ProjectCard
+        v-for="project in viewProjects()"
+        :key="project.id"
+        :id="project.id"
+        :name="project.name"
+        :image="project.image"
+      />
     </section>
   </section>
 </template>

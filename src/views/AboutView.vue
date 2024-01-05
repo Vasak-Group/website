@@ -1,24 +1,24 @@
 <script lang="ts">
-import { defineComponent } from "vue";
-import AboutComponent from "@/components/about/AboutComponent.vue";
-import TeamComponent from "@/components/about/TeamComponent.vue";
-import BreadcrumbsComponent from "@/components/global/BreadcrumbsComponent.vue";
-import TestimonialsComponent from "@/components/global/TestimonialsComponent.vue";
-import CallToAction from "@/components/home/CallToAction.vue";
+import { defineComponent } from 'vue';
+import AboutComponent from '@/components/about/AboutComponent.vue';
+import TeamComponent from '@/components/about/TeamComponent.vue';
+import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
+import TestimonialsComponent from '@/components/global/TestimonialsComponent.vue';
+import CallToAction from '@/components/home/CallToAction.vue';
 
 export default defineComponent({
-  name: "AboutView",
+  name: 'AboutView',
   components: {
     AboutComponent,
     TeamComponent,
     BreadcrumbsComponent,
     TestimonialsComponent,
-    CallToAction,
+    CallToAction
   },
   mounted() {
-    document.title = `${this.$t("about.title")} | Vasak Group`;
+    document.title = `${this.$t('about.title')} | Vasak Group`;
     window.scrollTo(0, 0);
-  },
+  }
 });
 </script>
 

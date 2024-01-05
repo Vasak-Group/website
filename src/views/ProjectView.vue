@@ -51,6 +51,6 @@ export default defineComponent({
   mounted() {
     document.title = this.project.name + ' | Vasak Group';
     window.scrollTo(0, 0);
-  },
+  }
 });
 </script>

@@ -30,7 +30,7 @@ export default defineComponent({
     BreadcrumbsComponent,
     MapComponent,
     ContactForm,
-    PreFooterData,
+    PreFooterData
   },
   mounted() {
     document.title = this.$t('contact.title') + ' | Vasak Group';

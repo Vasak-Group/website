@@ -1,5 +1,4 @@
 <script lang="ts">
-/* eslint-disable */
 import { RouterView } from 'vue-router';
 import { defineComponent } from 'vue';
 

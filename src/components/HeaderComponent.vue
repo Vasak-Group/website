@@ -1,14 +1,14 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
+import { Dialog, DialogPanel } from '@headlessui/vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import HeaderButtom from '@/components/header/HeaderButtom.vue';
 import HeaderMobileButtom from '@/components/header/HeaderMobileButtom.vue';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import HeaderDropdown from '@/components/header/HeaderDropdown.vue';
 import HeaderMobileDropdown from '@/components/header/HeaderMobileDropdown.vue';
 import LangSelector from '@/components/global/LangSelector.vue';
 import ThemeToggle from '@/components/global/ThemeToggle.vue';
-import { Dialog, DialogPanel } from '@headlessui/vue';
 
 export default defineComponent({
   name: 'HeaderComponent',
@@ -126,4 +126,3 @@ export default defineComponent({
     </Dialog>
   </header>
 </template>
-

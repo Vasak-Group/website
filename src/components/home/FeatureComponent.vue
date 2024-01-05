@@ -2,7 +2,9 @@
   <div class="bg-white dark:bg-gray-800 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="text-base font-semibold leading-7 text-vsk-2">{{ $t('home.features.feature') }}</h2>
+        <h2 class="text-base font-semibold leading-7 text-vsk-2">
+          {{ $t('home.features.feature') }}
+        </h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-vsk-1 sm:text-4xl">
           {{ $t('home.features.question') }}
         </p>
@@ -14,7 +16,7 @@
         <dl
           class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16"
         >
-        <FeatureCard v-for="featured in featureds" :key="featured.id" v-bind="featured" />
+          <FeatureCard v-for="featured in featureds" :key="featured.id" v-bind="featured" />
         </dl>
       </div>
     </div>
@@ -38,5 +40,3 @@ export default defineComponent({
   }
 });
 </script>
-
-../../data/features

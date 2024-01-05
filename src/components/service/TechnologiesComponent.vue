@@ -48,7 +48,11 @@ export default defineComponent({
             class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-around"
           >
             <span v-for="tech in techs">
-              <img class="h-20 grayscale hover:grayscale-0 transform transition-all duration-500" :src="tech.img" :alt="tech.name" />
+              <img
+                class="h-20 grayscale hover:grayscale-0 transform transition-all duration-500"
+                :src="tech.img"
+                :alt="tech.name"
+              />
             </span>
           </div>
         </div>

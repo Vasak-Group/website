@@ -25,23 +25,43 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import clients from '@/data/clients';
 import { defineComponent } from 'vue';
 import { sanitizeUrl } from '@braintree/sanitize-url';
 
-const props = defineProps<{
-  type: string;
-  url: string;
-  client: number;
-  name: string;
-  description: string;
-}>();
-
-const clientObject = clients.find((clientd) => clientd.id === props.client) || { name: '' };
-
-defineComponent({
+export default defineComponent({
   name: 'InfoProject',
+  props: {
+    type: {
+      type: String,
+      required: true
+    },
+    url: {
+      type: String,
+      required: true
+    },
+    client: {
+      type: Number,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    }
+  },
+  computed: {
+    clientObject() {
+      return clients.find((clientd) => clientd.id === this.client) || { name: '' };
+    }
+  },
+  methods: {
+    sanitizeUrl
+  },
   data() {
     return {
       clients
@@ -49,5 +69,3 @@ defineComponent({
   }
 });
 </script>
-
-<style></style>

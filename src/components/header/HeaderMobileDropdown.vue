@@ -1,7 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
-// @ts-ignore
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -30,7 +29,7 @@ export default defineComponent({
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
-    FontAwesomeIcon,
+    FontAwesomeIcon
   }
 });
 </script>

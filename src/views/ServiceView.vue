@@ -1,5 +1,5 @@
 <script lang="ts">
-import { defineComponent, onMounted } from 'vue';
+import { defineComponent } from 'vue';
 import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
 import PortfolioComponent from '@/components/service/PortfolioComponent.vue';
 import ServicesComponent from '@/components/service/ServicesComponent.vue';

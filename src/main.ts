@@ -26,7 +26,6 @@ import {
   faSitemap,
   faMagnifyingGlassPlus,
   faPeopleGroup,
-  faP,
 } from '@fortawesome/free-solid-svg-icons';
 
 import App from '@/App.vue';
@@ -59,7 +58,7 @@ library.add(
   faMobile,
   faSitemap,
   faMagnifyingGlassPlus,
-  faPeopleGroup,
+  faPeopleGroup
 );
 
 // @ts-ignore
