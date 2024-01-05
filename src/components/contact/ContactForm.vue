@@ -1,102 +1,144 @@
 <template>
-  <form class="contact-form" @submit.prevent="sendMail()">
-      <div class="row">
-          <div class="col-md-6">
-              <input type="text" name="name" id="name" v-model="fullname" :placeholder="$t('contact.form.name')" required>
-          </div>
-          <div class="col-md-6">
-              <input type="email" name="email" id="email" v-model="email" :placeholder="$t('contact.form.email')" required>
-          </div>
-          <div class="col-md-6">
-              <input type="text" name="phone" id="phone" v-model="phone" :placeholder="$t('contact.form.phone')">
-          </div>
-          <div class="col-md-6">
-              <input type="text" name="subject" id="subject" v-model="subject" :placeholder="$t('contact.form.subject')" required>
-          </div>
-          <div class="col-12">
-              <textarea name="message" id="message" v-model="message" :placeholder="$t('contact.form.message')" rows="5"
-                required></textarea>
-          </div>
-          <div class="col-12">
-              <div class="button text-center">
-                  <button type="submit" class="theme-btn">{{ $t('contact.form.button') }}</button>
-              </div>
-          </div>
-      </div>
-      <div v-if="alert_error" class="alert alert-danger alert-dismissible fade show" role="alert">
-        {{ $t('contact.form.error') }}
-        <button type="button" class="btn-close" @:click="closeError" aria-label="Close"></button>
-      </div>
-      <div v-if="alert_succes" class="alert alert-success alert-dismissible fade show" role="alert">
-        {{ $t('contact.form.success') }}
-        <button type="button" class="btn-close" @:click="closeSuccess" aria-label="Close"></button>
-      </div>
+  <form @submit.prevent="sendMail()">
+    <div class="relative mb-4">
+      <label for="name" class="leading-7 text-sm text-gray-600 dark:text-gray-400">{{
+        $t('contact.form.name')
+      }}</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        v-model="fullname"
+        class="w-full bg-gray-300 rounded-xl focus:border-vsk-1 focus:ring-2 focus:ring-vsk-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+      />
+    </div>
+    <div class="relative mb-4">
+      <label for="email" class="leading-7 text-sm text-gray-600 dark:text-gray-400">{{
+        $t('contact.form.email')
+      }}</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        v-model="email"
+        class="w-full bg-gray-300 rounded-xl focus:border-vsk-1 focus:ring-2 focus:ring-vsk-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+      />
+    </div>
+    <div class="relative mb-4">
+      <label for="phone" class="leading-7 text-sm text-gray-600 dark:text-gray-400">{{
+        $t('contact.form.phone')
+      }}</label>
+      <input
+        type="number"
+        id="phone"
+        name="phone"
+        v-model="phone"
+        class="w-full bg-gray-300 rounded-xl focus:border-vsk-1 focus:ring-2 focus:ring-vsk-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+      />
+    </div>
+    <div class="relative mb-4">
+      <label for="subject" class="leading-7 text-sm text-gray-600 dark:text-gray-400">{{
+        $t('contact.form.subject')
+      }}</label>
+      <input
+        type="subject"
+        id="subject"
+        name="subject"
+        v-model="subject"
+        class="w-full bg-gray-300 rounded-xl focus:border-vsk-1 focus:ring-2 focus:ring-vsk-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+      />
+    </div>
+    <div class="relative mb-4">
+      <label for="message" class="leading-7 text-sm text-gray-600 dark:text-gray-400">{{
+        $t('contact.form.message')
+      }}</label>
+      <textarea
+        id="message"
+        name="message"
+        v-model="message"
+        class="w-full bg-gray-300 rounded-xl focus:border-vsk-1 focus:ring-2 focus:ring-vsk-1 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+      ></textarea>
+    </div>
+    <button
+      type="submit"
+      class="text-white bg-vsk-1 border-0 py-4 w-[100%] focus:outline-none hover:bg-vsk-2 rounded-xl text-lg"
+    >
+      {{ $t('contact.form.button') }}
+    </button>
+    <p v-if="alert_error" @:click="closeError" class="text-xs text-red-700 mt-3">
+      {{ $t('contact.form.error') }}
+    </p>
+    <p v-if="alert_succes" @:click="closeSuccess" class="text-xs text-green-700 mt-3">
+      {{ $t('contact.form.success') }}
+    </p>
   </form>
 </template>
 
-<script>
-export default {
-    name: 'ContactForm',
-    data() {
-        return {
-            alert_error: false,
-            alert_succes: false,
-            fullname: '',
-            email: '',
-            phone: '',
-            subject: '',
-            message: '',
-        }
-    },
-    methods: {
-        async sendMail () {
-            const data = {
-                access_key: '49ec7e84-cca9-4059-b1a7-cc6652d32a03',
-                fullname: this.fullname,
-                email: this.email,
-                phone: this.phone,
-                subject: this.subject,
-                message: this.message
-            };
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-            const response = await fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                body: JSON.stringify(data),
-                headers: { 'Content-Type': 'application/json', Accept: "application/json", }
-            })
-            
-            response.json()
-                .then((data) => {
-                    console.log(data);
-                    if (data.success) {
-                        this.openSuccess();
-                    } else {
-                        this.openError();
-                    }
-                    
-                })
-                .catch((error) => {
-                    console.error(error);
-                    this.openError();
-                });
-        },
-        closeError () {
-            this.alert_error = false;
-        },
-        closeSuccess () {
-            this.alert_succes = false;
-        },
-        openError () {
-            this.alert_error = true;
-        },
-        openSuccess () {
-            this.fullname = '';
-            this.email = '';
-            this.phone = '';
-            this.subject = '';
-            this.message = '';
-            this.alert_succes = true;
-        },
+export default defineComponent({
+  name: 'ContactForm',
+  data() {
+    return {
+      alert_error: false,
+      alert_succes: false,
+      fullname: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
+    };
+  },
+  methods: {
+    async sendMail() {
+      const data = {
+        access_key: '49ec7e84-cca9-4059-b1a7-cc6652d32a03',
+        fullname: this.fullname,
+        email: this.email,
+        phone: this.phone,
+        subject: this.subject,
+        message: this.message
+      };
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' }
+      });
+
+      response
+        .json()
+        .then((data) => {
+          console.log(data);
+          if (data.success) {
+            this.openSuccess();
+          } else {
+            this.openError();
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+          this.openError();
+        });
+    },
+    closeError() {
+      this.alert_error = false;
+    },
+    closeSuccess() {
+      this.alert_succes = false;
+    },
+    openError() {
+      this.alert_error = true;
+    },
+    openSuccess() {
+      this.fullname = '';
+      this.email = '';
+      this.phone = '';
+      this.subject = '';
+      this.message = '';
+      this.alert_succes = true;
     }
-};
+  }
+});
 </script>

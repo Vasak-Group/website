@@ -1,21 +1,21 @@
-import { nextTick } from "vue";
-import { createI18n } from "vue-i18n";
+import { nextTick } from 'vue';
+import { createI18n } from 'vue-i18n';
 
 let i18n: ReturnType<typeof createI18n>;
 
-export const SUPPORT_LOCALES = ["es", "en", "pt", "it"];
+export const SUPPORT_LOCALES = ['es', 'en', 'pt', 'it'];
 
 export function setI18nLanguage(locale: string) {
   loadLocaleMessages(locale);
 
-  if (i18n.mode === "legacy") {
+  if (i18n.mode === 'legacy') {
     i18n.global.locale = locale;
   } else {
     i18n.global.locale = { value: locale };
   }
 
-  document.querySelector("html")?.setAttribute("lang", locale);
-  localStorage.setItem("lang", locale);
+  document.querySelector('html')?.setAttribute('lang', locale);
+  localStorage.setItem('lang', locale);
 }
 
 export async function loadLocaleMessages(locale: string) {
@@ -23,8 +23,6 @@ export async function loadLocaleMessages(locale: string) {
   const messages = await import(
     /* webpackChunkName: "locale-[request]" */ `./locales/${locale}.json`
   );
-
-  // set locale and locale message
   i18n.global.setLocaleMessage(locale, messages.default);
 
   return nextTick();
@@ -32,13 +30,13 @@ export async function loadLocaleMessages(locale: string) {
 
 export default function setupI18n() {
   if (!i18n) {
-    const locale = localStorage.getItem("lang") || "es";
+    const locale = localStorage.getItem('lang') || 'es';
 
     i18n = createI18n({
       globalInjection: true,
       legacy: false,
       locale: locale,
-      fallbackLocale: "es",
+      fallbackLocale: 'es'
     });
 
     setI18nLanguage(locale);

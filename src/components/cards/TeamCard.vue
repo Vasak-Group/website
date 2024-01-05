@@ -1,45 +1,61 @@
 <template>
-    <div>
-        <div class="single-team text-center mb-40">
-            <div class="team-img ratio ratio-1x1">
-                <img :alt="name" :title="name" :src="image" loading="lazy">
-                <div class="team-social">
-                    <ul>
-                        <li v-for="red in social" :key="red.id">
-                            <a :href="sanitizeUrl(red.url)"><i :class="red.icon"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="team-info">
-                <h4>{{ name }}</h4>
-                <span>{{ position }}</span>
-            </div>
-        </div>
+  <div
+    class="w-full bg-gray-200 dark:bg-gray-700 rounded-xl p-12 flex flex-col justify-center items-center"
+  >
+    <div class="mb-8">
+      <img
+        class="object-center object-cover rounded-full h-36 w-36"
+        :alt="name"
+        :title="name"
+        :src="image"
+        loading="lazy"
+      />
     </div>
+    <div class="text-center">
+      <p class="text-xl text-gray-700 dark:text-gray-100 font-bold mb-2">{{ name }}</p>
+      <p class="text-base text-gray-500 dark:text-gray-400 font-normal">{{ position }}</p>
+      <div class="team-social">
+        <div class="mt-2 space-x-2">
+          <template v-for="red  in social" :key="red.id">
+            <a :href="sanitizeUrl((red as any).url)" target="_blank" ref="nooref" class="text-vsk-1 hover:text-vsk-2 px-1"
+              ><FontAwesomeIcon :icon="(red as any).icon" size="lg" /></a>
+          </template>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
-<script setup lang="ts">
-import { defineComponent } from 'vue'
-import { Social } from '@/types/TeamMember';
+<script lang="ts">
+import { defineComponent } from 'vue';
 import { sanitizeUrl } from '@braintree/sanitize-url';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-defineProps({
+export default defineComponent({
+  name: 'TeamCard',
+  props: {
     name: {
-        type: String
+      type: String,
+      required: true
     },
     image: {
-        type: String
+      type: String,
+      required: true
     },
     position: {
-        type: String
+      type: String,
+      required: true
     },
     social: {
-        type: Array as () => Social[]
-    },
-})
-
-defineComponent({
-    name: 'TeamCard',
+      type: Array,
+      required: true
+    }
+  },
+  methods: {
+    sanitizeUrl
+  },
+  components: {
+    FontAwesomeIcon
+  }
 });
 </script>

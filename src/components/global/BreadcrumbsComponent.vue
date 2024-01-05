@@ -1,31 +1,29 @@
 <template>
-    <section class="page-banner-section pt-75 pb-75 img-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="banner-content">
-                        <h2 class="text-white">{{ title }}</h2>
-                        <div class="page-breadcrumb">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="bg-gradient-to-bl from-vsk-2 to-vsk-1 -mt-3">
+    <div class="container mx-auto flex flex-col items-center py-36">
+      <div
+        class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10"
+      >
+        <h1
+          class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-black leading-7 md:leading-10"
+        >
+          {{ title }}
+        </h1>
+      </div>
+    </div>
+  </div>
 </template>
 
-<script setup lang="ts">
-defineProps<{
-    title: string
-}>()
-</script>
+<script lang="ts">
+import { defineComponent } from "vue";
 
-<style scoped>
-h1 {
-    padding: 50px 0 50px 0;
-}
-</style>
+export default defineComponent({
+  name: "HeroComponent",
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+  },
+});
+</script>

@@ -1,90 +1,40 @@
 <template>
-    <BreadcrumbsComponent :title="$t('contact.title')" />
-    <section class="contact-section pt-130">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="contact-item-wrapper">
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-xl-12">
-                                <div class="contact-item">
-                                    <div class="contact-icon">
-                                        <i class="fa fa-whatsapp"></i>
-                                    </div>
-                                    <div class="contact-content">
-                                        <h4>WhatsApp</h4>
-                                        <p>+54 9 11 6010-9950</p>
-                                        <p><a href="https://t.me/PatoJAD" rel="noopener" target="_blank">https://t.me/PatoJAD</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-12">
-                                <div class="contact-item">
-                                    <div class="contact-icon">
-                                        <i class="fa fa-map"></i>
-                                    </div>
-                                    <div class="contact-content">
-                                        <h4>{{ $t('contact.address') }}</h4>
-                                        <p>Oporto, Portugal</p>
-                                        <p>Europa</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-12">
-                                <div class="contact-item">
-                                    <div class="contact-icon">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="contact-content">
-                                        <h4>{{ $t('contact.mail') }}</h4>
-                                        <p>info@vasak.net.ar</p>
-                                        <p>&nbsp;</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-8">
-                    <div class="contact-form-wrapper">
-                        <div class="row">
-                            <div class="col-xl-10 col-lg-8 mx-auto">
-                                <div class="section-title text-center mb-50">
-                                    <span>{{ $t('contact.title') }}</span>
-                                    <h2>{{ $t('contact.question') }}</h2>
-                                    <p>{{ $t('contact.answer') }}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <ContactForm />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <BreadcrumbsComponent :title="$t('contact.title')" />
+  <section class="text-gray-600 body-font relative">
     <MapComponent />
+    <div class="container px-5 py-24 mx-auto flex">
+      <div
+        class="lg:w-1/3 md:w-1/2 bg-white dark:bg-gray-800 rounded-xl p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-lg"
+      >
+        <h2 class="text-vsk-1 text-lg mb-1 font-medium title-font">{{ $t('contact.question') }}</h2>
+        <p class="leading-relaxed mb-5 text-gray-600 dark:text-gray-400">
+          {{ $t('contact.answer') }}
+        </p>
+        <ContactForm />
+      </div>
+    </div>
+  </section>
+  <PreFooterData />
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import ContactForm from '@/components/contact/ContactForm.vue';
 import MapComponent from '@/components/contact/MapComponent.vue';
+import PreFooterData from '@/components/contact/PreFooterData.vue';
 import BreadcrumbsComponent from '@/components/global/BreadcrumbsComponent.vue';
-import { defineComponent, onMounted } from 'vue';
-import i18n from '@/i18n';
+import { defineComponent } from 'vue';
 
-const { t } = i18n().global;
-
-onMounted(() => {
-    document.title = t('contact.title') + ' | Vasak Group';
-    window.scrollTo(0, 0);
-})
-
-defineComponent({
+export default defineComponent({
   name: 'ContactView',
   components: {
     BreadcrumbsComponent,
     MapComponent,
-    ContactForm
+    ContactForm,
+    PreFooterData
   },
+  mounted() {
+    document.title = this.$t('contact.title') + ' | Vasak Group';
+    window.scrollTo(0, 0);
+  }
 });
 </script>

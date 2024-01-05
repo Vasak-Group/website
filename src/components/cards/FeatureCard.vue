@@ -1,38 +1,41 @@
 <template>
-    <div class="col-lg-4 col-md-6">
-        <div class="feature-box box-style">
-            <div class="feature-icon box-icon-style">
-                <i :class="icon"></i>
-            </div>
-            <div class="box-content-style feature-content">
-                <h4>{{ $t(title) }}</h4>
-                <p>{{ $t(description) }}</p>
-            </div>
-        </div>
-    </div>
+  <div class="relative pl-16">
+    <dt class="text-base font-semibold leading-7 text-gray-900 dark:text-gray-100">
+      <div
+        class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-vsk-1"
+      >
+        <FontAwesomeIcon :icon="icon" class="h-6 w-6 text-white" aria-hidden="true" />
+      </div>
+      {{ $t(title) }}
+    </dt>
+    <dd class="mt-2 text-base leading-7 text-gray-600 dark:text-gray-400">{{ $t(description) }}</dd>
+  </div>
 </template>
 
-<script setup lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-defineProps({
+export default defineComponent({
+  name: 'FeatureCard',
+  props: {
     icon: {
-        type: String,
-        required: true,
+      type: String,
+      required: true
     },
     title: {
-        type: String,
-        required: true,
+      type: String,
+      required: true
     },
     description: {
-        type: String,
-        required: true,
-    },
-})
-
-defineComponent({
-    name: 'FeatureCard',
-})
+      type: String,
+      required: true
+    }
+  },
+  components: {
+    FontAwesomeIcon
+  }
+});
 </script>
 
 <style></style>

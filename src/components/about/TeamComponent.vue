@@ -1,79 +1,37 @@
 <template>
-    <section id="team" class="team-section img-bg pt-130 text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-7 mx-auto">
-                    <div class="section-title mb-60">
-                        <span>{{ $t('about.team.title') }}</span>
-                        <h2>{{ $t('about.team.question') }}</h2>
-                        <p>{{ $t('about.team.answer') }}</p>
-                    </div>
-                </div>
-            </div>
-            <div id="teams-slider">
-
-                <TeamCard v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
-
-            </div>
-        </div>
+  <div class="bg-white dark:bg-gray-900 py-12">
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+      <div class="text-center pb-12">
+        <h2 class="text-base font-bold text-vsk-2">{{ $t('about.team.title') }}</h2>
+        <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-vsk-1">
+          {{ $t('about.team.question') }}
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+          {{ $t('about.team.answer') }}
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <TeamCard v-for="member in vskteam" v-bind:key="member.id" v-bind="member" />
+      </div>
     </section>
+  </div>
 </template>
 
-<script setup lang="ts">
-import team from '@/data/team.json'
-import TeamCard from '@/components/cards/TeamCard.vue'
+<script lang="ts">
+import team from '@/data/team';
+import TeamCard from '@/components/cards/TeamCard.vue';
 
-import { tns } from "tiny-slider/src/tiny-slider"
-import { defineComponent, onMounted } from "vue"
-import { TeamMember } from '@/types/TeamMember';
+import { defineComponent } from 'vue';
 
-onMounted(() => {
-    tns({
-        container: '#teams-slider',
-        items: 4,
-        autoWidth: true,
-        slideBy: 1,
-        center: true,
-        speed: 400,
-        gutter: 2,
-        loop: true,
-        mouseDrag: true,
-        controls: false,
-        nav: true,
-        navPosition: 'bottom',
-        autoplay: true,
-        autoplayButtonOutput: false,
-    });
-})
-
-const vskteam:TeamMember[] = team.filter(member => member.show);
-
-defineComponent({
-    name: 'TeamComponent',
-    components: {
-        TeamCard
-    },
-    data() {
-        return {
-            vskteam
-        }
-    }
+export default defineComponent({
+  name: 'TeamComponent',
+  components: {
+    TeamCard
+  },
+  data() {
+    return {
+      vskteam: team.filter((member) => member.show)
+    };
+  }
 });
 </script>
-
-<style lang="scss">
-.tns-nav {
-    button{
-        border-radius: 50px;
-        margin: 2px;
-        height: 7px;
-        width: 7px;
-        background: var(--bg-site-2);
-        border: none;
-
-        &.tns-nav-active{
-            background: var(--site-gradient);
-        }
-    }
-} 
-</style>
