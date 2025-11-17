@@ -5,8 +5,17 @@
   --color-secondary: #f46619;
 }
 
+@font-face {
+  font-family: VSKRegular;
+  src: url(/fonts/VSKRegular.ttf);
+}
+
 body {
   @apply bg-slate-50 text-slate-950 dark:bg-slate-950 dark:text-slate-50 transition-all duration-300;
+}
+
+.vsk-font {
+  font-family: VSKRegular, sans-serif;
 }
 
 .vsk-gradient {

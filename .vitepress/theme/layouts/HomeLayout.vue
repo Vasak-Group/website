@@ -17,9 +17,8 @@ const headSrc = '/img/head.svg'
             <span
                 class="w-4/12 lg:w-2/12 aspect-square vsk-gradient absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"></span>
             <div
-                class="relative flex flex-col items-center text-center lg:text-left lg:py-7 xl:py-8 lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
-                <h1
-                    class="text-3xl leading-tight sm:text-4xl md:text-5xl xl:text-6xl font-bold vsk-text-gradient font-vsk">
+                class="relative flex flex-col items-center text-center align-center lg:text-left lg:py-7 xl:py-8 lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold vsk-text-gradient vsk-font">
                     {{ site.title }}
                 </h1>
                 <p class="mt-8 text-slate-700 dark:text-slate-300">

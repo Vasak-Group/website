@@ -10,7 +10,7 @@ const { site } = useData()
         </div>
         <div>
             <a v-for="navItem in site.themeConfig.nav" :key="navItem.text" :href="navItem.link"
-                class="mx-2 hover:underline">
+                class="mx-2 hover:text-secondary font-medium">
                 {{ navItem.text }}
             </a>
         </div>
