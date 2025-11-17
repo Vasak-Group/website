@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #f6bb31;
+  --color-secondary: #f46619;
+}
+
 body {
-  @apply bg-slate-50 text-slate-950 dark:bg-slate-950 dark:text-slate-50;
+  @apply bg-slate-50 text-slate-950 dark:bg-slate-950 dark:text-slate-50 transition-all duration-300;
+}
+
+.vsk-gradient {
+  @apply bg-gradient-to-bl from-primary to-secondary;
+}
+
+.vsk-text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-bl from-primary to-secondary;
 }

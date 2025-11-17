@@ -20,7 +20,7 @@ const { site, theme } = useData()
         </p>
         <p class="mt-2">
             <a v-for="social in theme.socialLinks" :key="social.icon" :href="social.link" target="_blank"
-                rel="noopener noreferrer" class="mx-2 text-slate-600 dark:text-slate-300 hover:underline text-xl">
+                rel="noopener noreferrer" class="mx-2 text-slate-600 dark:text-slate-300 hover:text-primary text-xl">
                 <FontAwesomeIcon :icon="['fab', social.icon]" />
             </a>
         </p>
