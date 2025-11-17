@@ -6,7 +6,7 @@ const { page } = useData()
 </script>
 
 <template>
-    <div class="bg-slate-100 dark:bg-slate-900 py-24 sm:py-32">
+    <section class="bg-slate-100 dark:bg-slate-900 py-24 sm:py-32">
         <div class="mx-auto px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
                 <h2 class="text-base font-semibold text-secondary">{{ page.frontmatter.feature.title }}</h2>
@@ -36,5 +36,5 @@ const { page } = useData()
                 </dl>
             </div>
         </div>
-    </div>
+    </section>
 </template>

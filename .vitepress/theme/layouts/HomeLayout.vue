@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 import { useData } from 'vitepress'
 import PageFeatureSection from '../components/sections/PageFeatureSection.vue';
-const { site, page } = useData()
+import CTASection from '../components/sections/CTASection.vue';
+const { site } = useData()
 const headSrc = '/img/head.svg'
 </script>
 
@@ -45,9 +46,7 @@ const headSrc = '/img/head.svg'
     </section>
 
     <PageFeatureSection />
-
-    <ul>
-        <li><a href="/markdown-examples.html">Markdown Examples</a></li>
-        <li><a href="/api-examples.html">API Examples</a></li>
-    </ul>
+    <CTASection title="¿Listo para transformar tus ideas en realidad?"
+        description="En Vasak Group, estamos listos para ayudarte a alcanzar tus objetivos comerciales con soluciones de software a medida. Ya sea que necesites una plataforma personalizada, una aplicación móvil o una arquitectura de software escalable, tenemos la experiencia y la pasión para hacerlo posible."
+        ctalink="/contact" ctatitle="Contactanos hoy mismo" />
 </template>
