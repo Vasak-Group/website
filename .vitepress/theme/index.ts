@@ -11,14 +11,16 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import './style.css'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+import { faStar, faUserTie, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faFacebookF,
   faLinkedin,
   faInstagram,
   faGithub,
-  faEnvelope
+  faStar,
+  faUserTie,
+  faHandshakeAngle
 );
 
 export default {

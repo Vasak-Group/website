@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { useData } from 'vitepress'
-const { site } = useData()
+import PageFeatureSection from '../components/sections/PageFeatureSection.vue';
+const { site, page } = useData()
 const headSrc = '/img/head.svg'
 </script>
 
@@ -42,8 +43,9 @@ const headSrc = '/img/head.svg'
             </div>
         </div>
     </section>
-    <h1 class=""></h1>
-    <p></p>
+
+    <PageFeatureSection />
+
     <ul>
         <li><a href="/markdown-examples.html">Markdown Examples</a></li>
         <li><a href="/api-examples.html">API Examples</a></li>
