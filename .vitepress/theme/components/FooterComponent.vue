@@ -1,6 +1,7 @@
 <script lang="ts" setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { useData } from 'vitepress'
-const { site } = useData()
+const { site, theme } = useData()
 </script>
 
 <template>
@@ -16,6 +17,12 @@ const { site } = useData()
                 VitePress
             </a>
             .
+        </p>
+        <p class="mt-2">
+            <a v-for="social in theme.socialLinks" :key="social.icon" :href="social.link" target="_blank"
+                rel="noopener noreferrer" class="mx-2 text-slate-600 dark:text-slate-300 hover:underline text-xl">
+                <FontAwesomeIcon :icon="['fab', social.icon]" />
+            </a>
         </p>
     </footer>
 </template>

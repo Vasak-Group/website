@@ -26,9 +26,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Vasak-Group' },
       { icon: 'instagram', link: 'https://www.instagram.com/vasakgroup/' },
-      { icon: 'facebook', link: 'https://facebook.com/vasakgroup' },
+      { icon: 'facebook-f', link: 'https://facebook.com/vasakgroup' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/vasakgroup/' },
-      { icon: 'envelope', link: 'mailto:info@vasak.net.ar' }
     ]
   }
 })
