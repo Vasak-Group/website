@@ -1,21 +1,21 @@
 <script setup lang="ts">
+import FooterComponent from './components/FooterComponent.vue';
+import NavBarComponent from './components/NavBarComponent.vue';
+import HomeLayout from './layouts/HomeLayout.vue';
+
 import { useData } from 'vitepress'
 
 // https://vitepress.dev/reference/runtime-api#usedata
-const { site, frontmatter } = useData()
+const { frontmatter } = useData()
 </script>
 
 <template>
-  <div v-if="frontmatter.home">
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-    <ul>
-      <li><a href="/markdown-examples.html">Markdown Examples</a></li>
-      <li><a href="/api-examples.html">API Examples</a></li>
-    </ul>
-  </div>
-  <div v-else>
-    <a href="/">Home</a>
+  <NavBarComponent />
+  <main v-if="frontmatter.layout === 'home'">
+    <HomeLayout />
+  </main>
+  <main v-else>
     <Content />
-  </div>
+  </main>
+  <FooterComponent />
 </template>
