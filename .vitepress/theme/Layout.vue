@@ -24,29 +24,41 @@ const { frontmatter } = useData()
 </template>
 
 <style scoped>
-/* Fade + slight slide for page changes */
+/* Transición mejorada: fade + lift + scale + soft blur */
 .page-fade-enter-active,
 .page-fade-leave-active {
-  transition: opacity 240ms cubic-bezier(.2, .8, .2, 1), transform 240ms cubic-bezier(.2, .8, .2, 1);
+  will-change: opacity, transform, filter;
+  transition: opacity 520ms cubic-bezier(.16, .84, .24, 1),
+    transform 520ms cubic-bezier(.16, .84, .24, 1),
+    filter 520ms cubic-bezier(.16, .84, .24, 1);
 }
 
 .page-fade-enter-from,
 .page-fade-leave-to {
   opacity: 0;
-  transform: translateY(8px);
+  transform: translateY(12px) scale(0.992);
+  filter: blur(4px);
 }
 
 .page-fade-enter-to,
 .page-fade-leave-from {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.page-fade-enter-from>*,
+.page-fade-leave-to>* {
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.06);
 }
 
 @media (prefers-reduced-motion: reduce) {
 
   .page-fade-enter-active,
   .page-fade-leave-active {
-    transition: none;
+    transition: none !important;
+    filter: none !important;
+    transform: none !important;
   }
 }
 </style>
