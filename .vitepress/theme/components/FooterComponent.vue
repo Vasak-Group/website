@@ -10,14 +10,6 @@ const { site, theme } = useData()
         <p>
             &copy; {{ new Date().getFullYear() }} {{ site.title }}. All rights reserved.
         </p>
-        <p>
-            Built with
-            <a href="https://vitepress.dev/" target="_blank" rel="noopener noreferrer"
-                class="text-slate-600 dark:text-slate-300 underline">
-                VitePress
-            </a>
-            .
-        </p>
         <p class="mt-2">
             <a v-for="social in theme.socialLinks" :key="social.icon" :href="social.link" target="_blank"
                 rel="noopener noreferrer" class="mx-2 text-slate-600 dark:text-slate-300 hover:text-primary text-xl">
