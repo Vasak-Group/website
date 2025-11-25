@@ -4,7 +4,8 @@ const { site } = useData()
 </script>
 
 <template>
-    <nav class="my-4 flex items-center justify-between mx-4 rounded-xl p-4 bg-slate-100 dark:bg-slate-900">
+    <nav
+        class="m-4 flex items-center justify-between rounded-xl p-4 bg-slate-100 dark:bg-slate-900 z-50 absolute top-0 left-0 right-0 w-[calc(100%-32px)]">
         <div class="text-lg font-bold">
             <a href="/">{{ site.title }}</a>
         </div>
