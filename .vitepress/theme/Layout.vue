@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import FooterComponent from './components/FooterComponent.vue';
 import NavBarComponent from './components/NavBarComponent.vue';
+import AboutLayout from './layouts/AboutLayout.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
 
 import { useData } from 'vitepress'
@@ -15,6 +16,9 @@ const { frontmatter } = useData()
   <Transition name="page-fade" mode="out-in" appear>
     <main v-if="frontmatter.layout === 'home'" :key="frontmatter.layout || 'home'">
       <HomeLayout />
+    </main>
+    <main v-else-if="frontmatter.layout === 'about'" :key="frontmatter.layout || 'headtitle'">
+      <AboutLayout />
     </main>
     <main v-else :key="frontmatter.layout || 'content'">
       <Content />
