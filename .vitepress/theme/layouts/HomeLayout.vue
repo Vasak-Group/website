@@ -7,7 +7,7 @@ const headSrc = '/img/head.svg'
 </script>
 
 <template>
-    <section class="relative py-32 lg:py-36">
+    <section class="relative py-32 lg:py-36 mt-24">
         <div
             class="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-10 lg:gap-12">
             <div class="absolute w-full lg:w-1/2 inset-y-0 lg:right-0 hidden lg:block"><span
