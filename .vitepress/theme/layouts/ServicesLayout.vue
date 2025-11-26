@@ -9,7 +9,7 @@ const { frontmatter } = useData()
 
 <template>
     <HeadTitleSection :title="frontmatter.title" />
-    <section class="w-screen py-24 flex justify-center items-center text-center">
+    <section class="w-full py-24 flex justify-center items-center text-center">
         <div class="max-w-3xl px-12">
             <h2 class="text-2xl font-bold text-primary">¿Qué hacemos para potenciar tu negocio?</h2>
             <p class="text-base mt-4">En <strong>Vasak Group</strong>, ofrecemos una amplia gama de servicios diseñados
