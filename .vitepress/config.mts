@@ -47,7 +47,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Nosotros', link: '/about' }
+      { text: 'Nosotros', link: '/about' },
+      { text: 'Servicios', link: '/services' }
     ],
     sidebar: [
       {
