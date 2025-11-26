@@ -31,7 +31,7 @@ const headSrc = '/img/head.svg'
                             Sobre Nosotros
                         </a>
                         <a href="/services"
-                            class="w-full sm:w-auto flex items-center justify-center px-3 py-3 border-transparent text-base font-medium rounded-xl text-primary bg-slate-100 dark:bg-slate-900 hover:bg-primary hover:text-white md:py-4 md:text-lg md:px-10">
+                            class="w-full sm:w-auto flex items-center justify-center px-3 py-3 border-transparent text-base font-medium rounded-xl text-primary bg-slate-200 dark:bg-slate-900 hover:bg-primary hover:text-white md:py-4 md:text-lg md:px-10">
                             Servicios
                         </a>
                     </div>

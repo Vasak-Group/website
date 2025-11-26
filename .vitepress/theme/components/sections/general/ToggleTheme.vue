@@ -37,12 +37,12 @@ function applyToDom(isDark: boolean, rawPref: ThemePref) {
         html.setAttribute('data-theme-effective', isDark ? 'dark' : 'light')
         body.setAttribute('data-theme', rawPref)
         body.setAttribute('data-theme-effective', isDark ? 'dark' : 'light')
-    } catch (e) {}
+    } catch (e) { }
 }
 
 function savePref(value: ThemePref) {
     pref.value = value
-    try { localStorage.setItem(STORAGE_KEY, value) } catch {}
+    try { localStorage.setItem(STORAGE_KEY, value) } catch { }
     applyTheme(value)
 }
 
@@ -62,7 +62,7 @@ onMounted(() => {
     try {
         const stored = localStorage.getItem(STORAGE_KEY) as ThemePref | null
         if (stored === 'light' || stored === 'dark' || stored === 'system') pref.value = stored
-    } catch {}
+    } catch { }
 
     // set initial
     applyTheme(pref.value)

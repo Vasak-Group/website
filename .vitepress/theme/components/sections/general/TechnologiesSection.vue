@@ -69,7 +69,7 @@ function scrollPrev() {
 
             <div class="relative">
                 <button @click="scrollPrev" aria-label="Anterior"
-                    class="absolute left-2 top-1/2 -translate-y-1/2 z-30 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full bg-slate-50/80 dark:bg-slate-950/70 shadow-md flex items-center justify-center hover:bg-primary/60">
+                    class="absolute left-2 top-1/2 -translate-y-1/2 z-30 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full bg-slate-100/80 dark:bg-slate-950/70 shadow-md flex items-center justify-center hover:bg-primary/60">
                     <span class="text-2xl font-bold">‹</span>
                 </button>
 
@@ -78,7 +78,7 @@ function scrollPrev() {
                     <div v-for="(t, i) in technologies" :key="i"
                         class="flex-none snap-start flex items-center justify-center">
                         <div
-                            class="w-36 h-36 sm:w-40 sm:h-40 lg:w-44 lg:h-44 rounded-xl bg-slate-100 dark:bg-slate-900 shadow-lg flex flex-col items-center justify-center">
+                            class="w-36 h-36 sm:w-40 sm:h-40 lg:w-44 lg:h-44 rounded-xl bg-slate-200 dark:bg-slate-900 shadow-lg flex flex-col items-center justify-center">
                             <img :src="t.image" :alt="t.name" class="w-12 h-12 sm:w-14 sm:h-14 object-contain mb-2" />
                             <div class="text-sm text-center">{{ t.name }}</div>
                         </div>
@@ -86,7 +86,7 @@ function scrollPrev() {
                 </div>
 
                 <button @click="scrollNext" aria-label="Siguiente"
-                    class="absolute right-2 top-1/2 -translate-y-1/2 z-30 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full bg-slate-50/80 dark:bg-slate-950/70 shadow-md flex items-center justify-center hover:bg-primary/60">
+                    class="absolute right-2 top-1/2 -translate-y-1/2 z-30 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full bg-slate-100/80 dark:bg-slate-950/70 shadow-md flex items-center justify-center hover:bg-primary/60">
                     <span class="text-2xl font-bold">›</span>
                 </button>
             </div>
