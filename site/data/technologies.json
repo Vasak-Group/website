@@ -26,16 +26,7 @@
   { "name": "Git", "image": "https://cdn.svgporn.com/logos/git-icon.svg" },
   { "name": "GitHub", "image": "https://cdn.svgporn.com/logos/github-octocat.svg" },
   { "name": "GitLab", "image": "https://cdn.svgporn.com/logos/gitlab.svg" },
-  {
-    "name": "Google Search Console",
-    "image": "https://cdn.svgporn.com/logos/google-search-console.svg"
-  },
   { "name": "Swagger", "image": "https://cdn.svgporn.com/logos/swagger.svg" },
-  { "name": "Jira", "image": "https://cdn.svgporn.com/logos/jira.svg" },
-  { "name": "Confluence", "image": "https://cdn.svgporn.com/logos/confluence.svg" },
-  { "name": "Asana", "image": "https://cdn.svgporn.com/logos/asana-icon.svg" },
-  { "name": "Trello", "image": "https://cdn.svgporn.com/logos/trello.svg" },
-  { "name": "Taiga", "image": "https://cdn.svgporn.com/logos/taiga.svg" },
   { "name": "Cloudflare", "image": "https://cdn.svgporn.com/logos/cloudflare-icon.svg" },
   { "name": "AWS", "image": "https://cdn.svglogos.dev/logos/aws.svg" },
   { "name": "Azure", "image": "https://cdn.svglogos.dev/logos/microsoft-azure.svg" },
@@ -49,7 +40,5 @@
     "name": "AlmaLinux",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/AlmaLinux_Icon_Logo.png"
   },
-  { "name": "Arch Linux", "image": "https://cdn.svgporn.com/logos/archlinux.svg" },
-  { "name": "Windows", "image": "https://cdn.svgporn.com/logos/microsoft-windows-icon.svg" },
-  { "name": "MacOS", "image": "https://cdn.svgporn.com/logos/apple.svg" }
+  { "name": "Arch Linux", "image": "https://cdn.svgporn.com/logos/archlinux.svg" }
 ]
