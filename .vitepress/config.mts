@@ -48,7 +48,8 @@ export default defineConfig({
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Nosotros', link: '/about' },
-      { text: 'Servicios', link: '/services' }
+      { text: 'Servicios', link: '/services' },
+      { text: 'Herramientas', link: '/tools' }
     ],
     sidebar: [
       {

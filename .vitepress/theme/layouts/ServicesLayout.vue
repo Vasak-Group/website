@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import HeadTitleSection from '../components/sections/HeadTitleSection.vue'
-import { useData } from 'vitepress'
 import ServicesInfoPage from '../components/sections/services/ServicesInfoPage.vue';
 import TechnologiesSection from '../components/sections/general/TechnologiesSection.vue';
+import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
 </script>
