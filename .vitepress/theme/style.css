@@ -10,7 +10,8 @@
 
 @font-face {
   font-family: VSKRegular;
-  src: url(/fonts/VSKRegular.ttf);
+  src: url(/fonts/VSKRegular.ttf) format('truetype');
+  font-display: swap;
 }
 
 body {

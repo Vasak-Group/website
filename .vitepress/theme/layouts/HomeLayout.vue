@@ -38,7 +38,7 @@ const headSrc = '/img/head.svg'
                 </div>
             </div>
             <div class="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl">
-                <img :src="headSrc" alt="Hero image" loading="lazy"
+                <img :src="headSrc" alt="Hero image" loading="lazy" decoding="async"
                     class="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96">
             </div>
         </div>

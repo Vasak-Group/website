@@ -7,7 +7,9 @@ const { site } = useData()
     <nav
         class="m-4 flex items-center justify-between rounded-xl p-4 bg-slate-200 dark:bg-slate-900 z-50 absolute top-0 left-0 right-0 w-[calc(100%-32px)]">
         <div class="text-lg font-bold">
-            <a href="/"><img src="/img/logo.svg" :alt="site.title" class="h-10"></a>
+            <a href="/">
+                <img src="/img/logo.svg" :alt="site.title" class="h-10" height="40" loading="eager" decoding="async" />
+            </a>
         </div>
         <div>
             <a v-for="navItem in site.themeConfig.nav" :key="navItem.text" :href="navItem.link"

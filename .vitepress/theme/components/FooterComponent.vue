@@ -7,7 +7,8 @@ const { site, theme } = useData()
 <template>
     <footer
         class="mt-8 text-center text-sm text-slate-500 dark:text-slate-400 mx-4 rounded-xl p-4 bg-slate-200 dark:bg-slate-900">
-        <img src="/img/logo.svg" :alt="site.title" class="h-14 mb-2 inline-block" />
+        <img src="/img/logo.svg" :alt="site.title" class="h-14 mb-2 inline-block" height="56" loading="eager"
+            decoding="async" />
 
         <p class="mt-2">
             <a v-for="social in theme.socialLinks" :key="social.icon" :href="social.link" target="_blank"

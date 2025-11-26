@@ -38,6 +38,21 @@ function setLinkRel(rel: string, href: string) {
   el.href = href
 }
 
+function setPreload(href: string, asType: string, typeAttr?: string, crossorigin = false) {
+  // avoid duplicates
+  const selector = `link[rel="preload"][href="${href}"]`
+  let el = document.head.querySelector(selector) as HTMLLinkElement | null
+  if (!el) {
+    el = document.createElement('link')
+    el.rel = 'preload'
+    el.href = href
+    el.as = asType as any
+    if (typeAttr) el.type = typeAttr
+    if (crossorigin) el.crossOrigin = 'anonymous'
+    document.head.appendChild(el)
+  }
+}
+
 function updateHead() {
   const s: any = site.value || {}
   const p: any = page.value || {}
@@ -68,6 +83,12 @@ function updateHead() {
 
   // canonical
   if (url) setLinkRel('canonical', url)
+
+  // preconnect to Google fonts and preload local font + hero image
+  try { setLinkRel('preconnect', 'https://fonts.googleapis.com') } catch {}
+  try { setLinkRel('preconnect', 'https://fonts.gstatic.com') ; document.querySelector('link[rel="preconnect"][href="https://fonts.gstatic.com"]')!.setAttribute('crossorigin','') } catch {}
+  try { setPreload('/fonts/VSKRegular.ttf', 'font', 'font/ttf', true) } catch {}
+  try { setPreload('/img/head.svg', 'image', 'image/svg+xml') } catch {}
 
   // JSON-LD Organization
   try {

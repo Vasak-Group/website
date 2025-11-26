@@ -23,7 +23,8 @@ const isEven = computed(() => ((props.index ?? 0) % 2) === 0)
             <p class="mt-4 text-base">{{ props.feature.description }}</p>
         </div>
         <div class="px-10">
-            <img :src="props.feature.image" :alt="props.feature.title" class="mt-6 mx-auto max-w-md rounded-lg" />
+            <img :src="props.feature.image" :alt="props.feature.title" loading="lazy" decoding="async"
+                class="mt-6 mx-auto max-w-md rounded-lg" />
         </div>
     </section>
 </template>
