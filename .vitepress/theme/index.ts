@@ -3,7 +3,13 @@ import Layout from './Layout.vue';
 
 import type { Theme } from 'vitepress';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebookF, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+import {
+  faFacebookF,
+  faLinkedin,
+  faInstagram,
+  faGithub,
+  faWhatsapp
+} from '@fortawesome/free-brands-svg-icons';
 
 import './style.css';
 import {
@@ -12,8 +18,11 @@ import {
   faHandshakeAngle,
   faSun,
   faMoon,
-  faDesktop
+  faDesktop,
+  faQrcode,
+  faShareNodes
 } from '@fortawesome/free-solid-svg-icons';
+import { faImage } from '@fortawesome/free-regular-svg-icons';
 
 library.add(
   faFacebookF,
@@ -25,7 +34,11 @@ library.add(
   faHandshakeAngle,
   faSun,
   faMoon,
-  faDesktop
+  faDesktop,
+  faWhatsapp,
+  faQrcode,
+  faShareNodes,
+  faImage
 );
 
 export default {

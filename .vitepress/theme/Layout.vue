@@ -5,6 +5,7 @@ import ToggleTheme from './components/sections/general/ToggleTheme.vue';
 import AboutLayout from './layouts/AboutLayout.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
 import ServicesLayout from './layouts/ServicesLayout.vue';
+import ToolsLayout from './layouts/ToolsLayout.vue';
 
 import { useData } from 'vitepress'
 
@@ -22,6 +23,9 @@ const { frontmatter } = useData()
     </main>
     <main v-else-if="frontmatter.layout === 'services'" :key="frontmatter.layout || 'services'">
       <ServicesLayout />
+    </main>
+    <main v-else-if="frontmatter.layout === 'tools'" :key="frontmatter.layout || 'tools'">
+      <ToolsLayout />
     </main>
     <main v-else :key="frontmatter.layout || 'content'">
       <Content />
