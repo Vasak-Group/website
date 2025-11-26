@@ -8,10 +8,6 @@ on:
   push:
     branches: [main]
 
-  # Also run when a pull request is closed (we'll check merged==true in the job)
-  pull_request:
-    types: [closed]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -53,6 +49,7 @@ jobs:
           path: .vitepress/dist
   # Deployment job
   deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
