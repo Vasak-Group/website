@@ -1,24 +1,27 @@
 <script setup lang="ts">
 import FooterComponent from './components/FooterComponent.vue';
 import NavBarComponent from './components/NavBarComponent.vue';
+import TechnologiesSection from './components/sections/general/TechnologiesSection.vue';
 import AboutLayout from './layouts/AboutLayout.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
+import ServicesLayout from './layouts/ServicesLayout.vue';
 
 import { useData } from 'vitepress'
 
-// https://vitepress.dev/reference/runtime-api#usedata
 const { frontmatter } = useData()
 </script>
 
 <template>
   <NavBarComponent />
-  <!-- Transición suave entre los diferentes <main> manteniendo la lógica original -->
   <Transition name="page-fade" mode="out-in" appear>
     <main v-if="frontmatter.layout === 'home'" :key="frontmatter.layout || 'home'">
       <HomeLayout />
     </main>
     <main v-else-if="frontmatter.layout === 'about'" :key="frontmatter.layout || 'headtitle'">
       <AboutLayout />
+    </main>
+    <main v-else-if="frontmatter.layout === 'services'" :key="frontmatter.layout || 'services'">
+      <ServicesLayout />
     </main>
     <main v-else :key="frontmatter.layout || 'content'">
       <Content />
@@ -28,7 +31,6 @@ const { frontmatter } = useData()
 </template>
 
 <style scoped>
-/* Transición mejorada: fade + lift + scale + soft blur */
 .page-fade-enter-active,
 .page-fade-leave-active {
   will-change: opacity, transform, filter;

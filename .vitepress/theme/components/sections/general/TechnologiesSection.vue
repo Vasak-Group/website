@@ -63,7 +63,7 @@ function scrollPrev() {
 
 <template>
     <section class="py-12">
-        <div class="max-w-7xl mx-auto px-4">
+        <div class="max-w-7xl mx-auto px-12">
             <div class="flex items-center justify-between mb-4">
             </div>
 
