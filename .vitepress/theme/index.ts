@@ -1,17 +1,19 @@
 // https://vitepress.dev/guide/custom-theme
-import Layout from './Layout.vue'
+import Layout from './Layout.vue';
 
-import type { Theme } from 'vitepress'
+import type { Theme } from 'vitepress';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faFacebookF,
-  faLinkedin,
-  faInstagram,
-  faGithub
-} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import './style.css'
-import { faStar, faUserTie, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons';
+import './style.css';
+import {
+  faStar,
+  faUserTie,
+  faHandshakeAngle,
+  faSun,
+  faMoon,
+  faDesktop
+} from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faFacebookF,
@@ -20,12 +22,13 @@ library.add(
   faGithub,
   faStar,
   faUserTie,
-  faHandshakeAngle
+  faHandshakeAngle,
+  faSun,
+  faMoon,
+  faDesktop
 );
 
 export default {
   Layout,
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  }
-} satisfies Theme
+  enhanceApp({ app, router, siteData }) {}
+} satisfies Theme;
