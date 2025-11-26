@@ -8,7 +8,6 @@ const props = defineProps<{
         description: string
         image: string
     }
-    // index de la iteración (0-based). Si es par, invertimos el flex.
     index?: number
 }>()
 
@@ -17,7 +16,7 @@ const isEven = computed(() => ((props.index ?? 0) % 2) === 0)
 
 <template>
     <section
-        :class="['w-screen py-24 p-32 flex justify-center items-center', isEven ? 'flex-row' : 'flex-row-reverse bg-slate-100 dark:bg-slate-900']">
+        :class="['w-screen py-24 flex justify-center items-center', isEven ? 'flex-row' : 'flex-row-reverse bg-slate-100 dark:bg-slate-900']">
         <div class="max-w-3xl px-24 text-center">
             <span class="text-sm uppercase font-bold tracking-wider text-secondary">{{ props.feature.pretitle }}</span>
             <h2 class="text-2xl font-bold text-primary">{{ props.feature.title }}</h2>
