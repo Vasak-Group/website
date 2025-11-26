@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import FooterComponent from './components/FooterComponent.vue';
 import NavBarComponent from './components/NavBarComponent.vue';
-import TechnologiesSection from './components/sections/general/TechnologiesSection.vue';
+import ToggleTheme from './components/sections/general/ToggleTheme.vue';
 import AboutLayout from './layouts/AboutLayout.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
 import ServicesLayout from './layouts/ServicesLayout.vue';
@@ -28,6 +28,7 @@ const { frontmatter } = useData()
     </main>
   </Transition>
   <FooterComponent />
+  <ToggleTheme />
 </template>
 
 <style scoped>
